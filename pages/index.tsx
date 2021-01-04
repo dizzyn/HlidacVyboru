@@ -1,28 +1,28 @@
+import { GetServerSideProps } from "next";
 import Layout from "../components/Layout";
-import { GetStaticProps } from "next";
+import vybory from "../crawler/vybory";
 
+
+export const BASE_URL = "https://www.psp.cz/sqw/"
 interface TVybor {
-  title: String;
-  href: String;
+  title: string;
+  href: string;
 }
 
 const IndexPage = ({ items }: { items: TVybor[] }) => (
-  <Layout title="Home | Next.js + TypeScript Example">
+  <Layout title="Výbory - seznam">
     <h1>Výbory</h1>
     <ul>
       {items.map((i) => (
-        <li>{i.title}</li>
+        <li><a href={`/vybor/${encodeURIComponent(i.href)}`}>{i.title}</a></li>
       ))}
     </ul>
   </Layout>
 );
 
-export const getStaticProps: GetStaticProps = async () => {
-  const res = await fetch(`http://localhost:3000/api/vybory`);
-  const data = await res.json();
-  console.log("DATA", data);
+export const getServerSideProps: GetServerSideProps = async () => {
   return {
-    props: { items: data }, // will be passed to the page component as props
+    props: { items: await vybory() },
   };
 };
 

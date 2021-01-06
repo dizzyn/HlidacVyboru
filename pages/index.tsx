@@ -1,13 +1,8 @@
 import { GetServerSideProps } from "next";
 import Layout from "../components/Layout";
-import vybory from "../crawler/vybory";
-
+import vybory, { TVybor } from "../crawler/vybory";
 
 export const BASE_URL = "https://www.psp.cz/sqw/"
-interface TVybor {
-  title: string;
-  href: string;
-}
 
 const IndexPage = ({ items }: { items: TVybor[] }) => (
   <Layout title="Výbory - seznam">

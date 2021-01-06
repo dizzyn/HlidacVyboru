@@ -1,19 +1,14 @@
 
 import { GetServerSideProps } from "next";
 import Layout from "../../components/Layout";
-import vybor from "../../crawler/vybor";
+import vybor, { TVyborDetail } from "../../crawler/vybor";
 
-interface TAction {
-  title: string;
-  href: string;
-}
-
-const IndexPage = ({ items, title }: { items: TAction[], title: string }) => (
+const VyborPage = ({ actions, title }: TVyborDetail) => (
   <Layout title={title}>
     <h1>{title}</h1>
     <ul>
-      {items.map((i) => (
-        <li><a href={`/action/${encodeURIComponent(i.href)}`}>{i.title}</a></li>
+      {actions.map((i) => (
+        <li><a href={`/action/${encodeURIComponent(i.href)}`}>{i.title}</a> - {i.date} - {i.desc}</li>
       ))}
     </ul>
   </Layout>
@@ -28,4 +23,4 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   };
 };
 
-export default IndexPage;
+export default VyborPage;

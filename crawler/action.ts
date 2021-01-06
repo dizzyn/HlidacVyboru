@@ -1,7 +1,19 @@
 import Crawler from "crawler";
 import { BASE_URL } from "../pages";
 
-export default (uri: string): Object => {
+export interface TActionDetail {
+  title: string;
+  date: string;
+  href: string;
+}
+export interface TAction {
+  title: string;
+  date: string;
+  href: string;
+  desc: string;
+}
+
+export default (uri: string): Promise<TAction> => {
   console.log("`${BASE_URL}${uri}`", `${BASE_URL}${uri}`);
   return new Promise((resolve, reject) => {
     new Crawler({
@@ -16,7 +28,7 @@ export default (uri: string): Object => {
           //   })
           //   .toArray();
 
-          resolve({ title });
+          resolve({ title, date: "", href: "", desc: "" });
         }
         done();
       },

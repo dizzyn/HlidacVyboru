@@ -1,7 +1,12 @@
 import Crawler from "crawler";
 import { BASE_URL } from "../pages";
 
-export default () =>
+export interface TVybor {
+  title: string;
+  href: string;
+}
+
+export default (): Promise<TVybor> =>
   new Promise((resolve, reject) => {
     new Crawler({
       callback: function (error, res, done) {

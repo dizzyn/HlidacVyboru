@@ -1,14 +1,9 @@
 
 import { GetServerSideProps } from "next";
 import Layout from "../../components/Layout";
-import action from "../../crawler/action";
+import action, { TActionDetail } from "../../crawler/action";
 
-interface TActionDetail {
-  title: string;
-  href: string;
-}
-
-const IndexPage = ({ action: { title } }: { action: TActionDetail }) => (
+const ActionPage = ({ action: { title } }: { action: TActionDetail }) => (
   <Layout title={title}>
     <h1>{title}</h1>
     Datum jednání	6. ledna 2021
@@ -30,4 +25,4 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   };
 };
 
-export default IndexPage;
+export default ActionPage;

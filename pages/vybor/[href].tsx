@@ -6,11 +6,19 @@ import vybor, { TVyborDetail } from "../../crawler/vybor";
 const VyborPage = ({ actions, title }: TVyborDetail) => (
   <Layout title={title}>
     <h1>{title}</h1>
-    <ul>
-      {actions.map((i) => (
-        <li><a href={`/action/${encodeURIComponent(i.href)}`}>{i.title}</a> - {i.date} - {i.desc}</li>
-      ))}
-    </ul>
+    <table>
+      <thead>
+        <tr><th>Event</th><th>Date</th><th>Desc</th></tr>
+      </thead>
+      <tbody>
+        {actions.map((i) => (
+          <tr>
+            <td><a href={`/action/${encodeURIComponent(i.href)}`}>{i.title}</a></td>
+            <td>{i.date}</td>
+            <td>{i.desc}</td></tr>
+        ))}
+      </tbody>
+    </table>
   </Layout>
 );
 

@@ -3,6 +3,7 @@ import { Moment } from "moment";
 import moment from "moment";
 import { BASE_URL } from "../pages";
 import { TAction } from "./action";
+import { getDate, removeDate } from "./utils";
 
 export interface TVyborDetail {
   title: string;
@@ -21,14 +22,23 @@ export default (uri: string): Promise<TVyborDetail> => {
           const title = $("h1").text();
           const desc = $(".news-item.no-date .news-item-title").text();
 
-          const actions: TAction[] = $(".news-item.no-date .news-item-title")
+          const getOnlyNodeText = (item: cheerio.Element) =>
+            $(item).contents().not($(item).children()).text();
+
+          const actions: TAction[] = $(".news-item.no-date")
             .map((_, item) => {
-              const dateStr = "";
-              const a = $(item).find("a");
+              const $title = $(item).find(".news-item-title");
+              const $a = $($title).find("a");
+              const dateStr =
+                getDate($title.text()) ?? getDate(getOnlyNodeText(item));
+
               return {
-                title: a.text(),
-                desc: $(item).text(),
-                href: a.attr("href"),
+                title: removeDate($title.text()),
+                desc: removeDate(getOnlyNodeText(item)).replace(
+                  /(,(\s)?)?viz /,
+                  ""
+                ),
+                href: $a.attr("href"),
                 date: dateStr,
               };
             })

@@ -1,4 +1,4 @@
-import { getDate, removeDate } from "./utils";
+import { getDate, getNumber, removeDate, removeNumber } from "./utils";
 
 test("Get date", () => {
   expect(
@@ -27,11 +27,21 @@ test("Remove date", () => {
   expect(removeDate("- 1. ledna 2020")).toBe("");
   expect(removeDate(" - 12. února 2020")).toBe("");
   expect(removeDate("22. června 2020 -")).toBe(" -");
-  expect(removeDate("31. července 2020")).toBe("-  -");
-  expect(removeDate("11. srpna 2020")).toBe("-  -");
+  expect(removeDate("31. července 2020")).toBe("");
+  expect(removeDate("11. srpna 2020")).toBe("");
   expect(removeDate("x 11. září 2020 x")).toBe("x  x");
   expect(removeDate("11. října 2020")).toBe("");
   expect(removeDate("11. listopadu 2020")).toBe("");
   expect(removeDate("11. srpna 2020")).toBe("");
   expect(removeDate("11. krtka 2020")).toBe("11. krtka 2020");
+});
+
+test("Get number", () => {
+  expect(getNumber("36. schůze KV - 10. prosince 2020")).toBe("36");
+});
+
+test("Remove number", () => {
+  expect(removeNumber("36. schůze KV - 10. prosince 2020")).toBe(
+    "schůze KV - 10. prosince 2020"
+  );
 });

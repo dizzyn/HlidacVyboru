@@ -1,19 +1,20 @@
 import Crawler from "crawler";
 import { BASE_URL } from "../pages";
+import { getDate, getNumber, removeDate, removeNumber } from "./utils";
 
+export interface TDocument {
+  title: string;
+}
 export interface TActionDetail {
   title: string;
-  date: string;
-  href: string;
-}
-export interface TAction {
-  title: string;
-  date: string;
-  href: string;
+  date: string | null;
+  number: string | null;
   desc: string;
+  documents: TDocument[];
+  sourceHref: string;
 }
 
-export default (uri: string): Promise<TAction> => {
+export default (uri: string): Promise<TActionDetail> => {
   console.log("`${BASE_URL}${uri}`", `${BASE_URL}${uri}`);
   return new Promise((resolve, reject) => {
     new Crawler({
@@ -22,13 +23,15 @@ export default (uri: string): Promise<TAction> => {
           reject(error);
         } else {
           const title = $("#main-content b").text();
-          // const items = $(".news-item.no-date .news-item-title a")
-          //   .map((_, a) => {
-          //     return { title: $(a).text(), href: $(a).attr("href") };
-          //   })
-          //   .toArray();
 
-          resolve({ title, date: "", href: "", desc: "" });
+          resolve({
+            title: removeDate(removeNumber(title)),
+            date: getDate(title),
+            number: getNumber(title),
+            desc: "",
+            sourceHref: `${BASE_URL}${uri}`,
+            documents: [],
+          });
         }
         done();
       },

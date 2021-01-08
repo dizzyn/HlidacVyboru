@@ -1,10 +1,13 @@
 import Crawler from "crawler";
-import { Moment } from "moment";
-import moment from "moment";
 import { BASE_URL } from "../pages";
-import { TAction } from "./action";
 import { getDate, removeDate } from "./utils";
 
+export interface TAction {
+  title: string;
+  date: string;
+  href: string;
+  desc: string;
+}
 export interface TVyborDetail {
   title: string;
   actions: TAction[];

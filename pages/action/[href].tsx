@@ -1,9 +1,24 @@
 import { GetServerSideProps } from "next";
 import Layout from "../../components/Layout";
 import action, { TActionDetail } from "../../crawler/action";
+import { TDocument } from "../../crawler/documents";
+
+const Documents = ({
+  documents
+}: {
+  documents: TDocument[];
+}) => documents.map(({ title, type, href, sourceHref }) =>
+  <tr key={href}>
+    <td>{type}</td>
+    <td><a href={href}>{title}</a></td>
+    <td colSpan={1}>
+      <a href={sourceHref}>Zdroj dat</a>
+    </td>
+  </tr>
+)
 
 const ActionPage = ({
-  action: { title, date, number, documents, sourceHref },
+  action: { committee, title, date, number, documents, sourceHref },
 }: {
   action: TActionDetail;
 }) => (
@@ -16,7 +31,7 @@ const ActionPage = ({
         </tr>
         <tr>
           <th>Výbor</th>
-          <td></td>
+          <td>{committee}</td>
         </tr>
         <tr>
           <th>Date</th>
@@ -28,12 +43,17 @@ const ActionPage = ({
         </tr>
         <tr>
           <th>Dokumenty</th>
-          <td>{documents?.length}</td>
+          <td>
+            <table>
+              <tbody>
+                <Documents documents={documents} />
+              </tbody>
+            </table>
+          </td>
         </tr>
         <tr>
-          <th>Zdroj</th>
-          <td>
-            <a href={sourceHref}>{sourceHref}</a>
+          <td colSpan={1}>
+            <a href={sourceHref}>Zdroj dat</a>
           </td>
         </tr>
       </tbody>

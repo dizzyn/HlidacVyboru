@@ -13,7 +13,10 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       <title>{title}</title>
       <style>{`
               table * {
-                text-align: left
+                text-align: left;
+              }
+              nav {
+                padding-bottom: 20px;
               }
       `}
       </style>

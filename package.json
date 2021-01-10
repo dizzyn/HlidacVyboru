@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "test": "jest",
-    "type-check": "tsc"
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@types/crawler": "^1.2.0",

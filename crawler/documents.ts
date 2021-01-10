@@ -1,14 +1,6 @@
 import crawler from ".";
-import url from "url";
-import path from "path";
-import {
-  createHlidacDocLink,
-  createURL,
-  getDate,
-  getNumber,
-  removeDate,
-  removeNumber,
-} from "./utils";
+
+import { createHlidacDocLink, createURL, getDate, removeDate } from "./utils";
 
 type TDocumentType = "POZVANKA" | "ZAPIS" | "ZAZNAM" | "USNESENI";
 

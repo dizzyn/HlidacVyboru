@@ -4,32 +4,11 @@ import action, { TActionDetail } from "../../crawler/action";
 import { TDocument } from "../../crawler/documents";
 import { createURL } from "../../crawler/utils";
 
-const HlidacDocState = ({
-  hlidac
-}: {
-  hlidac: any;
-}) => <div>Máme</div>
-
-const Hlidac = ({
-  hlidac
-}: {
-  hlidac: any;
-}) =>
-  <table>
-    <tbody>
-      <tr>
-        <th>ID</th>
-        <td>{hlidac.dokumenty.map(document => <div>{JSON.stringify(document)}</div>)}</td>
-      </tr>
-    </tbody>
-  </table>
-
-
 const Documents = ({
   documents,
 }: {
   documents: TDocument[];
-}) => documents.map(({ title, type, documentUrl, sourceUrl, hlidacLink }) =>
+}) => <>{documents.map(({ title, type, documentUrl, sourceUrl, hlidacLink }) =>
   <tr key={documentUrl}>
     <td>{type}</td>
     <td><a href={documentUrl}>{title}</a></td>
@@ -39,8 +18,7 @@ const Documents = ({
     <td colSpan={1}>
       {hlidacLink ? <a href={hlidacLink}>Na hlídači</a> : <div className="error">Nenní na hlídači</div>}
     </td>
-  </tr>
-)
+  </tr>)}</>
 
 const ActionPage = ({
   action: { hlidacId, committee, title, date, number, documents, sourceUrl, hlidacError },

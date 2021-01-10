@@ -1,41 +1,75 @@
 import crawler from ".";
-import { createURL } from "../pages";
 import documents, { TDocument } from "./documents";
-import { getDate, getNumber, removeDate, removeNumber } from "./utils";
+import { COMMITTEE_NAMES, TCommitteeName } from "./enums";
+import {
+  createHlidacId,
+  getDate,
+  getNumber,
+  getOnlyNodeText,
+  removeDate,
+  removeNumber,
+} from "./utils";
+import { fetchHlidac } from "./vybor";
 
 export interface TActionDetail {
   title: string;
-  date: string | null;
-  committee: string | null;
-  number: string | null;
-  desc: string;
+  date: string;
+  committee: TCommitteeName;
+  number: string;
   documents: TDocument[];
-  sourceHref: string;
+  sourceUrl: string;
+  hlidacId: string;
+  hlidacError: string | null;
 }
 
-export default (uri: string) =>
-  crawler<TActionDetail>(createURL(uri), async ($) => {
+export default (sourceUrl: string) =>
+  crawler<TActionDetail>(sourceUrl, async ($) => {
     const title = $("#main-content b").text();
     const date = getDate(title);
     const documentsHref = $("a:contains('Dokumenty')").attr("href");
     const number = getNumber(title);
-    console.log("documentsHref", documentsHref);
+    const committee = getOnlyNodeText($("#left-column h2")).trim();
+
     if (!documentsHref) {
-      throw `Nepodařilo se získat link na dokumenty (${uri})`;
+      throw `Nepodařilo se získat link na dokumenty (${sourceUrl})`;
     }
+
     if (!date) {
-      throw `Nepodařilo se získat datum (${uri})`;
+      throw `Nepodařilo se získat datum (${sourceUrl})`;
     }
+
     if (!number) {
-      throw `Nepodařilo se získat číslo jednání (${uri})`;
+      throw `Nepodařilo se získat číslo jednání (${sourceUrl})`;
     }
+
+    if (!COMMITTEE_NAMES.includes(committee as any)) {
+      throw `Nepodařilo najít název výboru: '${committee}' (${sourceUrl})`;
+    }
+
+    const hlidacId = createHlidacId(
+      date.trim(),
+      number.trim(),
+      committee as TCommitteeName
+    );
+
+    if (!hlidacId) {
+      throw `Nepodařilo se vypočítat ID pro hlídač (${sourceUrl})`;
+    }
+
+    const hlidacJson = await fetchHlidac(hlidacId);
+
+    if (!hlidacJson || typeof hlidacJson !== "object") {
+      throw `Nepodařilo se získat data z hlídače (${sourceUrl})`;
+    }
+
     return {
       title: removeDate(removeNumber(title)),
-      date,
-      committee: $("#left-column h2").text(),
-      number,
-      desc: "",
-      sourceHref: createURL(uri),
-      documents: await documents(documentsHref, date, number),
+      date: date.trim(),
+      committee: committee as TCommitteeName,
+      number: number.trim(),
+      sourceUrl,
+      documents: await documents(documentsHref, date, number, hlidacJson),
+      hlidacError: hlidacJson.Error ?? null,
+      hlidacId,
     };
   });

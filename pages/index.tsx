@@ -1,19 +1,15 @@
 import { GetServerSideProps } from "next";
 import Layout from "../components/Layout";
+import { createURL } from "../crawler/utils";
 import vybory, { TVybor } from "../crawler/vybory";
 
-
-
-export const createURL = (path: string) => {
-
-  return path && path.includes("sqw/")
-    ? `https://www.psp.cz/${path ?? ""}`
-    : `https://www.psp.cz/sqw/${path ?? ""}`
-}
+const url = createURL("hp.sqw?k=194")
 
 const IndexPage = ({ items }: { items: TVybor[] }) => (
   <Layout title="Výbory - seznam">
     <h1>Výbory</h1>
+    <a href={url}> Original site</a>
+    <hr />
     <ul>
       {items.map((i) => (
         <li><a href={`/vybor/${encodeURIComponent(i.href)}`}>{i.title}</a></li>
@@ -24,7 +20,7 @@ const IndexPage = ({ items }: { items: TVybor[] }) => (
 
 export const getServerSideProps: GetServerSideProps = async () => {
   return {
-    props: { items: await vybory() },
+    props: { items: await vybory(url) },
   };
 };
 

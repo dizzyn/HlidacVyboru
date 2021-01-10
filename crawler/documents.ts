@@ -1,39 +1,66 @@
 import crawler from ".";
-import { createURL } from "../pages";
-import { getDate, getNumber, removeDate, removeNumber } from "./utils";
+import url from "url";
+import path from "path";
+import {
+  createHlidacDocLink,
+  createURL,
+  getDate,
+  getNumber,
+  removeDate,
+  removeNumber,
+} from "./utils";
 
 type TDocumentType = "POZVANKA" | "ZAPIS" | "ZAZNAM" | "USNESENI";
 
 export interface TDocument {
   title: string;
   type: TDocumentType;
-  href: string;
-  sourceHref: string;
+  documentUrl: string;
+  sourceUrl: string;
+  hlidacLink: string | null;
 }
 
-const loadDocument = async (uri: string, type: TDocumentType) =>
-  crawler<TDocument>(uri, async ($) => {
+const loadDocument = async (
+  sourceUrl: string,
+  type: TDocumentType,
+  hlidacJson: any
+) =>
+  crawler<TDocument>(sourceUrl, async ($) => {
     const title = $(".page-title h1").text();
     const href = $("a:contains('Originál dokumentu')").attr("href");
 
     if (!title) {
-      throw `Nepodařilo se získat titulek dokumentu (${uri})`;
+      throw `Nepodařilo se získat titulek dokumentu (${sourceUrl})`;
     }
 
     if (!href) {
-      throw `Nepodařilo se získat adresu dokumentu (${uri})`;
+      throw `Nepodařilo se získat adresu dokumentu (${sourceUrl})`;
     }
+
+    const documentUrl = createURL("text/" + href);
+
+    const hlidacDocIndex = hlidacJson.dokumenty.findIndex(
+      ({ DocumentUrl }: any) => {
+        return DocumentUrl === documentUrl;
+      }
+    );
+
+    console.log("ID", hlidacDocIndex);
 
     return {
       title: removeDate(title),
       type,
-      href: createURL(href),
-      sourceHref: uri,
+      documentUrl,
+      sourceUrl,
+      hlidacLink:
+        hlidacDocIndex > -1
+          ? createHlidacDocLink(hlidacJson.Id, hlidacDocIndex)
+          : null,
     };
   });
 
-const loadMeta = async (uri: string, number: string) =>
-  crawler<TDocument[]>(uri, async ($) => {
+const loadMeta = async (sourceUrl: string, number: string, hlidacJson: any) =>
+  crawler<TDocument[]>(sourceUrl, async ($) => {
     const documents: TDocument[] = [];
 
     // Pozvanka
@@ -43,7 +70,9 @@ const loadMeta = async (uri: string, number: string) =>
       .attr("href");
 
     if (pozvankaHref) {
-      documents.push(await loadDocument(createURL(pozvankaHref), "POZVANKA"));
+      documents.push(
+        await loadDocument(createURL(pozvankaHref), "POZVANKA", hlidacJson)
+      );
     }
 
     // Zápis
@@ -53,7 +82,9 @@ const loadMeta = async (uri: string, number: string) =>
       .attr("href");
 
     if (zapisHref) {
-      documents.push(await loadDocument(createURL(zapisHref), "ZAPIS"));
+      documents.push(
+        await loadDocument(createURL(zapisHref), "ZAPIS", hlidacJson)
+      );
     }
 
     // Zvukovy zaznam
@@ -65,15 +96,16 @@ const loadMeta = async (uri: string, number: string) =>
       documents.push({
         title: `Zvukový záznam z jednání č ${number}.`,
         type: "ZAZNAM",
-        href: createURL(zaznamHref),
-        sourceHref: uri,
+        documentUrl: createURL(zaznamHref),
+        sourceUrl,
+        hlidacLink: null, // TODO
       });
     }
 
     return documents;
   });
 
-export default (uri: string, date: string, number: string) =>
+export default (uri: string, date: string, number: string, hlidacJson: any) =>
   crawler<TDocument[]>(createURL(uri), async ($) => {
     const metaHref = $(`.section-title:nth-of-type(1)`)
       .next()
@@ -84,7 +116,7 @@ export default (uri: string, date: string, number: string) =>
       throw `Nepodařilo se získat link na meta záznamy (${uri})`;
     }
 
-    const documents = await loadMeta(createURL(metaHref), number);
+    const documents = await loadMeta(createURL(metaHref), number, hlidacJson);
 
     // Usnesení
     const usneseni = (await Promise.all(
@@ -105,7 +137,7 @@ export default (uri: string, date: string, number: string) =>
           }
 
           if (trDate === date) {
-            return loadDocument(createURL(href), "USNESENI");
+            return loadDocument(createURL(href), "USNESENI", hlidacJson);
           }
         })
         .toArray()

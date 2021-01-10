@@ -1,25 +1,26 @@
 import Crawler from "crawler";
+import { Url } from "url";
 
 const crawler = <TResult>(
-  uri: string,
-  callback: ($: cheerio.CheerioAPI) => Promise<TResult>
+  sourceUrl: string,
+  callback: ($: cheerio.CheerioAPI, uri: Url) => Promise<TResult>
 ) =>
   new Promise<TResult>((resolve, reject) => {
     new Crawler({
-      callback: async (error, { $ }, done) => {
+      callback: async (error, { $, request }, done) => {
         if (error) {
           return reject(error);
         }
 
         try {
-          resolve((await callback($)) as TResult);
+          resolve((await callback($, request.uri)) as TResult);
         } catch (e) {
           reject(e);
         }
 
         done();
       },
-    }).queue(uri);
+    }).queue(sourceUrl);
   });
 
 export default crawler;

@@ -14,6 +14,8 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       <style>{`
               table * {
                 text-align: left;
+                vertical-align: top;
+                padding: 2px;
               }
               nav {
                 padding-bottom: 20px;
@@ -27,12 +29,12 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       <nav>
         <Link href="/">
           <a>Home</a>
-        </Link>{" "}
+        </Link>
       </nav>
     </header>
     {children}
     <footer>
-      <hr />
+
     </footer>
   </div>
 );

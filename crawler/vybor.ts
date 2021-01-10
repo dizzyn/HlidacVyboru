@@ -1,7 +1,6 @@
 import crawler from ".";
-import { createURL } from "../pages";
-import { getDate, removeDate } from "./utils";
-
+import { getDate, removeDate, filterAction, getOnlyNodeText } from "./utils";
+import fetch from "node-fetch";
 export interface TAction {
   title: string;
   date: string;
@@ -14,29 +13,39 @@ export interface TVyborDetail {
   desc: string;
 }
 
-export default (uri: string) =>
-  crawler<TVyborDetail>(createURL(uri), ($) => {
+export default (sourceUrl: string) =>
+  crawler<TVyborDetail>(sourceUrl, ($) => {
     const title = $("h1").text();
     const desc = $(".news-item.no-date .news-item-title").text();
-
-    const getOnlyNodeText = (item: cheerio.Element) =>
-      $(item).contents().not($(item).children()).text();
 
     const actions: TAction[] = $(".news-item.no-date")
       .map((_, item) => {
         const $title = $(item).find(".news-item-title");
         const $a = $($title).find("a");
         const dateStr =
-          getDate($title.text()) ?? getDate(getOnlyNodeText(item));
+          getDate($title.text()) ?? getDate(getOnlyNodeText($(item)));
 
         return {
           title: removeDate($title.text()),
-          desc: removeDate(getOnlyNodeText(item)).replace(/(,(\s)?)?viz /, ""),
+          desc: removeDate(getOnlyNodeText($(item))).replace(
+            /(,(\s)?)?viz /,
+            ""
+          ),
           href: $a.attr("href"),
           date: dateStr,
         };
       })
       .toArray() as any;
 
-    return Promise.resolve({ actions, title, desc });
+    return Promise.resolve({ actions: filterAction(actions), title, desc });
   });
+
+export const fetchHlidac = async (id: string) =>
+  await (
+    await fetch(
+      `https://www.hlidacstatu.cz/api/v2/datasety/vybory-psp/zaznamy/${id}`,
+      {
+        headers: { Authorization: "Token 1497ddfecece498cbbbb0e8c7847765d" },
+      }
+    )
+  ).json();

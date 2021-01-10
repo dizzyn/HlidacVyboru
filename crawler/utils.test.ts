@@ -1,4 +1,10 @@
-import { getDate, getNumber, removeDate, removeNumber } from "./utils";
+import {
+  createHlidacId,
+  getDate,
+  getNumber,
+  removeDate,
+  removeNumber,
+} from "./utils";
 
 test("Get date", () => {
   expect(
@@ -43,5 +49,20 @@ test("Get number", () => {
 test("Remove number", () => {
   expect(removeNumber("36. schůze KV - 10. prosince 2020")).toBe(
     "schůze KV - 10. prosince 2020"
+  );
+});
+
+test("Hlidac ID", () => {
+  expect(createHlidacId("10. prosince 2020", "36", "Hospodářský výbor")).toBe(
+    "3500-36-20201210"
+  );
+  expect(createHlidacId("1. ledna 2020", "12", "Petiční výbor")).toBe(
+    "3900-12-20200101"
+  );
+  expect(createHlidacId("10. února 2020", "1", "Hospodářský výbor")).toBe(
+    "3500-1-20200210"
+  );
+  expect(createHlidacId("10. března 1200", "1", "Organizační výbor")).toBe(
+    "3800-1-12000310"
   );
 });

@@ -2,6 +2,7 @@ import crawler from ".";
 import documents, { TDocument } from "./documents";
 import { COMMITTEE_NAMES, TCommitteeName } from "./enums";
 import {
+  createHlidacDocLink,
   createHlidacId,
   getDate,
   getNumber,
@@ -11,14 +12,22 @@ import {
 } from "./utils";
 import { fetchHlidac } from "./vybor";
 
+export interface THlidacOnlyDocs {
+  title: string;
+  documentUrl: string;
+  hlidacLink: string;
+}
+
 export interface TActionDetail {
   title: string;
   date: string;
   committee: TCommitteeName;
   number: string;
   documents: TDocument[];
+  hlidacOnlyDocuments: THlidacOnlyDocs[];
   sourceUrl: string;
   hlidacId: string;
+  recorUrl: string | null;
   hlidacError: string | null;
 }
 
@@ -62,13 +71,31 @@ export default (sourceUrl: string) =>
       throw `Nepodařilo se získat data z hlídače (${sourceUrl})`;
     }
 
+    const docs = await documents(documentsHref, date, number, hlidacJson);
+    const hlidacOnlyDocuments = hlidacJson.dokumenty?.reduce(
+      (acc: THlidacOnlyDocs[], doc: any, i: number) =>
+        docs.find(({ documentUrl }) => doc.DocumentUrl === documentUrl)
+          ? acc
+          : [
+              ...acc,
+              {
+                title: doc.jmeno,
+                documentUrl: doc.DocumentUrl,
+                hlidacLink: createHlidacDocLink(hlidacId, i),
+              },
+            ],
+      []
+    );
+
     return {
       title: removeDate(removeNumber(title)),
       date: date.trim(),
       committee: committee as TCommitteeName,
       number: number.trim(),
       sourceUrl,
-      documents: await documents(documentsHref, date, number, hlidacJson),
+      documents: docs,
+      recorUrl: docs.find(({ type }) => type === "ZAZNAM")?.documentUrl ?? null, // TODO remove if not needed
+      hlidacOnlyDocuments,
       hlidacError: hlidacJson.Error ?? null,
       hlidacId,
     };

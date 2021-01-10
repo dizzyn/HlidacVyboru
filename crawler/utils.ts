@@ -46,6 +46,14 @@ export const filterAction = (items: TAction[]) => {
   });
 };
 
+export const createHlidacJsonLink = (hlidacId: string) => {
+  return `https://www.hlidacstatu.cz/api/v2/datasety/vybory-psp/zaznamy/${hlidacId}`;
+};
+
+export const createHlidacLink = (hlidacId: string) => {
+  return `https://www.hlidacstatu.cz/data/Detail/vybory-psp/${hlidacId}`;
+};
+
 export const createHlidacDocLink = (hlidacId: string, index: number) => {
   return `https://www.hlidacstatu.cz/data/DetailText/Vybory-PSP/${hlidacId}?p=dokumenty[${index}]`;
 };

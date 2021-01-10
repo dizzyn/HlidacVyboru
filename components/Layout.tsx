@@ -20,6 +20,9 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
               nav {
                 padding-bottom: 20px;
               }
+              .error {
+                color: red;
+              }
       `}
       </style>
       <meta charSet="utf-8" />

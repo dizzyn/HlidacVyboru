@@ -31,13 +31,11 @@ const loadDocument = async (
 
     const documentUrl = createURL("text/" + href);
 
-    const hlidacDocIndex = hlidacJson.dokumenty.findIndex(
+    const hlidacDocIndex = hlidacJson.dokumenty?.findIndex(
       ({ DocumentUrl }: any) => {
         return DocumentUrl === documentUrl;
       }
     );
-
-    console.log("ID", hlidacDocIndex);
 
     return {
       title: removeDate(title),
@@ -85,12 +83,25 @@ const loadMeta = async (sourceUrl: string, number: string, hlidacJson: any) =>
     );
 
     if (zaznamHref) {
+      const absUrl = createURL(zaznamHref);
+      const hlidacDocIndex = hlidacJson.dokumenty?.findIndex(
+        ({ DocumentUrl }: any) => {
+          console.log(DocumentUrl, absUrl);
+          return DocumentUrl === absUrl;
+        }
+      );
+
+      // console.log("POZOR", hlidacDocIndex, zaznamHref);
+
       documents.push({
         title: `Zvukový záznam z jednání č ${number}.`,
         type: "ZAZNAM",
         documentUrl: createURL(zaznamHref),
         sourceUrl,
-        hlidacLink: null, // TODO
+        hlidacLink:
+          hlidacDocIndex > -1
+            ? createHlidacDocLink(hlidacJson.Id, hlidacDocIndex)
+            : null,
       });
     }
 

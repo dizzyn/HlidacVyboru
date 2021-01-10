@@ -1,5 +1,12 @@
 import crawler from ".";
-import { getDate, removeDate, filterAction, getOnlyNodeText } from "./utils";
+import {
+  getDate,
+  removeDate,
+  filterAction,
+  getOnlyNodeText,
+  createHlidacDocLink,
+  createHlidacJsonLink,
+} from "./utils";
 import fetch from "node-fetch";
 export interface TAction {
   title: string;
@@ -42,10 +49,7 @@ export default (sourceUrl: string) =>
 
 export const fetchHlidac = async (id: string) =>
   await (
-    await fetch(
-      `https://www.hlidacstatu.cz/api/v2/datasety/vybory-psp/zaznamy/${id}`,
-      {
-        headers: { Authorization: "Token 1497ddfecece498cbbbb0e8c7847765d" },
-      }
-    )
+    await fetch(createHlidacJsonLink(id), {
+      headers: { Authorization: "Token 1497ddfecece498cbbbb0e8c7847765d" },
+    })
   ).json();

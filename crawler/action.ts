@@ -1,5 +1,5 @@
 import crawler from ".";
-import documents, { TDocument } from "./documents";
+import documents, { loadDocument, TDocument } from "./documents";
 import { COMMITTEE_NAMES, TCommitteeName } from "./enums";
 import {
   createHlidacDocLink,
@@ -18,6 +18,15 @@ export interface THlidacOnlyDocs {
   documentUrl: string;
   hlidacLink: string;
 }
+
+const removeDuplicities = (docs: TDocument[]) =>
+  docs.reduce(
+    (acc: TDocument[], doc) =>
+      acc.find(({ documentUrl }) => documentUrl === doc.documentUrl)
+        ? acc
+        : [...acc, doc],
+    []
+  );
 
 export interface TActionDetail {
   title: string;
@@ -94,13 +103,19 @@ export default (sourceUrl: string) =>
         []
       ) ?? [];
 
+    // Pozvánka přimo z novinky
+    const pozvankaHref = $(`a:contains('pozvánka')`).attr("href");
+    if (pozvankaHref) {
+      docs.push(await loadDocument(pozvankaHref, "POZVANKA", hlidacJson));
+    }
+
     return {
       title: removeDate(removeNumber(title)),
       date: date.trim(),
       committee: committee as TCommitteeName,
       number: number.trim(),
       sourceUrl,
-      documents: docs,
+      documents: removeDuplicities(docs),
       recorUrl: docs.find(({ type }) => type === "ZAZNAM")?.documentUrl ?? null, // TODO remove if not needed
       hlidacOnlyDocuments,
       hlidacError: hlidacJson.Error ?? null,

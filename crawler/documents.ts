@@ -12,7 +12,7 @@ export interface TDocument {
   hlidacLink: string | null;
 }
 
-const loadDocument = async (
+export const loadDocument = async (
   sourceUrl: string,
   type: TDocumentType,
   hlidacJson: any
@@ -126,7 +126,7 @@ export default (
       ? await loadMeta(createURL(metaHref), number, hlidacJson)
       : [];
 
-    // Usnesení
+    // Pozvánka přimo bez Meta
     const pozvankaHref = $(`h2:contains('Pozvánky na schůze')`)
       .next()
       .find(`a:contains(${number})`)

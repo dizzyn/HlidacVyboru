@@ -4,6 +4,7 @@ import { COMMITTEE_NAMES, TCommitteeName } from "./enums";
 import {
   createHlidacDocLink,
   createHlidacId,
+  createURL,
   getDate,
   getNumber,
   getOnlyNodeText,
@@ -71,21 +72,27 @@ export default (sourceUrl: string) =>
       throw `Nepodařilo se získat data z hlídače (${sourceUrl})`;
     }
 
-    const docs = await documents(documentsHref, date, number, hlidacJson);
-    const hlidacOnlyDocuments = hlidacJson.dokumenty?.reduce(
-      (acc: THlidacOnlyDocs[], doc: any, i: number) =>
-        docs.find(({ documentUrl }) => doc.DocumentUrl === documentUrl)
-          ? acc
-          : [
-              ...acc,
-              {
-                title: doc.jmeno,
-                documentUrl: doc.DocumentUrl,
-                hlidacLink: createHlidacDocLink(hlidacId, i),
-              },
-            ],
-      []
+    const docs = await documents(
+      createURL(documentsHref),
+      date,
+      number,
+      hlidacJson
     );
+    const hlidacOnlyDocuments =
+      hlidacJson.dokumenty?.reduce(
+        (acc: THlidacOnlyDocs[], doc: any, i: number) =>
+          docs.find(({ documentUrl }) => doc.DocumentUrl === documentUrl)
+            ? acc
+            : [
+                ...acc,
+                {
+                  title: doc.jmeno,
+                  documentUrl: doc.DocumentUrl,
+                  hlidacLink: createHlidacDocLink(hlidacId, i),
+                },
+              ],
+        []
+      ) ?? [];
 
     return {
       title: removeDate(removeNumber(title)),

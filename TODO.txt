@@ -5,3 +5,4 @@ MP3 je jako Audio zaznam:
 
 
 Precist spravne: http://localhost:3000/action/hp.sqw%3Fk%3D3512%26z%3D14388
+Nacist pozvanku zde: http://localhost:3000/action/hp.sqw%3Fk%3D3812%26z%3D14377

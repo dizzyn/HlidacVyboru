@@ -108,18 +108,35 @@ const loadMeta = async (sourceUrl: string, number: string, hlidacJson: any) =>
     return documents;
   });
 
-export default (uri: string, date: string, number: string, hlidacJson: any) =>
-  crawler<TDocument[]>(createURL(uri), async ($) => {
-    const metaHref = $(`.section-title:nth-of-type(1)`)
+export default (
+  sourceUrl: string,
+  date: string,
+  number: string,
+  hlidacJson: any
+) =>
+  crawler<TDocument[]>(sourceUrl, async ($) => {
+    const metaHref = $(
+      `h2:contains('Pozvánky, zvukové záznamy a prezentace ze schůzí')`
+    )
       .next()
       .find(`a:contains(${number})`)
       .attr("href");
 
-    if (!metaHref) {
-      throw `Nepodařilo se získat link na meta záznamy (${uri})`;
-    }
+    let documents = metaHref
+      ? await loadMeta(createURL(metaHref), number, hlidacJson)
+      : [];
 
-    const documents = await loadMeta(createURL(metaHref), number, hlidacJson);
+    // Usnesení
+    const pozvankaHref = $(`h2:contains('Pozvánky na schůze')`)
+      .next()
+      .find(`a:contains(${number})`)
+      .attr("href");
+
+    if (pozvankaHref) {
+      documents.push(
+        await loadDocument(createURL(pozvankaHref), "POZVANKA", hlidacJson)
+      );
+    }
 
     // Usnesení
     const usneseni = (await Promise.all(
@@ -132,11 +149,11 @@ export default (uri: string, date: string, number: string, hlidacJson: any) =>
           const href = $tr.find("a").attr("href");
 
           if (!href) {
-            throw `Nepodařilo se získat datum usnesení (${uri})`;
+            throw `Nepodařilo se získat datum usnesení (${sourceUrl})`;
           }
 
           if (!href) {
-            throw `Nepodařilo se získat link na usnesení (${uri})`;
+            throw `Nepodařilo se získat link na usnesení (${sourceUrl})`;
           }
 
           if (trDate === date) {

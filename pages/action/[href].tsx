@@ -39,14 +39,19 @@ const Documents = ({
 
 const ActionPage = ({
   action: { hlidacId, committee, title, date, number, documents, sourceUrl, hlidacError, hlidacOnlyDocuments },
+  errorStr
 }: {
   action: TActionDetail;
+  errorStr?: string
 }) => {
+  if (errorStr) {
+    return <Layout title="Error">{errorStr}</Layout>
+  }
   return (
     <Layout title={title}>
       <h1>{committee} - {title}</h1>
       <a href={sourceUrl}> Original site</a> |
-      Hlídač: {hlidacError ? <span className="error">{hlidacError}</span> : <span>
+      Hlídač: {hlidacError ? <span className="error">{hlidacError} ({hlidacId})</span> : <span>
         <a href={createHlidacLink(hlidacId)}>Web</a> /
         <a href={createHlidacJsonLink(hlidacId)}>JSON</a>
       </span>}
@@ -85,11 +90,17 @@ const ActionPage = ({
 };
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
-  const uri = createURL(decodeURIComponent(String(context.params?.href)));
-  const actionData = await action(uri)
-  return {
-    props: { action: actionData },
-  };
+  try {
+    const url = createURL(decodeURIComponent(String(context.params?.href)));
+    const actionData = await action(url)
+    return {
+      props: { action: actionData },
+    };
+  } catch (e) {
+    return {
+      props: { action: {}, errorStr: e },
+    };
+  }
 };
 
 export default ActionPage;

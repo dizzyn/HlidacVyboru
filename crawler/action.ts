@@ -1,9 +1,5 @@
 import crawler from ".";
-import documents, {
-  fetchDocumentFromLink,
-  loadDocument,
-  TDocument,
-} from "./documents";
+import documents, { fetchDocumentFromLink, TDocument } from "./documents";
 import { COMMITTEE_NAMES, TCommitteeName } from "./enums";
 import {
   createHlidacDocLink,
@@ -113,7 +109,8 @@ export default (sourceUrl: string) =>
       `a:contains('pozvánka')`,
       "POZVANKA",
       hlidacJson,
-      $
+      $,
+      hlidacJson
     );
 
     return {

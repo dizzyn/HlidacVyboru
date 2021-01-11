@@ -60,6 +60,52 @@ export const fetchDocumentFromLink = async (
   }
 };
 
+export const loadDocumentArchive = async (
+  documents: TDocument[],
+  selector: string,
+  date: string,
+  type: TDocumentType,
+  hlidacJson: any,
+  $: cheerio.CheerioAPI,
+  sourceUrl: string
+) => {
+  console.log("URL", selector);
+  const href = $(selector).attr("href");
+
+  if (!href) {
+    throw `Nepodařilo se získat odkaz na stránku archivu (${sourceUrl})`;
+  }
+
+  await crawler(createURL(href), async ($) => {
+    const nextHref = $(".next").attr("href");
+
+    const $docElements = $(`td:contains(${date.split(" ").join("\u00a0")})`)
+      .prev()
+      .find("a");
+
+    for (let i = 0; i < $docElements.length; i++) {
+      const $docElement = $($docElements[i]);
+      const docHref = $docElement.attr("href") ?? "";
+      if (docHref) {
+        const doc = await loadDocument(createURL(docHref), type, hlidacJson);
+        documents.push(doc);
+      }
+    }
+
+    if (nextHref) {
+      await loadDocumentArchive(
+        documents,
+        ".next",
+        date,
+        type,
+        hlidacJson,
+        $,
+        sourceUrl
+      );
+    }
+  });
+};
+
 export const loadDocument = async (
   sourceUrl: string,
   type: TDocumentType,
@@ -131,7 +177,6 @@ const loadMeta = async (sourceUrl: string, number: string, hlidacJson: any) =>
       const absUrl = createURL(zaznamHref);
       const hlidacDocIndex = hlidacJson.dokumenty?.findIndex(
         ({ DocumentUrl }: any) => {
-          console.log(DocumentUrl, absUrl);
           return DocumentUrl === absUrl;
         }
       );
@@ -198,11 +243,22 @@ export default (
           }
 
           if (trDate === date) {
-            return loadDocument(createURL(href), "USNESENI", hlidacJson);
+            return await loadDocument(createURL(href), "USNESENI", hlidacJson);
           }
         })
         .toArray()
     )) as any;
+
+    // Usnesení z archivu
+    await loadDocumentArchive(
+      documents,
+      `h2:contains('Usnesení') + table + p a`,
+      date,
+      "USNESENI",
+      hlidacJson,
+      $,
+      sourceUrl
+    );
 
     return [...documents, ...usneseni].filter((a) => a);
   });

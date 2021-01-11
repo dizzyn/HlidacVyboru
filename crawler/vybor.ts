@@ -4,7 +4,6 @@ import {
   removeDate,
   filterAction,
   getOnlyNodeText,
-  createHlidacDocLink,
   createHlidacJsonLink,
 } from "./utils";
 import fetch from "node-fetch";

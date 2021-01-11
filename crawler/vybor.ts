@@ -49,6 +49,6 @@ export default (sourceUrl: string) =>
 export const fetchHlidac = async (id: string) =>
   await (
     await fetch(createHlidacJsonLink(id), {
-      headers: { Authorization: `Token ${process.env.HLIDAC_API_TOKEN}` },
+      headers: { Authorization: `Token 497ddfecece498cbbbb0e8c7847765d` },
     })
   ).json();

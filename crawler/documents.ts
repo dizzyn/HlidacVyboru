@@ -249,15 +249,15 @@ export default (
     )) as any;
 
     // Usnesení z archivu
-    await loadDocumentArchive(
-      documents,
-      `h2:contains('Usnesení') + table + p a`,
-      date,
-      "USNESENI",
-      hlidacJson,
-      $,
-      sourceUrl
-    );
+    // await loadDocumentArchive(
+    //   documents,
+    //   `h2:contains('Usnesení') + table + p a`,
+    //   date,
+    //   "USNESENI",
+    //   hlidacJson,
+    //   $,
+    //   sourceUrl
+    // );
 
     return [...documents, ...usneseni].filter((a) => a);
   });

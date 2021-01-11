@@ -137,6 +137,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   try {
     const url = createURL(decodeURIComponent(String(context.params?.href)));
     const actionData = await action(url);
+    console.log("actionData", actionData)
     return {
       props: { action: actionData },
     };

@@ -37,7 +37,7 @@ export const filterAction = (items: TAction[]) => {
   return items.filter((item) => {
     if (
       item.title.match(
-        RegExp(`schůze\\s(${COMMITTEE_SHORTCUTS.join("|")})`, "g")
+        RegExp(`schůze\\s(\\b${COMMITTEE_SHORTCUTS.join("\\b|\\b")}\\b)`, "g")
       )
     ) {
       return true;

@@ -19,7 +19,7 @@ const VyborPage = ({ actions, title, uri }: TVyborDetail & { uri: string }) => {
         </thead>
         <tbody>
           {actions.map((i) => (
-            <tr>
+            <tr key={i.href}>
               <td>
                 <a href={`/action/${encodeURIComponent(i.href)}`}>{i.title}</a>
               </td>
@@ -34,8 +34,9 @@ const VyborPage = ({ actions, title, uri }: TVyborDetail & { uri: string }) => {
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
   const uri = createURL(decodeURIComponent(String(context.params?.href)));
+  const data = await vybor(uri)
   return {
-    props: { ...(await vybor(uri)), uri },
+    props: { ...data, uri },
   };
 };
 

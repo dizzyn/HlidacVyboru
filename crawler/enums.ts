@@ -61,7 +61,7 @@ export const COMMITTEES = [
   },
   {
     shorcut: "VVVKM",
-    name: "Výbor pro vědu, vzdělání, kulturu,mládež a tělovýchovu",
+    name: "Výbor pro vědu, vzdělání, kulturu, mládež a tělovýchovu",
     id: 4500,
   },
   {
@@ -76,7 +76,7 @@ export const COMMITTEES = [
   },
   {
     shorcut: "VZP",
-    name: "Výbor proživotní prostředí",
+    name: "Výbor pro životní prostředí",
     id: 4600,
   },
   {

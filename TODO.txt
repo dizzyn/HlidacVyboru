@@ -1,7 +1,8 @@
 Se zeptat:
-
-MP3 je v dokumentech: https://www.hlidacstatu.cz/data/Detail/vybory-psp/3600-36-20201210
-- nektere dokumenty najdu na dvou ruznych adresach - http://localhost:3000/action/hp.sqw%3Fk%3D3412%26z%3D14375
+nektery dokument najdu na dvou ruznych adresach - http://localhost:3000/action/hp.sqw%3Fk%3D3412%26z%3D14375
 
 
+Todo:
 Načíst tuto schůzi - http://localhost:3000/action/hp.sqw%3Fk%3D4612%26z%3D14310
+Načíst tuto schůzi - http://localhost:3000/action/hp.sqw%3Fk%3D3212%26z%3D14446
+

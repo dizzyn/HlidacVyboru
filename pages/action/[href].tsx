@@ -29,8 +29,8 @@ const Documents = ({
           {hlidacLink ? (
             <a href={hlidacLink}>Na hlídači</a>
           ) : (
-            <div className="error">Není na hlídači</div>
-          )}
+              <div className="error">Není na hlídači</div>
+            )}
         </td>
       </tr>
     )
@@ -93,11 +93,11 @@ const ActionPage = ({
           {hlidacError} ({hlidacId})
         </span>
       ) : (
-        <span>
-          <a href={createHlidacLink(hlidacId)}>Web</a> /
-          <a href={createHlidacJsonLink(hlidacId)}>JSON</a>
-        </span>
-      )}
+          <span>
+            <a href={createHlidacLink(hlidacId)}>Web</a> /
+            <a href={createHlidacJsonLink(hlidacId)}>JSON</a>
+          </span>
+        )}
       <hr />
       <table>
         <tbody>

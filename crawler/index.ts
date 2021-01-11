@@ -7,6 +7,7 @@ const crawler = <TResult>(
 ) =>
   new Promise<TResult>((resolve, reject) => {
     new Crawler({
+      skipDuplicates: true,
       callback: async (error, { $, request }, done) => {
         if (error) {
           return reject(error);

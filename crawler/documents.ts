@@ -2,7 +2,12 @@ import crawler from ".";
 
 import { createHlidacDocLink, createURL, getDate, removeDate } from "./utils";
 
-type TDocumentType = "POZVANKA" | "ZAPIS" | "ZAZNAM" | "USNESENI";
+export type TDocumentType =
+  | "POZVANKA"
+  | "ZAPIS"
+  | "ZAZNAM"
+  | "USNESENI"
+  | "DOKUMENT";
 
 export interface TDocument {
   title: string;
@@ -11,6 +16,49 @@ export interface TDocument {
   sourceUrl: string;
   hlidacLink: string | null;
 }
+
+export const getHlidacIndex = (documentUrl: string, hlidacJson: any) => {
+  const hlidacDocIndex = hlidacJson.dokumenty?.findIndex(
+    ({ DocumentUrl }: any) => {
+      return DocumentUrl === documentUrl;
+    }
+  );
+
+  return hlidacDocIndex > -1
+    ? createHlidacDocLink(hlidacJson.Id, hlidacDocIndex)
+    : null;
+};
+
+export const fetchDocumentFromLink = async (
+  documents: TDocument[],
+  selector: string,
+  type: TDocumentType,
+  hlidacJson: any,
+  $: cheerio.CheerioAPI,
+  sourceUrl: string
+) => {
+  const $docElements = $(selector);
+  for (let i = 0; i < $docElements.length; i++) {
+    const $docElement = $($docElements[i]);
+    const docHref = $docElement.attr("href");
+    if (docHref) {
+      const documentUrl = createURL(docHref);
+      if (docHref.includes("orig2.sqw")) {
+        documents.push({
+          title: removeDate($docElement.text()),
+          type,
+          documentUrl,
+          sourceUrl,
+          hlidacLink: getHlidacIndex(documentUrl, hlidacJson),
+        });
+      } else if (docHref.includes("text2.sqw")) {
+        documents.push(
+          await loadDocument(createURL(docHref), type, hlidacJson)
+        );
+      }
+    }
+  }
+};
 
 export const loadDocument = async (
   sourceUrl: string,
@@ -31,21 +79,12 @@ export const loadDocument = async (
 
     const documentUrl = createURL("text/" + href);
 
-    const hlidacDocIndex = hlidacJson.dokumenty?.findIndex(
-      ({ DocumentUrl }: any) => {
-        return DocumentUrl === documentUrl;
-      }
-    );
-
     return {
       title: removeDate(title),
       type,
       documentUrl,
       sourceUrl,
-      hlidacLink:
-        hlidacDocIndex > -1
-          ? createHlidacDocLink(hlidacJson.Id, hlidacDocIndex)
-          : null,
+      hlidacLink: getHlidacIndex(documentUrl, hlidacJson),
     };
   });
 
@@ -53,31 +92,37 @@ const loadMeta = async (sourceUrl: string, number: string, hlidacJson: any) =>
   crawler<TDocument[]>(sourceUrl, async ($) => {
     const documents: TDocument[] = [];
 
-    // Pozvanka
-    const pozvankaHref = $(`h4:contains('Pozvánka')`)
-      .next()
-      .find(`a:contains(${number})`)
-      .attr("href");
+    // Pozvanka z meta
+    await fetchDocumentFromLink(
+      documents,
+      `h4:contains('Pozvánka') + table a:contains(${number})`,
+      "POZVANKA",
+      hlidacJson,
+      $,
+      sourceUrl
+    );
 
-    if (pozvankaHref) {
-      documents.push(
-        await loadDocument(createURL(pozvankaHref), "POZVANKA", hlidacJson)
-      );
-    }
+    // Zápis z meta
+    await fetchDocumentFromLink(
+      documents,
+      `h4:contains('Zápis z jednání') + table a:contains(${number})`,
+      "ZAPIS",
+      hlidacJson,
+      $,
+      sourceUrl
+    );
 
-    // Zápis
-    const zapisHref = $(`h4:contains('Zápis z jednání')`)
-      .next()
-      .find(`a:contains(${number})`)
-      .attr("href");
+    // Dokumenty, prezentace
+    await fetchDocumentFromLink(
+      documents,
+      `h4:contains('Dokumenty a prezentace') + table a`,
+      "DOKUMENT",
+      hlidacJson,
+      $,
+      sourceUrl
+    );
 
-    if (zapisHref) {
-      documents.push(
-        await loadDocument(createURL(zapisHref), "ZAPIS", hlidacJson)
-      );
-    }
-
-    // Zvukovy zaznam
+    // Zaznam
     const zaznamHref = $(`h4:contains('Zvukový záznam z jednání')+* a`).attr(
       "href"
     );
@@ -90,8 +135,6 @@ const loadMeta = async (sourceUrl: string, number: string, hlidacJson: any) =>
           return DocumentUrl === absUrl;
         }
       );
-
-      // console.log("POZOR", hlidacDocIndex, zaznamHref);
 
       documents.push({
         title: `Zvukový záznam z jednání č ${number}.`,
@@ -127,16 +170,14 @@ export default (
       : [];
 
     // Pozvánka přimo bez Meta
-    const pozvankaHref = $(`h2:contains('Pozvánky na schůze')`)
-      .next()
-      .find(`a:contains(${number})`)
-      .attr("href");
-
-    if (pozvankaHref) {
-      documents.push(
-        await loadDocument(createURL(pozvankaHref), "POZVANKA", hlidacJson)
-      );
-    }
+    await fetchDocumentFromLink(
+      documents,
+      `h2:contains('Pozvánky na schůze') + table a:contains(${number})`,
+      "POZVANKA",
+      hlidacJson,
+      $,
+      sourceUrl
+    );
 
     // Usnesení
     const usneseni = (await Promise.all(

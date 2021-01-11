@@ -59,9 +59,14 @@ export const createHlidacDocLink = (hlidacId: string, index: number) => {
 };
 
 export const createURL = (path: string) => {
-  return path && path.includes("sqw/")
-    ? `https://www.psp.cz/${path ?? ""}`
-    : `https://www.psp.cz/sqw/${path ?? ""}`;
+  if (path && path.includes("https://")) {
+    return path;
+  } else if (path.includes("http://")) {
+    return path;
+  } else if (path && path.includes("sqw/")) {
+    return `https://www.psp.cz/${path ?? ""}`;
+  }
+  return `https://www.psp.cz/sqw/${path ?? ""}`;
 };
 
 export const getOnlyNodeText = ($item: cheerio.Cheerio) =>

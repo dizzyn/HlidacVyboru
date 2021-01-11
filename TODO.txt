@@ -4,7 +4,10 @@ MP3 je v dokumentech: https://www.hlidacstatu.cz/data/Detail/vybory-psp/3600-36-
 MP3 je jako Audio zaznam: 
 
 
-Precist spravne: http://localhost:3000/action/hp.sqw%3Fk%3D3512%26z%3D14388
-
 Usnesení pro tuhle schůzi: http://localhost:3000/action/hp.sqw%3Fk%3D4112%26z%3D14230
 je zde: https://www.psp.cz/sqw/hp.sqw?k=4105&ido=1307&kk=5&td=1&n=5
+
+
+
+----- DOTAZY
+- nektere dokumenty najdu na dvou ruznych adresach - http://localhost:3000/action/hp.sqw%3Fk%3D3412%26z%3D14375

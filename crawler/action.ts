@@ -1,5 +1,9 @@
 import crawler from ".";
-import documents, { loadDocument, TDocument } from "./documents";
+import documents, {
+  fetchDocumentFromLink,
+  loadDocument,
+  TDocument,
+} from "./documents";
 import { COMMITTEE_NAMES, TCommitteeName } from "./enums";
 import {
   createHlidacDocLink,
@@ -104,10 +108,13 @@ export default (sourceUrl: string) =>
       ) ?? [];
 
     // Pozvánka přimo z novinky
-    const pozvankaHref = $(`a:contains('pozvánka')`).attr("href");
-    if (pozvankaHref) {
-      docs.push(await loadDocument(pozvankaHref, "POZVANKA", hlidacJson));
-    }
+    await fetchDocumentFromLink(
+      docs,
+      `a:contains('pozvánka')`,
+      "POZVANKA",
+      hlidacJson,
+      $
+    );
 
     return {
       title: removeDate(removeNumber(title)),

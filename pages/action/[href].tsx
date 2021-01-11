@@ -2,62 +2,103 @@ import { GetServerSideProps } from "next";
 import Layout from "../../components/Layout";
 import action, { TActionDetail, THlidacOnlyDocs } from "../../crawler/action";
 import { TDocument } from "../../crawler/documents";
-import { createHlidacJsonLink, createHlidacLink, createURL } from "../../crawler/utils";
+import {
+  createHlidacJsonLink,
+  createHlidacLink,
+  createURL,
+} from "../../crawler/utils";
 
 const Documents = ({
   documents,
-  hlidacOnlyDocuments
+  hlidacOnlyDocuments,
 }: {
   documents: TDocument[];
   hlidacOnlyDocuments: THlidacOnlyDocs[];
 }) => {
-
-  const docRnds = documents.map(({ title, type, documentUrl, sourceUrl, hlidacLink }) => <tr key={documentUrl}>
-    <td>{type}</td>
-    <td><a href={documentUrl}>{title}</a></td>
-    <td colSpan={1}>
-      <a href={sourceUrl}>Zdroj dat</a>
-    </td>
-    <td colSpan={1}>
-      {hlidacLink ? <a href={hlidacLink}>Na hlídači</a> : <div className="error">Není na hlídači</div>}
-    </td>
-  </tr>)
+  const docRnds = documents.map(
+    ({ title, type, documentUrl, sourceUrl, hlidacLink }) => (
+      <tr key={documentUrl}>
+        <td>{type}</td>
+        <td>
+          <a href={documentUrl}>{title}</a>
+        </td>
+        <td colSpan={1}>
+          <a href={sourceUrl}>Zdroj dat</a>
+        </td>
+        <td colSpan={1}>
+          {hlidacLink ? (
+            <a href={hlidacLink}>Na hlídači</a>
+          ) : (
+            <div className="error">Není na hlídači</div>
+          )}
+        </td>
+      </tr>
+    )
+  );
   // console.log("Zde", hlidacOnlyDocuments)
-  const docHlidacOnlyRnds = hlidacOnlyDocuments.map(({ title, documentUrl, hlidacLink }) => <tr key={documentUrl}>
-    <td><a href={documentUrl}>{title}</a></td>
-    <td><a href={hlidacLink}>Na hlídači</a></td>
-  </tr>)
+  const docHlidacOnlyRnds = hlidacOnlyDocuments.map(
+    ({ title, documentUrl, hlidacLink }) => (
+      <tr key={documentUrl}>
+        <td>
+          <a href={documentUrl}>{title}</a>
+        </td>
+        <td>
+          <a href={hlidacLink}>Na hlídači</a>
+        </td>
+      </tr>
+    )
+  );
 
-  return <>
-    {docRnds}
-    {docHlidacOnlyRnds.length
-      ? <><div className="error">Dokumenty nalezené pouze na hlídači</div>{docHlidacOnlyRnds}</>
-      : null}
-  </>
-}
-
+  return (
+    <>
+      {docRnds}
+      {docHlidacOnlyRnds.length ? (
+        <>
+          <div className="error">Dokumenty nalezené pouze na hlídači:</div>
+          {docHlidacOnlyRnds}
+        </>
+      ) : null}
+    </>
+  );
+};
 
 const ActionPage = ({
-  action: { hlidacId, committee, title, date, number, documents, sourceUrl, hlidacError, hlidacOnlyDocuments },
-  errorStr
+  action: {
+    hlidacId,
+    committee,
+    title,
+    date,
+    number,
+    documents,
+    sourceUrl,
+    hlidacError,
+    hlidacOnlyDocuments,
+  },
+  errorStr,
 }: {
   action: TActionDetail;
-  errorStr?: string
+  errorStr?: string;
 }) => {
   if (errorStr) {
-    return <Layout title="Error">{errorStr}</Layout>
+    return <Layout title="Error">{errorStr}</Layout>;
   }
   return (
     <Layout title={title}>
-      <h1>{committee} - {title}</h1>
-      <a href={sourceUrl}> Original site</a> |
-      Hlídač: {hlidacError ? <span className="error">{hlidacError} ({hlidacId})</span> : <span>
-        <a href={createHlidacLink(hlidacId)}>Web</a> /
-        <a href={createHlidacJsonLink(hlidacId)}>JSON</a>
-      </span>}
-
+      <h1>
+        {committee} - {title}
+      </h1>
+      <a href={sourceUrl}> Original site</a> | Hlídač:{" "}
+      {hlidacError ? (
+        <span className="error">
+          {hlidacError} ({hlidacId})
+        </span>
+      ) : (
+        <span>
+          <a href={createHlidacLink(hlidacId)}>Web</a> /
+          <a href={createHlidacJsonLink(hlidacId)}>JSON</a>
+        </span>
+      )}
       <hr />
-
       <table>
         <tbody>
           <tr>
@@ -78,7 +119,10 @@ const ActionPage = ({
             <td>
               <table>
                 <tbody>
-                  <Documents documents={documents} hlidacOnlyDocuments={hlidacOnlyDocuments} />
+                  <Documents
+                    documents={documents}
+                    hlidacOnlyDocuments={hlidacOnlyDocuments}
+                  />
                 </tbody>
               </table>
             </td>
@@ -86,13 +130,13 @@ const ActionPage = ({
         </tbody>
       </table>
     </Layout>
-  )
+  );
 };
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
   try {
     const url = createURL(decodeURIComponent(String(context.params?.href)));
-    const actionData = await action(url)
+    const actionData = await action(url);
     return {
       props: { action: actionData },
     };

@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 import { createURL } from "../crawler/utils";
 import vybory, { TVybor } from "../crawler/vybory";
 
-const url = createURL("hp.sqw?k=194")
+const url = createURL("hp.sqw?k=194");
 
 const IndexPage = ({ items }: { items: TVybor[] }) => (
   <Layout title="Výbory - seznam">
@@ -12,7 +12,9 @@ const IndexPage = ({ items }: { items: TVybor[] }) => (
     <hr />
     <ul>
       {items.map((i) => (
-        <li><a href={`/vybor/${encodeURIComponent(i.href)}`}>{i.title}</a></li>
+        <li key={i.href}>
+          <a href={`/vybor/${encodeURIComponent(i.href)}`}>{i.title}</a>
+        </li>
       ))}
     </ul>
   </Layout>

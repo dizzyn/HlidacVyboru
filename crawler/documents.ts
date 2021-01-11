@@ -69,7 +69,6 @@ export const loadDocumentArchive = async (
   $: cheerio.CheerioAPI,
   sourceUrl: string
 ) => {
-  console.log("URL", selector);
   const href = $(selector).attr("href");
 
   if (!href) {

@@ -1,6 +1,6 @@
 # Čtečka výborů
 
-Online access: [https://hlidac-vyboru.vercel.app/]
+Online access: [https://hlidac-vyboru.herokuapp.com/]
 
 ## Locale install
 

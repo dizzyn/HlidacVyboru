@@ -3,6 +3,24 @@ nektery dokument najdu na dvou ruznych adresach - http://localhost:3000/action/h
 
 
 Todo:
+! Radit podle hlidace
+! Nacist tento vybor - https://hlidac-vyboru.herokuapp.com/vybor/hp.sqw%3Fk%3D500
+! Nacist tento vybor - https://hlidac-vyboru.herokuapp.com/vybor/hp.sqw%3Fk%3D5000
+! Nacist tento vybor - https://hlidac-vyboru.herokuapp.com/vybor/hp.sqw%3Fk%3D3200
+! Nacist archiv vsech jednani a zmergovat
 Načíst tuto schůzi - http://localhost:3000/action/hp.sqw%3Fk%3D4612%26z%3D14310
 Načíst tuto schůzi - http://localhost:3000/action/hp.sqw%3Fk%3D3212%26z%3D14446
+Načíst tyto dokumenty - https://hlidac-vyboru.herokuapp.com/action/hp.sqw%3Fk%3D3612%26z%3D13943
+Overit proc to nacetlo tolik dokumentu - https://hlidac-vyboru.herokuapp.com/action/hp.sqw%3Fk%3D3912%26z%3D14398
+Spojit vybory - https://hlidac-vyboru.herokuapp.com/vybor/hp.sqw%3Fk%3D3400
+Proc je pozvanka dvakrat - https://hlidac-vyboru.herokuapp.com/action/hp.sqw%3Fk%3D3412%26z%3D14380
+Proc to nacetlo tolik dokumentu - https://hlidac-vyboru.herokuapp.com/action/hp.sqw%3Fk%3D4012%26z%3D14308
+Co je to za podivne dokumenty - https://hlidac-vyboru.herokuapp.com/action/hp.sqw%3Fk%3D4112%26z%3D14382
+Proc jsou dve pozvanky - https://hlidac-vyboru.herokuapp.com/action/hp.sqw%3Fk%3D4112%26z%3D14361
+Spojit dve schuze - https://hlidac-vyboru.herokuapp.com/vybor/hp.sqw%3Fk%3D4300
+Proc to nenacetlo dokumenty - https://hlidac-vyboru.herokuapp.com/action/hp.sqw%3Fk%3D4312%26z%3D14257
+Proc nemam vsechny dokumenty - https://hlidac-vyboru.herokuapp.com/action/hp.sqw%3Fk%3D4412%26z%3D14041
+Proc neni tento dokument na hlidaci - https://hlidac-vyboru.herokuapp.com/action/hp.sqw%3Fk%3D4612%26z%3D14161
+
+
 

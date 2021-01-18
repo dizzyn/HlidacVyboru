@@ -8,16 +8,22 @@ import { TAction } from "./vybor";
 import moment from "moment";
 
 const REGEXP_DATE = `\\d{1,2}.\\s(${MONTHS.join("|")})\\s\\d{4}`;
+const REGEXP_DATE_INDEXED = `\\d{1,2}.\\s\\d{1,2}\\.\\s\\d{4}`;
 
-const REGEXP_DATE_EXT = `((\\s)?-\\s)?(\\()?${REGEXP_DATE}(\\))?`;
+const extRegexp = (regexp: string) => `((\\s)?-\\s)?(\\()?${regexp}(\\))?`;
 
 export const getDate = (str: string) => {
-  const found = str.match(RegExp(REGEXP_DATE));
+  const found = [REGEXP_DATE, REGEXP_DATE_INDEXED]
+    .map((regexp) => str.match(RegExp(regexp)))
+    .find((x) => x);
+
   return found && found.length ? found[0] : null;
 };
 
 export const removeDate = (str: string) => {
-  const found = str.match(RegExp(REGEXP_DATE_EXT));
+  const found = [REGEXP_DATE, REGEXP_DATE_INDEXED]
+    .map((regexp) => str.match(RegExp(extRegexp(regexp))))
+    .find((x) => x);
   const date = found && found.length ? found[0] : null;
   return date ? str.replace(date, "") : str;
 };
@@ -34,10 +40,11 @@ export const removeNumber = (str: string) => {
 };
 
 export const filterAction = (items: TAction[]) => {
+  console.log(`(s|S)chůze\\s(\\b${COMMITTEE_SHORTCUTS.join("|\\b")})`);
   return items.filter((item) => {
     if (
       item.title.match(
-        RegExp(`schůze\\s(\\b${COMMITTEE_SHORTCUTS.join("\\b|\\b")}\\b)`, "g")
+        RegExp(`(s|S)chůze\\s(\\b${COMMITTEE_SHORTCUTS.join("|\\b")})`, "g")
       )
     ) {
       return true;

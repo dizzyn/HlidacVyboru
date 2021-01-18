@@ -112,7 +112,9 @@ export const loadDocument = async (
 ) =>
   crawler<TDocument>(sourceUrl, async ($) => {
     const title = $(".page-title h1").text();
-    const href = $("a:contains('Originál dokumentu')").attr("href");
+    const href =
+      $("a:contains('Originál dokumentu')").attr("href") ??
+      $("a:contains('Verze PDF')").attr("href");
 
     if (!title) {
       throw `Nepodařilo se získat titulek dokumentu (${sourceUrl})`;

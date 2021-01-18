@@ -24,6 +24,21 @@ test("Get date", () => {
   expect(getDate("- 11. krtka 2020 -")).toBe(null);
 });
 
+test("Get date numbered", () => {
+  expect(
+    getDate(
+      "Podvýbor pro kontrolu hospodaření veřejného sektoru - 11. 7. 2020, viz ."
+    )
+  ).toBe("11. 7. 2020");
+  expect(getDate("- 1. 1. 2020 -")).toBe("1. 1. 2020");
+  expect(getDate("- 12. 2. 2020 -")).toBe("12. 2. 2020");
+  expect(getDate("- 22. 3. 2020 -")).toBe("22. 3. 2020");
+  expect(getDate("- 31. 4. 2020 -")).toBe("31. 4. 2020");
+  expect(getDate("- 11. 8. 2020 -")).toBe("11. 8. 2020");
+  expect(getDate("11. 12. 2020")).toBe("11. 12. 2020");
+  expect(getDate("- 11. 9 2020 -")).toBe(null);
+});
+
 test("Remove date", () => {
   expect(
     removeDate(
@@ -40,6 +55,19 @@ test("Remove date", () => {
   expect(removeDate("11. listopadu 2020")).toBe("");
   expect(removeDate("11. srpna 2020")).toBe("");
   expect(removeDate("11. krtka 2020")).toBe("11. krtka 2020");
+});
+
+test("Remove date indexed", () => {
+  expect(
+    removeDate(
+      "Podvýbor pro kontrolu hospodaření veřejného sektoru - 11. 12. 2020, viz ."
+    )
+  ).toBe("Podvýbor pro kontrolu hospodaření veřejného sektoru, viz .");
+  expect(removeDate("- 1. 1. 2020")).toBe("");
+  expect(removeDate(" - 12. 2. 2020")).toBe("");
+  expect(removeDate("22. 4. 2020 -")).toBe(" -");
+  expect(removeDate("31. 10. 2020")).toBe("");
+  expect(removeDate("11. 12 2020")).toBe("11. 12 2020");
 });
 
 test("Get number", () => {

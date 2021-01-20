@@ -5,12 +5,7 @@ Nekteré dokumenty jsu jen v PDF - http://localhost:3000/action/hp.sqw%3Fk%3D512
 
 Todo:
 ! Radit podle hlidace
-! Nacist tento vybor - https://hlidac-vyboru.herokuapp.com/vybor/hp.sqw%3Fk%3D500
-! Nacist tento vybor - https://hlidac-vyboru.herokuapp.com/vybor/hp.sqw%3Fk%3D5000
-! Nacist tento vybor - https://hlidac-vyboru.herokuapp.com/vybor/hp.sqw%3Fk%3D3200
 ! Nacist archiv vsech jednani a zmergovat
-Načíst tuto schůzi - http://localhost:3000/action/hp.sqw%3Fk%3D4612%26z%3D14310
-Načíst tuto schůzi - http://localhost:3000/action/hp.sqw%3Fk%3D3212%26z%3D14446
 Načíst tyto dokumenty - https://hlidac-vyboru.herokuapp.com/action/hp.sqw%3Fk%3D3612%26z%3D13943
 Overit proc to nacetlo tolik dokumentu - https://hlidac-vyboru.herokuapp.com/action/hp.sqw%3Fk%3D3912%26z%3D14398
 Spojit vybory - https://hlidac-vyboru.herokuapp.com/vybor/hp.sqw%3Fk%3D3400

@@ -47,7 +47,6 @@ export default (sourceUrl: string) =>
     const desc = $("#main-content").text();
     const date = getDate(title) ?? getDate(desc);
     const documentsHref = $("a:contains('Dokumenty')").attr("href");
-    console.log(desc);
     const number = getNumber(removeDate(title)) ?? getNumber(removeDate(desc));
     const committee = getOnlyNodeText($("#left-column h2")).trim();
 

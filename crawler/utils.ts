@@ -39,9 +39,8 @@ export const removeNumber = (str: string) => {
   return date ? str.replace(date, "") : str;
 };
 
-export const filterAction = (items: TAction[]) => {
-  console.log(`(s|S)chůze\\s(\\b${COMMITTEE_SHORTCUTS.join("|\\b")})`);
-  return items.filter((item) => {
+export const filterAction = (items: TAction[]) =>
+  items.filter((item) => {
     if (
       item.title.match(
         RegExp(`(s|S)chůze\\s(\\b${COMMITTEE_SHORTCUTS.join("|\\b")})`, "g")
@@ -51,7 +50,6 @@ export const filterAction = (items: TAction[]) => {
     }
     return false;
   });
-};
 
 export const createHlidacJsonLink = (hlidacId: string) => {
   return `https://www.hlidacstatu.cz/api/v2/datasety/vybory-psp/zaznamy/${hlidacId}`;

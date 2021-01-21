@@ -135,6 +135,27 @@ export const loadDocument = async (
     };
   });
 
+const loadAlternateMetaHref = async (
+  sourceUrl: string,
+  number: string
+): Promise<string | null> =>
+  crawler<string | null>(sourceUrl, async ($) => {
+    console.log("Hledám meta", number, sourceUrl);
+
+    const metaHref = $(`a:contains(${number})`).attr("href");
+    console.log("Nalezl jsem", metaHref);
+    if (metaHref) {
+      return metaHref;
+    }
+
+    const nextHref = $(".next").attr("href");
+    console.log("Zkouším next", nextHref);
+    if (nextHref) {
+      return await loadAlternateMetaHref(createURL(nextHref), number);
+    }
+    return null;
+  });
+
 const loadMeta = async (sourceUrl: string, number: string, hlidacJson: any) =>
   crawler<TDocument[]>(sourceUrl, async ($) => {
     const documents: TDocument[] = [];
@@ -211,9 +232,36 @@ export default (
       .find(`a:contains(${number})`)
       .attr("href");
 
-    let documents = metaHref
-      ? await loadMeta(createURL(metaHref), number, hlidacJson)
-      : [];
+    const nextMetaHref = $(
+      `h2:contains('Pozvánky, zvukové záznamy a prezentace ze schůzí')`
+    )
+      .next()
+      .next()
+      .find(`a:contains(další)`)
+      .attr("href");
+
+    console.log("Next Meta href", nextMetaHref);
+
+    let documents: TDocument[] = [];
+
+    if (metaHref) {
+      documents = [
+        ...documents,
+        ...(await loadMeta(createURL(metaHref), number, hlidacJson)),
+      ];
+    } else if (nextMetaHref) {
+      const alternateMetaHref = await loadAlternateMetaHref(
+        createURL(nextMetaHref),
+        number
+      );
+      console.log("Alternate meta href", alternateMetaHref);
+      if (alternateMetaHref) {
+        documents = [
+          ...documents,
+          ...(await loadMeta(createURL(alternateMetaHref), number, hlidacJson)),
+        ];
+      }
+    }
 
     // Pozvánka přimo bez Meta
     await fetchDocumentFromLink(

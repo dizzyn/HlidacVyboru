@@ -35,7 +35,7 @@ const Documents = ({
       </tr>
     )
   );
-  // console.log("Zde", hlidacOnlyDocuments)
+
   const docHlidacOnlyRnds = hlidacOnlyDocuments.map(
     ({ title, documentUrl, hlidacLink }) => (
       <tr key={documentUrl}>
@@ -137,7 +137,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   try {
     const url = createURL(decodeURIComponent(String(context.params?.href)));
     const actionData = await action(url);
-    // console.log("actionData", actionData)
+
     return {
       props: { action: actionData },
     };

@@ -94,3 +94,9 @@ test("Hlidac ID", () => {
     "3800-1-12000310"
   );
 });
+
+// test("Merge actions", () => {
+//   expect(createHlidacId("10. prosince 2020", "36", "Hospodářský výbor")).toBe(
+//     "3500-36-20201210"
+//   );
+// });

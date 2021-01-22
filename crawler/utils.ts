@@ -39,7 +39,7 @@ export const removeNumber = (str: string) => {
   return date ? str.replace(date, "") : str;
 };
 
-export const filterAction = (items: TAction[]) =>
+export const filterActions = (items: TAction[]) =>
   items.filter((item) => {
     if (
       item.title.match(
@@ -91,3 +91,10 @@ export const createHlidacId = (
   const m = moment(date, "DD. MM. YYYY");
   return `${committee.id}-${number}-${m.format("YYYYMMDD")}`;
 };
+
+export const mergeActions = (items: TAction[]) => items;
+// items.reduce(
+//   (acc: TAction[], action) =>
+//     acc.find(({ date }) => date === action.date) ? acc : [...acc, action],
+//   []
+// );

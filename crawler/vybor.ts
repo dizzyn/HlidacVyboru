@@ -2,9 +2,10 @@ import crawler from ".";
 import {
   getDate,
   removeDate,
-  filterAction,
+  filterActions,
   getOnlyNodeText,
   createHlidacJsonLink,
+  mergeActions,
 } from "./utils";
 import fetch from "node-fetch";
 export interface TAction {
@@ -43,7 +44,11 @@ export default (sourceUrl: string) =>
       })
       .toArray() as any;
 
-    return Promise.resolve({ actions: filterAction(actions), title, desc });
+    return Promise.resolve({
+      actions: mergeActions(filterActions(actions)),
+      title,
+      desc,
+    });
   });
 
 export const fetchHlidac = async (id: string) =>

@@ -190,6 +190,16 @@ const loadMeta = async (sourceUrl: string, number: string, hlidacJson: any) =>
       sourceUrl
     );
 
+    // Dokumenty, prezentace
+    await fetchDocumentFromLink(
+      documents,
+      `h4:contains('MP3') + table a`,
+      "ZAZNAM",
+      hlidacJson,
+      $,
+      sourceUrl
+    );
+
     // Zaznam
     const zaznamHref = $(`h4:contains('Zvukový záznam z jednání')+* a`).attr(
       "href"

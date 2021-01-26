@@ -13,7 +13,13 @@ import {
 } from "./utils";
 import { fetchHlidac } from "./vybor";
 
-export interface THlidacOnlyDocs {
+export interface THlidacOnlyDoc {
+  title: string;
+  documentUrl: string;
+  hlidacLink: string;
+}
+
+export interface THlidacOnlyRecord {
   title: string;
   documentUrl: string;
   hlidacLink: string;
@@ -34,11 +40,13 @@ export interface TActionDetail {
   committee: TCommitteeName;
   number: string;
   documents: TDocument[];
-  hlidacOnlyDocuments: THlidacOnlyDocs[];
+  records: TDocument[];
+  hlidacOnlyDocuments: THlidacOnlyDoc[];
+  hlidacOnlyRecords: THlidacOnlyRecord[];
   sourceUrl: string;
   hlidacId: string;
-  recorUrl: string | null;
   hlidacError: string | null;
+  hlidacJson: string | null;
 }
 
 export default (sourceUrl: string) =>
@@ -82,15 +90,19 @@ export default (sourceUrl: string) =>
       throw `Nepodařilo se získat data z hlídače (${sourceUrl})`;
     }
 
-    const docs = await documents(
+    const docsRaw = await documents(
       createURL(documentsHref),
       date,
       number,
       hlidacJson
     );
+
+    const docs = docsRaw.filter(({ type }) => type !== "ZAZNAM");
+    const records = docsRaw.filter(({ type }) => type === "ZAZNAM");
+
     const hlidacOnlyDocuments =
       hlidacJson.dokumenty?.reduce(
-        (acc: THlidacOnlyDocs[], doc: any, i: number) =>
+        (acc: THlidacOnlyDoc[], doc: any, i: number) =>
           docs.find(({ documentUrl }) => doc.DocumentUrl === documentUrl)
             ? acc
             : [
@@ -98,6 +110,22 @@ export default (sourceUrl: string) =>
                 {
                   title: doc.jmeno,
                   documentUrl: doc.DocumentUrl,
+                  hlidacLink: createHlidacDocLink(hlidacId, i),
+                },
+              ],
+        []
+      ) ?? [];
+
+    const hlidacOnlyRecords =
+      hlidacJson.audio?.reduce(
+        (acc: THlidacOnlyRecord[], rec: any, i: number) =>
+          records.find(({ documentUrl }) => rec.DocumentUrl === documentUrl)
+            ? acc
+            : [
+                ...acc,
+                {
+                  title: rec.jmeno,
+                  documentUrl: rec.DocumentUrl,
                   hlidacLink: createHlidacDocLink(hlidacId, i),
                 },
               ],
@@ -121,9 +149,11 @@ export default (sourceUrl: string) =>
       number: number.trim(),
       sourceUrl,
       documents: removeDuplicities(docs),
-      recorUrl: docs.find(({ type }) => type === "ZAZNAM")?.documentUrl ?? null, // TODO remove if not needed
+      records: removeDuplicities(records),
       hlidacOnlyDocuments,
+      hlidacOnlyRecords,
       hlidacError: hlidacJson.Error ?? null,
       hlidacId,
+      hlidacJson,
     };
   });

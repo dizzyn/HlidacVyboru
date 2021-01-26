@@ -6,6 +6,7 @@ import {
 } from "./enums";
 import { TAction } from "./vybor";
 import moment from "moment";
+import { TDocument } from "./documents";
 
 const REGEXP_DATE = `\\d{1,2}.\\s(${MONTHS.join("|")})\\s\\d{4}`;
 const REGEXP_DATE_INDEXED = `\\d{1,2}.\\s\\d{1,2}\\.\\s\\d{4}`;
@@ -18,6 +19,10 @@ export const getDate = (str: string) => {
     .find((x) => x);
 
   return found && found.length ? found[0] : null;
+};
+
+export const createHlidacUpdate = (hlidacJson: any, documents: TDocument[]) => {
+  // console.log("AA", hlidacJson);
 };
 
 export const removeDate = (str: string) => {
@@ -61,6 +66,10 @@ export const createHlidacLink = (hlidacId: string) => {
 
 export const createHlidacDocLink = (hlidacId: string, index: number) => {
   return `https://www.hlidacstatu.cz/data/DetailText/Vybory-PSP/${hlidacId}?p=dokumenty[${index}]`;
+};
+
+export const createHlidacRecordLink = (hlidacId: string, index: number) => {
+  return `https://www.hlidacstatu.cz/data/DetailText/Vybory-PSP/${hlidacId}?p=audio[${index}]`;
 };
 
 export const createURL = (path: string) => {

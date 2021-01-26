@@ -1,6 +1,12 @@
 import crawler from ".";
 
-import { createHlidacDocLink, createURL, getDate, removeDate } from "./utils";
+import {
+  createHlidacDocLink,
+  createHlidacRecordLink,
+  createURL,
+  getDate,
+  removeDate,
+} from "./utils";
 
 export type TDocumentType =
   | "POZVANKA"
@@ -17,7 +23,7 @@ export interface TDocument {
   hlidacLink: string | null;
 }
 
-export const getHlidacIndex = (documentUrl: string, hlidacJson: any) => {
+export const getHlidacDocLink = (documentUrl: string, hlidacJson: any) => {
   const hlidacDocIndex = hlidacJson.dokumenty?.findIndex(
     ({ DocumentUrl }: any) => {
       return DocumentUrl === documentUrl;
@@ -26,6 +32,16 @@ export const getHlidacIndex = (documentUrl: string, hlidacJson: any) => {
 
   return hlidacDocIndex > -1
     ? createHlidacDocLink(hlidacJson.Id, hlidacDocIndex)
+    : null;
+};
+
+export const getHlidacRecordLink = (documentUrl: string, hlidacJson: any) => {
+  const hlidacDocIndex = hlidacJson.audio?.findIndex(({ DocumentUrl }: any) => {
+    return DocumentUrl === documentUrl;
+  });
+
+  return hlidacDocIndex > -1
+    ? createHlidacRecordLink(hlidacJson.Id, hlidacDocIndex)
     : null;
 };
 
@@ -49,7 +65,10 @@ export const fetchDocumentFromLink = async (
           type,
           documentUrl,
           sourceUrl,
-          hlidacLink: getHlidacIndex(documentUrl, hlidacJson),
+          hlidacLink:
+            type === "ZAZNAM"
+              ? getHlidacRecordLink(documentUrl, hlidacJson)
+              : getHlidacDocLink(documentUrl, hlidacJson),
         });
       } else if (docHref.includes("text2.sqw")) {
         documents.push(
@@ -131,7 +150,7 @@ export const loadDocument = async (
       type,
       documentUrl,
       sourceUrl,
-      hlidacLink: getHlidacIndex(documentUrl, hlidacJson),
+      hlidacLink: getHlidacDocLink(documentUrl, hlidacJson),
     };
   });
 
@@ -140,16 +159,16 @@ const loadAlternateMetaHref = async (
   number: string
 ): Promise<string | null> =>
   crawler<string | null>(sourceUrl, async ($) => {
-    console.log("Hledám meta", number, sourceUrl);
+    // console.log("Hledám meta", number, sourceUrl);
 
     const metaHref = $(`a:contains(${number})`).attr("href");
-    console.log("Nalezl jsem", metaHref);
+    // console.log("Nalezl jsem", metaHref);
     if (metaHref) {
       return metaHref;
     }
 
     const nextHref = $(".next").attr("href");
-    console.log("Zkouším next", nextHref);
+    // console.log("Zkouším next", nextHref);
     if (nextHref) {
       return await loadAlternateMetaHref(createURL(nextHref), number);
     }
@@ -250,8 +269,6 @@ export default (
       .find(`a:contains(další)`)
       .attr("href");
 
-    console.log("Next Meta href", nextMetaHref);
-
     let documents: TDocument[] = [];
 
     if (metaHref) {
@@ -264,7 +281,7 @@ export default (
         createURL(nextMetaHref),
         number
       );
-      console.log("Alternate meta href", alternateMetaHref);
+      // console.log("Alternate meta href", alternateMetaHref);
       if (alternateMetaHref) {
         documents = [
           ...documents,

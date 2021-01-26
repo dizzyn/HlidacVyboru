@@ -1,0 +1,47 @@
+{
+  "Id": "3200-78-20201209",
+  "datum": "2020-12-09T00:00:00",
+  "cisloJednani": 78,
+  "vec": null,
+  "vybor": "Výbor pro zdravotnictví",
+  "vyborId": 3200,
+  "vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3202",
+  "zapisJednani": null,
+  "dokumenty": [
+    {
+      "HsProcessType": "documentsave",
+      "DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=142937",
+      "DocumentPlainText": null,
+      "jmeno": "Pozvanka_na_schuzi_c._78_9._prosince_2020_.docx",
+      "popis": "Pozvánka na schůzi č. 78 (9. prosince 2020)",
+      "typ": "Pozvánka"
+    },
+    {
+      "HsProcessType": "documentsave",
+      "DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=156331",
+      "DocumentPlainText": null,
+      "jmeno": "doc.&nbsp;Anders_COVID-19&nbsp;a&nbsp;dusevni&nbsp;zdravi&nbsp;populace&nbsp;PS&nbsp;2020.pptx",
+      "popis": "",
+      "typ": "Dokumenty a prezentace"
+    },
+    {
+      "HsProcessType": "documentsave",
+      "DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=156373",
+      "DocumentPlainText": null,
+      "jmeno": "prof.&nbsp;Dusek_&nbsp;epidemiologicka&nbsp;situace.pptx",
+      "popis": "",
+      "typ": "Dokumenty a prezentace"
+    }
+  ],
+  "audio": [
+    {
+      "HsProcessType": "audiosave",
+      "DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=155545",
+      "DocumentPlainText": null,
+      "jmeno": "1003.MP3",
+      "prepisAudia": null
+    }
+  ],
+  "DbCreated": "2020-12-19T23:37:07.0252529Z",
+  "DbCreatedBy": null
+}

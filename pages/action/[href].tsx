@@ -1,40 +1,23 @@
 import { GetServerSideProps } from "next";
 import Layout from "../../components/Layout";
-import action, { TActionDetail, THlidacOnlyDocs } from "../../crawler/action";
+import action, { TActionDetail, THlidacOnlyDoc, THlidacOnlyRecord } from "../../crawler/action";
 import { TDocument } from "../../crawler/documents";
 import {
   createHlidacJsonLink,
   createHlidacLink,
+  createHlidacUpdate,
   createURL,
 } from "../../crawler/utils";
 
-const Documents = ({
-  documents,
+
+
+
+const HlidacOnlyDocuments = ({
   hlidacOnlyDocuments,
 }: {
-  documents: TDocument[];
-  hlidacOnlyDocuments: THlidacOnlyDocs[];
+
+  hlidacOnlyDocuments: THlidacOnlyDoc[] | THlidacOnlyRecord[];
 }) => {
-  const docRnds = documents.map(
-    ({ title, type, documentUrl, sourceUrl, hlidacLink }) => (
-      <tr key={documentUrl}>
-        <td>{type}</td>
-        <td>
-          <a href={documentUrl}>{title}</a>
-        </td>
-        <td colSpan={1}>
-          <a href={sourceUrl}>Zdroj dat</a>
-        </td>
-        <td colSpan={1}>
-          {hlidacLink ? (
-            <a href={hlidacLink}>Na hlídači</a>
-          ) : (
-              <div className="error">Není na hlídači</div>
-            )}
-        </td>
-      </tr>
-    )
-  );
 
   const docHlidacOnlyRnds = hlidacOnlyDocuments.map(
     ({ title, documentUrl, hlidacLink }) => (
@@ -51,13 +34,47 @@ const Documents = ({
 
   return (
     <>
-      {docRnds}
       {docHlidacOnlyRnds.length ? (
         <>
-          <div className="error">Dokumenty nalezené pouze na hlídači:</div>
+          <tr><th className="error" colSpan={10}>Dokumenty nalezené pouze na hlídači:</th></tr>
           {docHlidacOnlyRnds}
         </>
       ) : null}
+    </>
+  );
+};
+
+const Documents = ({
+  documents,
+}: {
+  documents: TDocument[];
+}) => {
+  const docRnds = documents.map(
+    ({ title, type, documentUrl, sourceUrl, hlidacLink }) => (
+      <tr key={documentUrl}>
+        <td>{type}</td>
+        <td>
+          <a href={documentUrl}>{title}</a>
+        </td>
+        <td colSpan={1}>
+          <a href={sourceUrl}>Zdroj dat</a>
+        </td>
+        <td colSpan={1}>
+          {hlidacLink ? (
+            type === "ZAZNAM"
+              ? <span>Na hlídači</span>
+              : <a href={hlidacLink}>Na hlídači</a>
+          ) : (
+              <div className="error">Není na hlídači</div>
+            )}
+        </td>
+      </tr>
+    )
+  );
+
+  return (
+    <>
+      {docRnds}
     </>
   );
 };
@@ -70,9 +87,12 @@ const ActionPage = ({
     date,
     number,
     documents,
+    records,
     sourceUrl,
     hlidacError,
     hlidacOnlyDocuments,
+    hlidacOnlyRecords,
+    hlidacJson
   },
   errorStr,
 }: {
@@ -109,11 +129,6 @@ const ActionPage = ({
             <th>Číslo jednání</th>
             <td>{number}</td>
           </tr>
-          {/* <tr>
-            <th>Záznam</th>
-            <td>{recorUrl ? <a href={recorUrl}>MP3</a> : "-"}
-            </td>
-          </tr> */}
           <tr>
             <th>Dokumenty</th>
             <td>
@@ -121,7 +136,24 @@ const ActionPage = ({
                 <tbody>
                   <Documents
                     documents={documents}
+                  />
+                  <HlidacOnlyDocuments
                     hlidacOnlyDocuments={hlidacOnlyDocuments}
+                  />
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <th>Záznamy</th>
+            <td>
+              <table>
+                <tbody>
+                  <Documents
+                    documents={records}
+                  />
+                  <HlidacOnlyDocuments
+                    hlidacOnlyDocuments={hlidacOnlyRecords}
                   />
                 </tbody>
               </table>
@@ -129,6 +161,7 @@ const ActionPage = ({
           </tr>
         </tbody>
       </table>
+      <>{createHlidacUpdate(hlidacJson, documents)}</>
     </Layout>
   );
 };

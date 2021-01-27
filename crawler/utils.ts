@@ -21,6 +21,7 @@ export const getDate = (str: string) => {
   return found && found.length ? found[0] : null;
 };
 
+// @ts-ignore
 export const createHlidacUpdate = (hlidacJson: any, documents: TDocument[]) => {
   // console.log("AA", hlidacJson);
 };

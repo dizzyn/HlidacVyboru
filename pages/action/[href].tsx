@@ -62,7 +62,7 @@ const Documents = ({
         <td colSpan={1}>
           {hlidacLink ? (
             type === "ZAZNAM"
-              ? <span>Na hlídači</span>
+              ? <span>Na hlídači {hlidacLink}</span>
               : <a href={hlidacLink}>Na hlídači</a>
           ) : (
               <div className="error">Není na hlídači</div>

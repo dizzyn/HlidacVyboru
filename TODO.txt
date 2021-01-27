@@ -1,4 +1,5 @@
 Se zeptat:
+Zvukovy zaznam na hlidaci ? - http://localhost:3000/action/hp.sqw%3Fk%3D3612%26z%3D14344
 nektery dokument najdu na dvou ruznych adresach - http://localhost:3000/action/hp.sqw%3Fk%3D3412%26z%3D14375
 Nekteré dokumenty jsu jen v PDF - http://localhost:3000/action/hp.sqw%3Fk%3D512%26z%3D14447
 Overit proc to nacetlo tolik dokumentu - https://hlidac-vyboru.herokuapp.com/action/hp.sqw%3Fk%3D3912%26z%3D14398
@@ -9,7 +10,6 @@ Když najdu MP3 kdekoliv mezi dokumenty, můžu ji považovat za záznam? https:
 Todo:
 ! Radit podle hlidace
 ! Nacist archiv vsech jednani a zmergovat
-
 
 Co je to za podivne dokumenty - https://hlidac-vyboru.herokuapp.com/action/hp.sqw%3Fk%3D4112%26z%3D14382
 Proc jsou dve pozvanky - https://hlidac-vyboru.herokuapp.com/action/hp.sqw%3Fk%3D4112%26z%3D14361

@@ -23,25 +23,21 @@ export interface TDocument {
   hlidacLink: string | null;
 }
 
-export const getHlidacDocLink = (documentUrl: string, hlidacJson: any) => {
-  const hlidacDocIndex = hlidacJson.dokumenty?.findIndex(
-    ({ DocumentUrl }: any) => {
-      return DocumentUrl === documentUrl;
-    }
-  );
-
-  return hlidacDocIndex > -1
-    ? createHlidacDocLink(hlidacJson.Id, hlidacDocIndex)
-    : null;
-};
-
-export const getHlidacRecordLink = (documentUrl: string, hlidacJson: any) => {
-  const hlidacDocIndex = hlidacJson.audio?.findIndex(({ DocumentUrl }: any) => {
+export const getHlidacDocLink = (
+  documentUrl: string,
+  hlidacJson: any,
+  type: TDocumentType
+) => {
+  const hlidacDocIndex = hlidacJson[
+    type === "ZAZNAM" ? "audio" : "dokumenty"
+  ]?.findIndex(({ DocumentUrl }: any) => {
     return DocumentUrl === documentUrl;
   });
 
   return hlidacDocIndex > -1
-    ? createHlidacRecordLink(hlidacJson.Id, hlidacDocIndex)
+    ? type === "ZAZNAM"
+      ? "N/A" // no detail of audio at the Hlidac
+      : createHlidacDocLink(hlidacJson.Id, hlidacDocIndex)
     : null;
 };
 
@@ -65,10 +61,7 @@ export const fetchDocumentFromLink = async (
           type,
           documentUrl,
           sourceUrl,
-          hlidacLink:
-            type === "ZAZNAM"
-              ? getHlidacRecordLink(documentUrl, hlidacJson)
-              : getHlidacDocLink(documentUrl, hlidacJson),
+          hlidacLink: getHlidacDocLink(documentUrl, hlidacJson, type),
         });
       } else if (docHref.includes("text2.sqw")) {
         documents.push(
@@ -150,7 +143,7 @@ export const loadDocument = async (
       type,
       documentUrl,
       sourceUrl,
-      hlidacLink: getHlidacDocLink(documentUrl, hlidacJson),
+      hlidacLink: getHlidacDocLink(documentUrl, hlidacJson, type),
     };
   });
 
@@ -225,22 +218,14 @@ const loadMeta = async (sourceUrl: string, number: string, hlidacJson: any) =>
     );
 
     if (zaznamHref) {
-      const absUrl = createURL(zaznamHref);
-      const hlidacDocIndex = hlidacJson.dokumenty?.findIndex(
-        ({ DocumentUrl }: any) => {
-          return DocumentUrl === absUrl;
-        }
-      );
+      const documentUrl = createURL(zaznamHref);
 
       documents.push({
         title: `Zvukový záznam z jednání č ${number}.`,
         type: "ZAZNAM",
-        documentUrl: createURL(zaznamHref),
+        documentUrl,
         sourceUrl,
-        hlidacLink:
-          hlidacDocIndex > -1
-            ? createHlidacDocLink(hlidacJson.Id, hlidacDocIndex)
-            : null,
+        hlidacLink: getHlidacDocLink(documentUrl, hlidacJson, "ZAZNAM"),
       });
     }
 

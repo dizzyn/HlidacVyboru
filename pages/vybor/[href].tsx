@@ -8,7 +8,7 @@ const VyborPage = ({ actions, title, uri }: TVyborDetail & { uri: string }) => {
   return (
     <Layout title={title}>
       <h1>{title}</h1>
-      <a href={uri}> Original site</a>
+      <a href={uri}>Source</a>
       <hr />
       <table>
         <thead>

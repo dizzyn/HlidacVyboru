@@ -49,10 +49,11 @@ export const fetchDocumentFromLink = async (
     const docHref = $docElement.attr("href");
     if (docHref) {
       const documentUrl = createURL(docHref);
+      const title = removeDate($docElement.text());
       if (docHref.includes("orig2.sqw")) {
         documents.push({
-          title: removeDate($docElement.text()),
-          type,
+          title,
+          type: title.toLowerCase().includes("mp3") ? "ZAZNAM" : type,
           documentUrl,
           sourceUrl,
           hlidacLink: getHlidacDocLink(documentUrl, hlidacJson, type),

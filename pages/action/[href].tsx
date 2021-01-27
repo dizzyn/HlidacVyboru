@@ -62,7 +62,7 @@ const Documents = ({
         <td colSpan={1}>
           {hlidacLink ? (
             type === "ZAZNAM"
-              ? <span>Na hlídači {hlidacLink}</span>
+              ? <span>Na hlídači</span>
               : <a href={hlidacLink}>Na hlídači</a>
           ) : (
               <div className="error">Není na hlídači</div>
@@ -107,7 +107,7 @@ const ActionPage = ({
       <h1>
         {committee} - {title}
       </h1>
-      <a href={sourceUrl}> Original site</a> | Hlídač:{" "}
+      <a href={sourceUrl}>Source</a> | Hlídač:{" "}
       {hlidacError ? (
         <span className="error">
           {hlidacError} ({hlidacId})

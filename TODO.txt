@@ -1,19 +1,5 @@
-Se zeptat:
-Zvukovy zaznam na hlidaci ? - http://localhost:3000/action/hp.sqw%3Fk%3D3612%26z%3D14344
-nektery dokument najdu na dvou ruznych adresach - http://localhost:3000/action/hp.sqw%3Fk%3D3412%26z%3D14375
-Nekteré dokumenty jsu jen v PDF - http://localhost:3000/action/hp.sqw%3Fk%3D512%26z%3D14447
-Overit proc to nacetlo tolik dokumentu - https://hlidac-vyboru.herokuapp.com/action/hp.sqw%3Fk%3D3912%26z%3D14398
-Jak spojit vybory - https://hlidac-vyboru.herokuapp.com/vybor/hp.sqw%3Fk%3D3400
-Když najdu MP3 kdekoliv mezi dokumenty, můžu ji považovat za záznam? https://www.psp.cz/sqw/hp.sqw?k=4106&ido=1307&td=22&cu=25
-
-
 Todo:
 ! Radit podle hlidace
 ! Nacist archiv vsech jednani a zmergovat
 
-Co je to za podivne dokumenty - https://hlidac-vyboru.herokuapp.com/action/hp.sqw%3Fk%3D4112%26z%3D14382
-Proc jsou dve pozvanky - https://hlidac-vyboru.herokuapp.com/action/hp.sqw%3Fk%3D4112%26z%3D14361
-Spojit dve schuze - https://hlidac-vyboru.herokuapp.com/vybor/hp.sqw%3Fk%3D4300
-Proc to nenacetlo dokumenty - https://hlidac-vyboru.herokuapp.com/action/hp.sqw%3Fk%3D4312%26z%3D14257
-Proc nemam vsechny dokumenty - https://hlidac-vyboru.herokuapp.com/action/hp.sqw%3Fk%3D4412%26z%3D14041
-Proc neni tento dokument na hlidaci - https://hlidac-vyboru.herokuapp.com/action/hp.sqw%3Fk%3D4612%26z%3D14161
+A

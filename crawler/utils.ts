@@ -102,9 +102,9 @@ export const createHlidacId = (
   return `${committee.id}-${number}-${m.format("YYYYMMDD")}`;
 };
 
-export const mergeActions = (items: TAction[]) => items;
-// items.reduce(
-//   (acc: TAction[], action) =>
-//     acc.find(({ date }) => date === action.date) ? acc : [...acc, action],
-//   []
-// );
+export const mergeActions = (items: TAction[]) =>
+  items.reduce(
+    (acc: TAction[], action) =>
+      acc.find(({ date }) => date === action.date) ? acc : [...acc, action],
+    []
+  );

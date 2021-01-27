@@ -8,7 +8,7 @@ const url = createURL("hp.sqw?k=194");
 const IndexPage = ({ items }: { items: TVybor[] }) => (
   <Layout title="Výbory - seznam">
     <h1>Výbory</h1>
-    <a href={url}> Original site</a>
+    <a href={url}>Source</a>
     <hr />
     <ul>
       {items.map((i) => (

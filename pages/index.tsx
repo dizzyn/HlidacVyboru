@@ -1,7 +1,7 @@
 import { GetServerSideProps } from "next";
 import Layout from "../components/Layout";
-import { createURL } from "../crawler/utils";
-import vybory, { TVybor } from "../crawler/vybory";
+import { createURL } from "../src/utils";
+import vybory, { TVybor } from "../src/crawler/vybory";
 
 const url = createURL("hp.sqw?k=194");
 

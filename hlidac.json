@@ -1,0 +1,2871 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "v2",
+    "title": "HlidacStatu Api V2.1.1",
+    "description": "REST API Hlídače státu",
+    "termsOfService": "https://www.hlidacstatu.cz/texty/provoznipodminky/",
+    "contact": {
+      "name": "Hlídač státu",
+      "url": "https://www.hlidacstatu.cz/texty/kontakt/",
+      "email": "podpora@hlidacstatu.cz"
+    },
+    "license": {
+      "name": "CC BY 3.0 CZ",
+      "url": "https://www.hlidacstatu.cz/texty/licence/"
+    }
+  },
+  "host": "www.hlidacstatu.cz",
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/api/v2/ping/{text}": {
+      "get": {
+        "tags": [
+          "Core"
+        ],
+        "operationId": "ApiV2_Ping",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "text",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/getmyip": {
+      "get": {
+        "tags": [
+          "Core"
+        ],
+        "operationId": "ApiV2_GetIp",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/dumps": {
+      "get": {
+        "tags": [
+          "Core"
+        ],
+        "operationId": "ApiV2_Dumps",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/DumpInfoModel"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/dump/{datatype}/{date}": {
+      "get": {
+        "tags": [
+          "Core"
+        ],
+        "operationId": "ApiV2_Dump",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "datatype",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/datasety": {
+      "get": {
+        "tags": [
+          "Datasety"
+        ],
+        "summary": "Načte seznam datasetů",
+        "operationId": "ApiV2Datasety_GetAll",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/SearchResultDTO[Registration]"
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Datasety"
+        ],
+        "summary": "Update datasetu.",
+        "description": "Není možné změnit hodnoty jsonSchema a datasetId. Pokud je potřebuješ změnit, \r\nmusíš datovou sadu smazat a zaregistrovat znovu.\r\n\r\nUkázkový požadavek:\r\nhttps://raw.githubusercontent.com/HlidacStatu/API/master/v2/create_dataset.example.json",
+        "operationId": "ApiV2Datasety_Update",
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml",
+          "application/x-www-form-urlencoded"
+        ],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "data",
+            "in": "body",
+            "description": "Objekt typu Registration",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Registration"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Registration"
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Datasety"
+        ],
+        "summary": "Vytvoří nový dataset",
+        "description": "Ukázkový požadavek:\r\nhttps://raw.githubusercontent.com/HlidacStatu/API/master/v2/create_dataset.example.json",
+        "operationId": "ApiV2Datasety_Create",
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml",
+          "application/x-www-form-urlencoded"
+        ],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "data",
+            "in": "body",
+            "description": "Objekt typu Registration",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Registration"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Dataset vytvořen",
+            "schema": {
+              "$ref": "#/definitions/DSCreatedDTO"
+            }
+          },
+          "400": {
+            "description": "Chyba v datech"
+          }
+        }
+      }
+    },
+    "/api/v2/datasety/{datasetId}": {
+      "get": {
+        "tags": [
+          "Datasety"
+        ],
+        "summary": "Detail konkrétního datasetu",
+        "operationId": "ApiV2Datasety_Detail",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "datasetId",
+            "in": "path",
+            "description": "Id datasetu (můžeme ho získat ze seznamu datasetů)",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Registration"
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Datasety"
+        ],
+        "summary": "Smazání datasetu",
+        "operationId": "ApiV2Datasety_Delete",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "datasetId",
+            "in": "path",
+            "description": "Id datasetu (můžeme ho získat ze seznamu datasetů)",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/datasety/{datasetId}/hledat": {
+      "get": {
+        "tags": [
+          "Datasety"
+        ],
+        "summary": "Vyhledávání v položkách datasetu",
+        "operationId": "ApiV2Datasety_DatasetSearch",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "datasetId",
+            "in": "path",
+            "description": "Id datasetu (můžeme ho získat ze seznamu datasetů)",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "dotaz",
+            "in": "query",
+            "description": "Hledaný výraz",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "strana",
+            "in": "query",
+            "description": "Stránkování",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "description": "Název pole pro řazení",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "desc",
+            "in": "query",
+            "description": "Řazení: 0 - Vzestupně; 1 - Sestupně",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/SearchResultDTO[Object]"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/datasety/{datasetId}/zaznamy/{itemId}": {
+      "get": {
+        "tags": [
+          "Datasety"
+        ],
+        "summary": "Detail konkrétní položky z datasetu",
+        "operationId": "ApiV2Datasety_DatasetItem_Get",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "datasetId",
+            "in": "path",
+            "description": "Id datasetu (můžeme ho získat ze seznamu datasetů)",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "itemId",
+            "in": "path",
+            "description": "Id položky v datasetu, kterou chceme načíst",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Datasety"
+        ],
+        "summary": "Vloží nebo updatuje záznam v datasetu",
+        "operationId": "ApiV2Datasety_DatasetItem_Update",
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml",
+          "application/x-www-form-urlencoded"
+        ],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "datasetId",
+            "in": "path",
+            "description": "Id datasetu",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "itemId",
+            "in": "path",
+            "description": "Id záznamu",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "data",
+            "in": "body",
+            "description": "Objekt, který se má vložit, nebo updatovat",
+            "required": true,
+            "schema": {
+              "type": "object"
+            }
+          },
+          {
+            "name": "mode",
+            "in": "query",
+            "description": "\"skip\" (default) - pokud záznam existuje, nic se na něm nezmění.\r\n            \"merge\" - snaží se spojit data z obou záznamů.\r\n            \"rewrite\" - pokud záznam existuje, je bez milosti přepsán",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/DSItemResponseDTO"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/datasety/{datasetId}/zaznamy": {
+      "post": {
+        "tags": [
+          "Datasety"
+        ],
+        "summary": "Hromadné vkládání záznamů",
+        "description": "Pokud záznamy s daným ID existují, tak budou přepsány.\r\n\r\n    Ukázkový požadavek:  \r\n    \r\n    [\r\n    \t{\r\n    \t\t\"HsProcessType\": \"person\",\r\n    \t\t\"Id\": \"2\",\r\n    \t\t\"jmeno\": \"Ferda\",\r\n    \t\t\"prijmeni\": \"Mravenec\",\r\n    \t\t\"narozeni\": \"2018-11-13T20:20:39+00:00\"\r\n    \t},\r\n    \t{\r\n    \t\t\"HsProcessType\": \"document\",\r\n    \t\t\"Id\": \"broukpytlik\",\r\n    \t\t\"jmeno\": \"Brouk\",\r\n    \t\t\"prijmeni\": \"Pytlík\",\r\n    \t\t\"narozeni\": \"2017-12-10T00:00:00+00:00\",\r\n    \t\t\"DocumentUrl\": \"www.hlidacstatu.cz\",\r\n    \t\t\"DocumentPlainText\": null\r\n    \t}\r\n    ]",
+        "operationId": "ApiV2Datasety_DatasetItem_BulkInsert",
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml",
+          "application/x-www-form-urlencoded"
+        ],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "datasetId",
+            "in": "path",
+            "description": "Id datasetu, kam chceme záznamy nahrát",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "data",
+            "in": "body",
+            "description": "Pole JSON objektů",
+            "required": true,
+            "schema": {
+              "type": "object"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/DSItemResponseDTO"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/datasety/{datasetId}/zaznamy/{itemId}/existuje": {
+      "get": {
+        "tags": [
+          "Datasety"
+        ],
+        "summary": "Kontrola, jestli záznam existuje v datasetu",
+        "operationId": "ApiV2Datasety_DatasetItem_Exists",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "datasetId",
+            "in": "path",
+            "description": "Id datasetu",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "itemId",
+            "in": "path",
+            "description": "Id záznamu",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/dotace/hledat": {
+      "get": {
+        "tags": [
+          "Dotace"
+        ],
+        "summary": "Vyhledá dotace",
+        "operationId": "ApiV2Dotace_Hledat",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "dotaz",
+            "in": "query",
+            "description": "fulltext dotaz dle <a href=\"https://www.hlidacstatu.cz/napoveda\">syntaxe</a>",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "strana",
+            "in": "query",
+            "description": "stránka, max. hodnota je 250",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "razeni",
+            "in": "query",
+            "description": "pořadí výsledků:<br />\r\n0 Řadit podle relevance\r\n1 Řadit podle data podpisu od nejnovějších\r\n2 Řadit podle data podpisu od nejstarších\r\n3 Řadit podle částky od největší\r\n4 Řadit podle částky od nejmenší\r\n5 Řadit podle IČO od největšího\r\n6 Řadit podle IČO od nejmenšího",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/SearchResultDTO[Dotace]"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/dotace/{id}": {
+      "get": {
+        "tags": [
+          "Dotace"
+        ],
+        "summary": "Vrátí detail jedné dotace.",
+        "operationId": "ApiV2Dotace_Detail",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "id dotace",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Dotace"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/firmy/ico/{ico}": {
+      "get": {
+        "tags": [
+          "Firmy"
+        ],
+        "summary": "Vyhledá firmu v databázi Hlídače státu.",
+        "operationId": "ApiV2Firmy_CompanyPerIco",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "ico",
+            "in": "path",
+            "description": "ico firmy",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/FirmaDTO"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/firmy/{jmenoFirmy}": {
+      "get": {
+        "tags": [
+          "Firmy"
+        ],
+        "summary": "Vyhledá firmu v databázi Hlídače státu.",
+        "operationId": "ApiV2Firmy_CompanyID",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "jmenoFirmy",
+            "in": "path",
+            "description": "název firmy",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/FirmaDTO"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/insolvence/hledat": {
+      "get": {
+        "tags": [
+          "Insolvence"
+        ],
+        "summary": "Vyhledá smlouvy v databázi smluv",
+        "description": "Toto API je pouze pro držitele komerční licence. Kontaktujte nás na api@hlidacstatu.cz.",
+        "operationId": "ApiV2Insolvence_Hledat",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "dotaz",
+            "in": "query",
+            "description": "fulltext dotaz dle <a href=\"https://www.hlidacstatu.cz/napoveda\">syntaxe</a>",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "strana",
+            "in": "query",
+            "description": "stránka, max. hodnota je 250",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "razeni",
+            "in": "query",
+            "description": "pořadí výsledků:<br />\r\n0: podle relevance<br />\r\n1: nově zahájené první\r\n2: nově zveřejněné poslední\r\n3: naposled změněné první\r\n4: naposled změněné poslední",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/SearchResultDTO[Rizeni]"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/insolvence/{id}": {
+      "get": {
+        "tags": [
+          "Insolvence"
+        ],
+        "summary": "Vrátí detail jedné smlouvy.",
+        "description": "Toto API je pouze pro držitele komerční licence. Kontaktujte nás na api@hlidacstatu.cz.",
+        "operationId": "ApiV2Insolvence_Detail",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "id smlouvy",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Rizeni"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/osoby/{osobaId}": {
+      "get": {
+        "tags": [
+          "Osoby"
+        ],
+        "summary": "Vypíše detail osoby na základě \"osobaId\" parametru.",
+        "operationId": "ApiV2Osoby_Detail",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "osobaId",
+            "in": "path",
+            "description": "Id osoby v Hlídači Státu",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/OsobaDetailDTO"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/osoby/hledat": {
+      "get": {
+        "tags": [
+          "Osoby"
+        ],
+        "operationId": "ApiV2Osoby_Search",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "dotaz",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "strana",
+            "in": "query",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/OsobaDTO"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/osoby/social": {
+      "get": {
+        "tags": [
+          "Osoby"
+        ],
+        "operationId": "ApiV2Osoby_Social",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "typ",
+            "in": "query",
+            "required": true,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "Twitter",
+                "Facebook_page",
+                "Facebook_profile",
+                "Instagram",
+                "www",
+                "Youtube"
+              ]
+            },
+            "collectionFormat": "multi"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/OsobaSocialDTO"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/smlouvy/hledat": {
+      "get": {
+        "tags": [
+          "Smlouvy"
+        ],
+        "summary": "Vyhledá smlouvy v databázi smluv",
+        "operationId": "ApiV2Smlouvy_Hledat",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "dotaz",
+            "in": "query",
+            "description": "fulltext dotaz dle <a href=\"https://www.hlidacstatu.cz/napoveda\">syntaxe</a>",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "strana",
+            "in": "query",
+            "description": "stránka, max. hodnota je 250",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "razeni",
+            "in": "query",
+            "description": "pořadí výsledků:<br />\r\n0: podle relevance<br />\r\n1: nově zveřejněné první<br />\r\n2: nově zveřejněné poslední<br />\r\n3: nejlevnější první<br />\r\n4: nejdražší první<br />\r\n5: nově uzavřené první<br />\r\n6: nově uzavřené poslední<br />\r\n7: nejvíce chybové první<br />\r\n8: podle odběratele<br />\r\n9: podle dodavatele<br />",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/SearchResultDTO[Smlouva]"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/smlouvy/{id}": {
+      "get": {
+        "tags": [
+          "Smlouvy"
+        ],
+        "summary": "Vrátí detail jedné smlouvy.",
+        "operationId": "ApiV2Smlouvy_Detail",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "id smlouvy",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Smlouva"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/smlouvy/vsechnaID": {
+      "get": {
+        "tags": [
+          "Smlouvy"
+        ],
+        "summary": "všechna ID platných verzí smluv. (API pouze pro komerční licence)",
+        "operationId": "ApiV2Smlouvy_VsechnaID",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/smlouvy/text/{id}": {
+      "get": {
+        "tags": [
+          "Smlouvy"
+        ],
+        "operationId": "ApiV2Smlouvy_Text",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/verejnezakazky/{id}": {
+      "get": {
+        "tags": [
+          "Veřejné zakázky"
+        ],
+        "summary": "Detail veřejné zakázky",
+        "description": "Toto API je pouze pro držitele komerční licence. Kontaktujte nás na api@hlidacstatu.cz.",
+        "operationId": "ApiV2VZ_Detail",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Id veřejné zakázky",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/VerejnaZakazka"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/verejnezakazky/hledat": {
+      "get": {
+        "tags": [
+          "Veřejné zakázky"
+        ],
+        "summary": "Vyhledá veřejné zakázky v databázi Hlídače smluv",
+        "description": "Toto API je pouze pro držitele komerční licence. Kontaktujte nás na api@hlidacstatu.cz.",
+        "operationId": "ApiV2VZ_Hledat",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "dotaz",
+            "in": "query",
+            "description": "fulltext dotaz dle <a href=\"https://www.hlidacstatu.cz/napoveda\">syntaxe</a>",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "strana",
+            "in": "query",
+            "description": "stránka, max. hodnota je 250",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "razeni",
+            "in": "query",
+            "description": "pořadí výsledků: <br />\r\n0: podle relevance<br />\r\n1: nově zveřejněné první<br />\r\n2: nově zveřejněné poslední<br />\r\n3: nejlevnější první<br />\r\n4: nejdražší první<br />\r\n5: nově uzavřené první<br />\r\n6: nově uzavřené poslední<br />\r\n8: podle odběratele<br />\r\n9: podle dodavatele<br />",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/SearchResultDTO[VerejnaZakazka]"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/internalq/Voice2TextNewTask/{datasetId}/{itemId}": {
+      "post": {
+        "tags": [
+          "Voice 2 Text"
+        ],
+        "summary": "Vytvori novy task",
+        "operationId": "ApiV2InternalQ_Voice2TextNewTask",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "datasetId",
+            "in": "path",
+            "description": "id datasetu",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "itemId",
+            "in": "path",
+            "description": "id zaznamu",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "priority",
+            "in": "query",
+            "description": "0=normal; 1=fast lane; 2=express lane",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/internalq/Voice2TextGetTask": {
+      "get": {
+        "tags": [
+          "Voice 2 Text"
+        ],
+        "summary": "Vrátí taskID pro Voice2Text Docker image",
+        "operationId": "ApiV2InternalQ_Voice2TextGetTask",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Voice2Text"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/internalq/Voice2TextDone": {
+      "post": {
+        "tags": [
+          "Voice 2 Text"
+        ],
+        "summary": "Potvrdí ukončení Voice2Text operace",
+        "operationId": "ApiV2InternalQ_Voice2TextDone",
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml",
+          "application/x-www-form-urlencoded"
+        ],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "task",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Voice2Text"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/internalq/Voice2TextFailed/{requeueAsTheLast}": {
+      "post": {
+        "tags": [
+          "Voice 2 Text"
+        ],
+        "summary": "Potvrdí ukončení Voice2Text operace",
+        "operationId": "ApiV2InternalQ_Voice2TextFailed",
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml",
+          "application/x-www-form-urlencoded"
+        ],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "requeueAsTheLast",
+            "in": "path",
+            "required": true,
+            "type": "boolean"
+          },
+          {
+            "name": "task",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Voice2Text"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Weby": {
+      "get": {
+        "tags": [
+          "Weby"
+        ],
+        "operationId": "ApiV2Weby_List",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ZabHost"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v2/Weby/{id}": {
+      "get": {
+        "tags": [
+          "Weby"
+        ],
+        "operationId": "ApiV2Weby_Status",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json",
+          "application/xml",
+          "text/xml"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/WebStatusExport"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "DumpInfoModel": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "date": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "size": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "fulldump": {
+          "type": "boolean"
+        },
+        "created": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "dataType": {
+          "type": "string"
+        }
+      }
+    },
+    "SearchResultDTO[Registration]": {
+      "type": "object",
+      "properties": {
+        "Total": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "Page": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "Results": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Registration"
+          }
+        }
+      }
+    },
+    "Registration": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "readOnly": true
+        },
+        "name": {
+          "type": "string"
+        },
+        "datasetId": {
+          "type": "string"
+        },
+        "origUrl": {
+          "type": "string"
+        },
+        "sourcecodeUrl": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "jsonSchema": {
+          "type": "string"
+        },
+        "createdBy": {
+          "type": "string"
+        },
+        "created": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "betaversion": {
+          "type": "boolean"
+        },
+        "allowWriteAccess": {
+          "type": "boolean"
+        },
+        "hidden": {
+          "type": "boolean"
+        },
+        "searchResultTemplate": {
+          "$ref": "#/definitions/Template"
+        },
+        "detailTemplate": {
+          "$ref": "#/definitions/Template"
+        },
+        "defaultOrderBy": {
+          "type": "string"
+        },
+        "orderList": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "Template": {
+      "type": "object",
+      "properties": {
+        "header": {
+          "type": "string"
+        },
+        "body": {
+          "type": "string"
+        },
+        "footer": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "properties": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "DSCreatedDTO": {
+      "type": "object",
+      "properties": {
+        "DatasetId": {
+          "type": "string"
+        }
+      }
+    },
+    "SearchResultDTO[Object]": {
+      "type": "object",
+      "properties": {
+        "Total": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "Page": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "Results": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "DSItemResponseDTO": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        }
+      }
+    },
+    "SearchResultDTO[Dotace]": {
+      "type": "object",
+      "properties": {
+        "Total": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "Page": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "Results": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Dotace"
+          }
+        }
+      }
+    },
+    "Dotace": {
+      "type": "object",
+      "properties": {
+        "IdDotace": {
+          "type": "string"
+        },
+        "DatumPodpisu": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "DatumAktualizace": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "KodProjektu": {
+          "type": "string"
+        },
+        "NazevProjektu": {
+          "type": "string"
+        },
+        "Zdroj": {
+          "$ref": "#/definitions/Zdroj"
+        },
+        "Prijemce": {
+          "$ref": "#/definitions/Prijemce"
+        },
+        "Program": {
+          "$ref": "#/definitions/DotacniProgram"
+        },
+        "DotaceCelkem": {
+          "format": "double",
+          "type": "number"
+        },
+        "PujckaCelkem": {
+          "format": "double",
+          "type": "number"
+        },
+        "Rozhodnuti": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Rozhodnuti"
+          }
+        },
+        "Duplicita": {
+          "type": "string"
+        },
+        "Chyba": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "Zdroj": {
+      "type": "object",
+      "properties": {
+        "Nazev": {
+          "type": "string"
+        },
+        "Url": {
+          "type": "string"
+        }
+      }
+    },
+    "Prijemce": {
+      "type": "object",
+      "properties": {
+        "Ico": {
+          "type": "string"
+        },
+        "ObchodniJmeno": {
+          "type": "string"
+        },
+        "HlidacJmeno": {
+          "type": "string"
+        },
+        "Jmeno": {
+          "type": "string"
+        },
+        "RokNarozeni": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "Obec": {
+          "type": "string"
+        },
+        "Okres": {
+          "type": "string"
+        },
+        "PSC": {
+          "type": "string"
+        }
+      }
+    },
+    "DotacniProgram": {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "type": "string"
+        },
+        "Nazev": {
+          "type": "string"
+        },
+        "Kod": {
+          "type": "string"
+        },
+        "Url": {
+          "type": "string"
+        }
+      }
+    },
+    "Rozhodnuti": {
+      "type": "object",
+      "properties": {
+        "CastkaPozadovana": {
+          "format": "double",
+          "type": "number"
+        },
+        "CastkaRozhodnuta": {
+          "format": "double",
+          "type": "number"
+        },
+        "CerpanoCelkem": {
+          "format": "double",
+          "type": "number"
+        },
+        "JePujcka": {
+          "type": "boolean"
+        },
+        "IcoPoskytovatele": {
+          "type": "string"
+        },
+        "Poskytovatel": {
+          "type": "string"
+        },
+        "Rok": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "ZdrojFinanci": {
+          "type": "string"
+        },
+        "Cerpani": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Cerpani"
+          }
+        }
+      }
+    },
+    "Cerpani": {
+      "type": "object",
+      "properties": {
+        "CastkaSpotrebovana": {
+          "format": "double",
+          "type": "number"
+        },
+        "Rok": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "GuessedYear": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "FirmaDTO": {
+      "type": "object",
+      "properties": {
+        "ICO": {
+          "type": "string"
+        },
+        "Jmeno": {
+          "type": "string"
+        },
+        "DatoveSchranky": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "Zalozena": {
+          "format": "date-time",
+          "type": "string"
+        }
+      }
+    },
+    "SearchResultDTO[Rizeni]": {
+      "type": "object",
+      "properties": {
+        "Total": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "Page": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "Results": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Rizeni"
+          }
+        }
+      }
+    },
+    "Rizeni": {
+      "type": "object",
+      "properties": {
+        "IsFullRecord": {
+          "type": "boolean"
+        },
+        "SpisovaZnacka": {
+          "type": "string"
+        },
+        "Stav": {
+          "type": "string"
+        },
+        "Vyskrtnuto": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "Url": {
+          "type": "string"
+        },
+        "DatumZalozeni": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "PosledniZmena": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "Soud": {
+          "type": "string"
+        },
+        "Dokumenty": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Dokument"
+          }
+        },
+        "Dluznici": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Osoba"
+          }
+        },
+        "Veritele": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Osoba"
+          }
+        },
+        "Spravci": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Osoba"
+          }
+        },
+        "OnRadar": {
+          "type": "boolean"
+        },
+        "Odstraneny": {
+          "type": "boolean"
+        }
+      }
+    },
+    "Dokument": {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "type": "string"
+        },
+        "TypUdalosti": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "DatumVlozeni": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "Popis": {
+          "type": "string"
+        },
+        "Url": {
+          "type": "string"
+        },
+        "Oddil": {
+          "type": "string"
+        },
+        "PlainText": {
+          "type": "string"
+        },
+        "Lenght": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "WordCount": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "LastUpdate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "EnoughExtractedText": {
+          "type": "boolean",
+          "readOnly": true
+        }
+      }
+    },
+    "Osoba": {
+      "type": "object",
+      "properties": {
+        "IdPuvodce": {
+          "type": "string"
+        },
+        "IdOsoby": {
+          "type": "string"
+        },
+        "PlneJmeno": {
+          "type": "string"
+        },
+        "Role": {
+          "type": "string"
+        },
+        "Typ": {
+          "type": "string"
+        },
+        "ICO": {
+          "type": "string"
+        },
+        "Rc": {
+          "type": "string"
+        },
+        "Zalozen": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "Odstranen": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "DatumNarozeni": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "Mesto": {
+          "type": "string"
+        },
+        "Okres": {
+          "type": "string"
+        },
+        "Zeme": {
+          "type": "string"
+        },
+        "Psc": {
+          "type": "string"
+        },
+        "OsobaId": {
+          "type": "string"
+        }
+      }
+    },
+    "OsobaDetailDTO": {
+      "type": "object",
+      "properties": {
+        "TitulPred": {
+          "type": "string"
+        },
+        "Jmeno": {
+          "type": "string"
+        },
+        "Prijmeni": {
+          "type": "string"
+        },
+        "TitulPo": {
+          "type": "string"
+        },
+        "Narozeni": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "NameId": {
+          "type": "string"
+        },
+        "Profile": {
+          "type": "string"
+        },
+        "Sponzoring": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/OsobaEventDTO"
+          }
+        },
+        "Udalosti": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/OsobaEventDTO"
+          }
+        },
+        "SocialniSite": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SocialNetworkDTO"
+          }
+        }
+      }
+    },
+    "OsobaEventDTO": {
+      "type": "object",
+      "properties": {
+        "Typ": {
+          "type": "string"
+        },
+        "Organizace": {
+          "type": "string"
+        },
+        "Role": {
+          "type": "string"
+        },
+        "Castka": {
+          "format": "double",
+          "type": "number"
+        },
+        "DatumOd": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "DatumDo": {
+          "format": "date-time",
+          "type": "string"
+        }
+      }
+    },
+    "SocialNetworkDTO": {
+      "type": "object",
+      "properties": {
+        "Type": {
+          "type": "string"
+        },
+        "Id": {
+          "type": "string"
+        },
+        "Url": {
+          "type": "string",
+          "readOnly": true
+        }
+      }
+    },
+    "OsobaDTO": {
+      "type": "object",
+      "properties": {
+        "TitulPred": {
+          "type": "string"
+        },
+        "Jmeno": {
+          "type": "string"
+        },
+        "Prijmeni": {
+          "type": "string"
+        },
+        "TitulPo": {
+          "type": "string"
+        },
+        "Narozeni": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "NameId": {
+          "type": "string"
+        },
+        "Profile": {
+          "type": "string"
+        }
+      }
+    },
+    "OsobaSocialDTO": {
+      "type": "object",
+      "properties": {
+        "TitulPred": {
+          "type": "string"
+        },
+        "Jmeno": {
+          "type": "string"
+        },
+        "Prijmeni": {
+          "type": "string"
+        },
+        "TitulPo": {
+          "type": "string"
+        },
+        "NameId": {
+          "type": "string"
+        },
+        "Profile": {
+          "type": "string"
+        },
+        "SocialniSite": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SocialNetworkDTO"
+          }
+        }
+      }
+    },
+    "SearchResultDTO[Smlouva]": {
+      "type": "object",
+      "properties": {
+        "Total": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "Page": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "Results": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Smlouva"
+          }
+        }
+      }
+    },
+    "Smlouva": {
+      "type": "object",
+      "properties": {
+        "identifikator": {
+          "$ref": "#/definitions/tIdentifikator"
+        },
+        "CalculatedPriceWithVATinCZK": {
+          "format": "double",
+          "type": "number"
+        },
+        "CalcutatedPriceQuality": {
+          "format": "int32",
+          "enum": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "type": "integer"
+        },
+        "casZverejneni": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "cisloSmlouvy": {
+          "type": "string"
+        },
+        "ciziMena": {
+          "$ref": "#/definitions/tSmlouvaCiziMena"
+        },
+        "Classification": {
+          "$ref": "#/definitions/SClassification"
+        },
+        "ConfidenceValue": {
+          "format": "double",
+          "type": "number"
+        },
+        "datumUzavreni": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "Enhancements": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Enhancement"
+          }
+        },
+        "hodnotaBezDph": {
+          "format": "double",
+          "type": "number"
+        },
+        "hodnotaVcetneDph": {
+          "format": "double",
+          "type": "number"
+        },
+        "Id": {
+          "type": "string",
+          "readOnly": true
+        },
+        "Issues": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Issue"
+          }
+        },
+        "LastUpdate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "navazanyZaznam": {
+          "type": "string"
+        },
+        "odkaz": {
+          "type": "string"
+        },
+        "Platce": {
+          "$ref": "#/definitions/Subjekt"
+        },
+        "platnyZaznam": {
+          "type": "boolean"
+        },
+        "PravniRamec": {
+          "format": "int32",
+          "enum": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "type": "integer",
+          "readOnly": true
+        },
+        "predmet": {
+          "type": "string"
+        },
+        "Prijemce": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Subjekt"
+          }
+        },
+        "Prilohy": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Priloha"
+          }
+        },
+        "schvalil": {
+          "type": "string"
+        },
+        "souvisejiciSmlouvy": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "spadaPodRS": {
+          "type": "boolean"
+        },
+        "SVazbouNaPolitiky": {
+          "type": "boolean"
+        },
+        "SVazbouNaPolitikyAktualni": {
+          "type": "boolean"
+        },
+        "SVazbouNaPolitikyNedavne": {
+          "type": "boolean"
+        },
+        "Hint": {
+          "$ref": "#/definitions/HintSmlouva"
+        },
+        "VkladatelDoRejstriku": {
+          "$ref": "#/definitions/Subjekt"
+        }
+      }
+    },
+    "tIdentifikator": {
+      "type": "object",
+      "properties": {
+        "idSmlouvy": {
+          "type": "string"
+        },
+        "idVerze": {
+          "type": "string"
+        }
+      }
+    },
+    "tSmlouvaCiziMena": {
+      "type": "object",
+      "properties": {
+        "hodnota": {
+          "format": "double",
+          "type": "number"
+        },
+        "mena": {
+          "type": "string"
+        }
+      }
+    },
+    "SClassification": {
+      "type": "object",
+      "properties": {
+        "LastUpdate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "Version": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "Types": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Classification"
+          }
+        }
+      }
+    },
+    "Enhancement": {
+      "type": "object",
+      "properties": {
+        "Created": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "Title": {
+          "type": "string"
+        },
+        "Description": {
+          "type": "string"
+        },
+        "Changed": {
+          "$ref": "#/definitions/Change"
+        },
+        "Public": {
+          "type": "boolean"
+        },
+        "EnhancerType": {
+          "type": "string"
+        }
+      }
+    },
+    "Issue": {
+      "type": "object",
+      "properties": {
+        "IssueTypeId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "Created": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "Title": {
+          "type": "string"
+        },
+        "TextDescription": {
+          "type": "string"
+        },
+        "Public": {
+          "type": "boolean"
+        },
+        "Permanent": {
+          "type": "boolean"
+        },
+        "Importance": {
+          "format": "int32",
+          "enum": [
+            0,
+            1,
+            5,
+            20,
+            100,
+            -1
+          ],
+          "type": "integer"
+        },
+        "AffectedParams": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/KeyValue"
+          }
+        },
+        "AnalyzerType": {
+          "type": "string"
+        }
+      }
+    },
+    "Subjekt": {
+      "type": "object",
+      "properties": {
+        "adresa": {
+          "type": "string"
+        },
+        "datovaSchranka": {
+          "type": "string"
+        },
+        "ico": {
+          "type": "string"
+        },
+        "nazev": {
+          "type": "string"
+        },
+        "utvar": {
+          "type": "string"
+        }
+      }
+    },
+    "Priloha": {
+      "type": "object",
+      "properties": {
+        "FileMetadata": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/KeyVal"
+          }
+        },
+        "data": {
+          "format": "byte",
+          "type": "string"
+        },
+        "nazevSouboru": {
+          "type": "string"
+        },
+        "hash": {
+          "$ref": "#/definitions/tHash"
+        },
+        "odkaz": {
+          "type": "string"
+        },
+        "PlainTextContent": {
+          "type": "string"
+        },
+        "PlainTextContentQuality": {
+          "format": "int32",
+          "enum": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "type": "integer"
+        },
+        "LastUpdate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "LocalCopy": {
+          "format": "byte",
+          "type": "string"
+        },
+        "ContentType": {
+          "type": "string"
+        },
+        "Lenght": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "WordCount": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "UniqueWordsCount": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "WordsVariance": {
+          "format": "double",
+          "type": "number"
+        },
+        "Pages": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "EnoughExtractedText": {
+          "type": "boolean",
+          "readOnly": true
+        }
+      }
+    },
+    "HintSmlouva": {
+      "type": "object",
+      "properties": {
+        "SmlouvaULimitu": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "DenUzavreni": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "SmlouvaSPolitickyAngazovanymSubjektem": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "PocetDniOdZalozeniFirmy": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "VztahSeSoukromymSubjektem": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "Classification": {
+      "type": "object",
+      "properties": {
+        "TypeValue": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "ClassifProbability": {
+          "format": "double",
+          "type": "number"
+        },
+        "RootClassification": {
+          "type": "boolean",
+          "readOnly": true
+        }
+      }
+    },
+    "Change": {
+      "type": "object",
+      "properties": {
+        "ParameterName": {
+          "type": "string"
+        },
+        "PreviousValue": {
+          "type": "string"
+        },
+        "NewValue": {
+          "type": "string"
+        }
+      }
+    },
+    "KeyValue": {
+      "type": "object",
+      "properties": {
+        "Key": {
+          "type": "string"
+        },
+        "Value": {
+          "type": "string"
+        }
+      }
+    },
+    "KeyVal": {
+      "type": "object",
+      "properties": {
+        "Key": {
+          "type": "string"
+        },
+        "Value": {
+          "type": "string"
+        }
+      }
+    },
+    "tHash": {
+      "type": "object",
+      "properties": {
+        "algoritmus": {
+          "type": "string"
+        },
+        "Value": {
+          "type": "string"
+        }
+      }
+    },
+    "VerejnaZakazka": {
+      "type": "object",
+      "properties": {
+        "OnlyOnProfile": {
+          "type": "boolean"
+        },
+        "Id": {
+          "type": "string"
+        },
+        "EvidencniCisloZakazky": {
+          "type": "string"
+        },
+        "ZakazkaNaProfiluId": {
+          "type": "string"
+        },
+        "Formulare": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Formular"
+          }
+        },
+        "Kriteria": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/HodnoticiKriteria"
+          }
+        },
+        "DisplayId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "Dataset": {
+          "type": "string"
+        },
+        "Zadavatel": {
+          "$ref": "#/definitions/Subject"
+        },
+        "Dodavatele": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Subject"
+          }
+        },
+        "NazevZakazky": {
+          "type": "string"
+        },
+        "PopisZakazky": {
+          "type": "string"
+        },
+        "Dokumenty": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Document"
+          }
+        },
+        "CPV": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "DatumUverejneni": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "LhutaDoruceni": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "DatumUzavreniSmlouvy": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "PosledniZmena": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "StavVZ": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "StavZakazky": {
+          "format": "int32",
+          "enum": [
+            0,
+            1,
+            50,
+            100,
+            200,
+            300
+          ],
+          "type": "integer"
+        },
+        "LastUpdated": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "OdhadovanaHodnotaBezDPH": {
+          "format": "double",
+          "type": "number"
+        },
+        "KonecnaHodnotaBezDPH": {
+          "format": "double",
+          "type": "number"
+        },
+        "OdhadovanaHodnotaMena": {
+          "type": "string"
+        },
+        "KonecnaHodnotaMena": {
+          "type": "string"
+        },
+        "RawHtml": {
+          "type": "string"
+        }
+      }
+    },
+    "Formular": {
+      "type": "object",
+      "properties": {
+        "Cislo": {
+          "type": "string"
+        },
+        "Druh": {
+          "type": "string"
+        },
+        "TypFormulare": {
+          "type": "string"
+        },
+        "LimitVZ": {
+          "type": "string"
+        },
+        "DruhRizeni": {
+          "type": "string"
+        },
+        "Zverejnen": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "URL": {
+          "type": "string"
+        },
+        "OnlyOnProfile": {
+          "type": "boolean"
+        }
+      }
+    },
+    "HodnoticiKriteria": {
+      "type": "object",
+      "properties": {
+        "Poradi": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "Kriterium": {
+          "type": "string"
+        },
+        "Nazev": {
+          "type": "string"
+        },
+        "Vaha": {
+          "format": "double",
+          "type": "number"
+        }
+      }
+    },
+    "Subject": {
+      "type": "object",
+      "properties": {
+        "ICO": {
+          "type": "string"
+        },
+        "Jmeno": {
+          "type": "string"
+        }
+      }
+    },
+    "Document": {
+      "type": "object",
+      "properties": {
+        "OficialUrl": {
+          "type": "string"
+        },
+        "DirectUrl": {
+          "type": "string"
+        },
+        "TypDokumentu": {
+          "type": "string"
+        },
+        "VlozenoNaProfil": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "CisloVerze": {
+          "type": "string"
+        },
+        "PlainText": {
+          "type": "string"
+        },
+        "PlainTextContentQuality": {
+          "format": "int32",
+          "enum": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "type": "integer"
+        },
+        "LastUpdate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "LastProcessed": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "ContentType": {
+          "type": "string"
+        },
+        "Lenght": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "WordCount": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "Pages": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "StorageId": {
+          "type": "string"
+        },
+        "PlainDocumentId": {
+          "type": "string"
+        },
+        "Name": {
+          "type": "string"
+        },
+        "EnoughExtractedText": {
+          "type": "boolean",
+          "readOnly": true
+        }
+      }
+    },
+    "SearchResultDTO[VerejnaZakazka]": {
+      "type": "object",
+      "properties": {
+        "Total": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "Page": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "Results": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/VerejnaZakazka"
+          }
+        }
+      }
+    },
+    "Voice2Text": {
+      "type": "object",
+      "properties": {
+        "dataset": {
+          "type": "string"
+        },
+        "itemid": {
+          "type": "string"
+        }
+      }
+    },
+    "ZabHost": {
+      "type": "object",
+      "properties": {
+        "hostid": {
+          "type": "string"
+        },
+        "host": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "opendataUrl": {
+          "type": "string",
+          "readOnly": true
+        },
+        "pageUrl": {
+          "type": "string",
+          "readOnly": true
+        },
+        "urad": {
+          "type": "string"
+        },
+        "publicname": {
+          "type": "string"
+        },
+        "popis": {
+          "type": "string"
+        },
+        "hash": {
+          "type": "string",
+          "readOnly": true
+        }
+      }
+    },
+    "WebStatusExport": {
+      "type": "object",
+      "properties": {
+        "Availability": {
+          "$ref": "#/definitions/ZabHostAvailability"
+        },
+        "SSL": {
+          "$ref": "#/definitions/SslData"
+        },
+        "DetailUrl": {
+          "type": "string"
+        }
+      }
+    },
+    "ZabHostAvailability": {
+      "type": "object",
+      "properties": {
+        "Host": {
+          "$ref": "#/definitions/ZabHost"
+        },
+        "Data": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ZabAvailability"
+          }
+        }
+      }
+    },
+    "SslData": {
+      "type": "object",
+      "properties": {
+        "Grade": {
+          "type": "string"
+        },
+        "LatestCheck": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "Copyright": {
+          "type": "string"
+        },
+        "FullReport": {
+          "type": "string"
+        }
+      }
+    },
+    "ZabAvailability": {
+      "type": "object",
+      "properties": {
+        "Time": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "Response": {
+          "format": "double",
+          "type": "number"
+        },
+        "HttpStatusCode": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "securityDefinitions": {
+    "apiKey": {
+      "type": "apiKey",
+      "description": "API Key Authentication",
+      "name": "Authorization",
+      "in": "header"
+    }
+  }
+}

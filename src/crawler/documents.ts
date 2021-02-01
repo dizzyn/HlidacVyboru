@@ -1,6 +1,6 @@
 import crawler from ".";
 
-import { createHlidacDocLink, createURL, getDate, removeDate } from "./utils";
+import { createHlidacDocLink, createURL, getDate, removeDate } from "../utils";
 
 export type TDocumentType =
   | "POZVANKA"

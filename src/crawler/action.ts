@@ -10,7 +10,7 @@ import {
   getOnlyNodeText,
   removeDate,
   removeNumber,
-} from "./utils";
+} from "../utils";
 import { fetchHlidac } from "./vybor";
 
 export interface THlidacOnlyDoc {

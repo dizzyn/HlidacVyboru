@@ -1,7 +1,7 @@
 import { GetServerSideProps } from "next";
 import Layout from "../../components/Layout";
-import { createURL } from "../../crawler/utils";
-import vybor, { TVyborDetail } from "../../crawler/vybor";
+import { createURL } from "../../src/utils";
+import vybor, { TVyborDetail } from "../../src/crawler/vybor";
 
 const VyborPage = ({ actions, title, uri }: TVyborDetail & { uri: string }) => {
 

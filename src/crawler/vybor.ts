@@ -6,7 +6,7 @@ import {
   getOnlyNodeText,
   createHlidacJsonLink,
   mergeActions,
-} from "./utils";
+} from "../utils";
 import fetch from "node-fetch";
 export interface TAction {
   title: string;

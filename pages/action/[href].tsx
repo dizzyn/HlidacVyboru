@@ -1,13 +1,13 @@
 import { GetServerSideProps } from "next";
 import Layout from "../../components/Layout";
-import action, { TActionDetail, THlidacOnlyDoc, THlidacOnlyRecord } from "../../crawler/action";
-import { TDocument } from "../../crawler/documents";
+import action, { TActionDetail, THlidacOnlyDoc, THlidacOnlyRecord } from "../../src/crawler/action";
+import { TDocument } from "../../src/crawler/documents";
 import {
   createHlidacJsonLink,
   createHlidacLink,
   createHlidacUpdate,
   createURL,
-} from "../../crawler/utils";
+} from "../../src/utils";
 
 
 

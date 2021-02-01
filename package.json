@@ -6,7 +6,9 @@
     "build": "next build",
     "start": "next start -p $PORT",
     "test": "jest",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "generate-api": "npx swagger-typescript-api -p ./hlidac.json -o ./src -n hlidacAPI.ts",
+    "client": "ts-node --compiler-options '{\"module\":\"commonjs\"}' src/client.ts"
   },
   "dependencies": {
     "@types/crawler": "^1.2.0",
@@ -17,7 +19,8 @@
     "next": "^10.0.5",
     "node-fetch": "^2.6.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "ts-node": "^9.1.1"
   },
   "devDependencies": {
     "@types/jest": "^26.0.20",

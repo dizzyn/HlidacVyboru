@@ -10,7 +10,6 @@
       "dom",
       "es2017"
     ],
-    "module": "esnext",
     "moduleResolution": "node",
     "noEmit": true,
     "noFallthroughCasesInSwitch": true,
@@ -20,6 +19,7 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "esnext",
+    "module": "esnext"
   },
   "exclude": [
     "node_modules"

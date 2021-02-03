@@ -1,4 +1,5 @@
 import crawler from ".";
+import { THlidacData } from "../dao";
 
 import { createHlidacDocLink, createURL, getDate, removeDate } from "../utils";
 
@@ -19,7 +20,7 @@ export interface TDocument {
 
 export const getHlidacDocLink = (
   documentUrl: string,
-  hlidacJson: any,
+  hlidacJson: THlidacData,
   type: TDocumentType
 ) => {
   const hlidacDocIndex = hlidacJson[
@@ -39,7 +40,7 @@ export const fetchDocumentFromLink = async (
   documents: TDocument[],
   selector: string,
   type: TDocumentType,
-  hlidacJson: any,
+  hlidacJson: THlidacData,
   $: cheerio.CheerioAPI,
   sourceUrl: string
 ) => {
@@ -72,7 +73,7 @@ export const loadDocumentArchive = async (
   selector: string,
   date: string,
   type: TDocumentType,
-  hlidacJson: any,
+  hlidacJson: THlidacData,
   $: cheerio.CheerioAPI,
   sourceUrl: string
 ) => {
@@ -115,7 +116,7 @@ export const loadDocumentArchive = async (
 export const loadDocument = async (
   sourceUrl: string,
   type: TDocumentType,
-  hlidacJson: any
+  hlidacJson: THlidacData
 ) =>
   crawler<TDocument>(sourceUrl, async ($) => {
     const title = $(".page-title h1").text();
@@ -231,7 +232,7 @@ export default (
   sourceUrl: string,
   date: string,
   number: string,
-  hlidacJson: any
+  hlidacJson: THlidacData
 ) =>
   crawler<TDocument[]>(sourceUrl, async ($) => {
     const metaHref = $(

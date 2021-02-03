@@ -4,10 +4,9 @@ import {
   removeDate,
   filterActions,
   getOnlyNodeText,
-  createHlidacJsonLink,
   mergeActions,
 } from "../utils";
-import fetch from "node-fetch";
+
 export interface TAction {
   title: string;
   date: string;
@@ -50,10 +49,3 @@ export default (sourceUrl: string) =>
       desc,
     });
   });
-
-export const fetchHlidac = async (id: string) =>
-  await (
-    await fetch(createHlidacJsonLink(id), {
-      headers: { Authorization: `Token ${process.env.HLIDAC_API_TOKEN}` },
-    })
-  ).json();

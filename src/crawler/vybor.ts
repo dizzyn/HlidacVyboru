@@ -5,6 +5,7 @@ import {
   filterActions,
   getOnlyNodeText,
   mergeActions,
+  createURL,
 } from "../utils";
 
 export interface TAction {
@@ -27,19 +28,24 @@ export default (sourceUrl: string) =>
     const actions: TAction[] = $(".news-item.no-date")
       .map((_, item) => {
         const $title = $(item).find(".news-item-title");
-        const $a = $($title).find("a");
         const dateStr =
           getDate($title.text()) ?? getDate(getOnlyNodeText($(item)));
-
+        const $a = $($title).find("a");
+        const url = $a.attr("href");
+        if (!url) {
+          throw new Error(
+            `Nepodařilo se získat URL detailu výboru (${sourceUrl})`
+          );
+        }
         return {
           title: removeDate($title.text()),
           desc: removeDate(getOnlyNodeText($(item))).replace(
             /(,(\s)?)?viz /,
             ""
           ),
-          href: $a.attr("href"),
+          href: createURL(url),
           date: dateStr,
-        };
+        } as TAction;
       })
       .toArray() as any;
 

@@ -9,9 +9,6 @@ import {
   createURL,
 } from "../../src/utils";
 
-
-
-
 const HlidacOnlyDocuments = ({
   hlidacOnlyDocuments,
 }: {
@@ -168,7 +165,7 @@ const ActionPage = ({
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
   try {
-    const url = createURL(decodeURIComponent(String(context.params?.href)));
+    const url = decodeURIComponent(String(context.params?.href));
     const actionData = await action(url);
 
     return {

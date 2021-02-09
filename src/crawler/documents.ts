@@ -80,7 +80,9 @@ export const loadDocumentArchive = async (
   const href = $(selector).attr("href");
 
   if (!href) {
-    throw `Nepodařilo se získat odkaz na stránku archivu (${sourceUrl})`;
+    throw new Error(
+      `Nepodařilo se získat odkaz na stránku archivu (${sourceUrl})`
+    );
   }
 
   await crawler(createURL(href), async ($) => {
@@ -125,11 +127,11 @@ export const loadDocument = async (
       $("a:contains('Verze PDF')").attr("href");
 
     if (!title) {
-      throw `Nepodařilo se získat titulek dokumentu (${sourceUrl})`;
+      throw new Error(`Nepodařilo se získat titulek dokumentu (${sourceUrl})`);
     }
 
     if (!href) {
-      throw `Nepodařilo se získat adresu dokumentu (${sourceUrl})`;
+      throw new Error(`Nepodařilo se získat adresu dokumentu (${sourceUrl})`);
     }
 
     const documentUrl = createURL("text/" + href);
@@ -292,11 +294,15 @@ export default (
           const href = $tr.find("a").attr("href");
 
           if (!href) {
-            throw `Nepodařilo se získat datum usnesení (${sourceUrl})`;
+            throw new Error(
+              `Nepodařilo se získat datum usnesení (${sourceUrl})`
+            );
           }
 
           if (!href) {
-            throw `Nepodařilo se získat link na usnesení (${sourceUrl})`;
+            throw new Error(
+              `Nepodařilo se získat link na usnesení (${sourceUrl})`
+            );
           }
 
           if (trDate === date) {

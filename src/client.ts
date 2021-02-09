@@ -1,17 +1,31 @@
-import { Api } from "./dao/hlidacAPI";
+import vybory from "./crawler/vybory";
+import vybor from "./crawler/vybor";
+import { BASE_URL, createURL } from "./utils";
+import action from "./crawler/action";
 
 require("dotenv").config();
 
-console.log("Client");
+const x: string = "";
 
-// 3900-35-20201208
+console.log("Client", x);
 
-const api = new Api({
-  baseApiParams: {
-    headers: { Authorization: `Token ${process.env.HLIDAC_API_TOKEN}` },
-  },
+const url = createURL(BASE_URL);
+
+const limit = 1;
+let counter = 0;
+
+vybory(url).then(async (vybory) => {
+  for (let iVybor = 0; iVybor < vybor.length; iVybor++) {
+    const { href } = vybory[0];
+    if (limit && counter < limit) {
+      const vyborData = await vybor(href);
+      for (let iAction = 0; iAction < vyborData.actions.length; iAction++) {
+        if (limit && counter < limit) {
+          counter++;
+          const actionData = await action(href);
+          console.log(actionData);
+        }
+      }
+    }
+  }
 });
-api.api
-  .apiV2DatasetyGetAll()
-  .then(async (res) => console.log(res.data))
-  .catch(console.error);

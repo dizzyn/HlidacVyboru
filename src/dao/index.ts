@@ -1,3 +1,4 @@
+import { createHlidacJsonLink } from "../utils";
 import { Api } from "./hlidacAPI";
 
 export type THlidacData = {
@@ -13,10 +14,20 @@ const api = new Api({
   },
 }).api;
 
-// api.api
-//   .apiV2DatasetyGetAll()
-//   .then(async (res) => console.log(res.data))
-//   .catch(console.error);
+export const getHlidac = async (id: string) => {
+  try {
+    return (await api.apiV2DatasetyDatasetItemGet("vybory-psp", id)) as any;
+  } catch (e) {
+    return Promise.resolve({
+      Error: e.error ?? "Zaznam nenalezen.",
+      Detail: null,
+    });
+  }
+};
 
-export const getHlidac = (id: string): THlidacData =>
-  api.apiV2DatasetyDatasetItemGet("vybory-psp", id) as any;
+export const fetchHlidac = async (id: string) =>
+  await (
+    await fetch(createHlidacJsonLink(id), {
+      headers: { Authorization: `Token ${process.env.HLIDAC_API_TOKEN}` },
+    })
+  ).json();

@@ -1,9 +1,9 @@
 import { GetServerSideProps } from "next";
 import Layout from "../components/Layout";
-import { createURL } from "../src/utils";
+import { BASE_URL, createURL } from "../src/utils";
 import vybory, { TVybor } from "../src/crawler/vybory";
 
-const url = createURL("hp.sqw?k=194");
+const url = createURL(BASE_URL);
 
 const IndexPage = ({ items }: { items: TVybor[] }) => (
   <Layout title="Výbory - seznam">

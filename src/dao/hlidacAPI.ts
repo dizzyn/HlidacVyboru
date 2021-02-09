@@ -545,7 +545,7 @@ export class HttpClient<SecurityDataType = unknown> {
   }
 
   protected addQueryParams(rawQuery?: RequestQueryParamsType): string {
-    const query = rawQuery || {};
+    const query = rawQuery ?? {};
     const keys = Object.keys(query).filter(
       (key) => "undefined" !== typeof query[key]
     );
@@ -576,11 +576,11 @@ export class HttpClient<SecurityDataType = unknown> {
     return {
       ...this.baseApiParams,
       ...params,
-      ...(securityParams || {}),
+      ...(securityParams ?? {}),
       headers: {
-        ...(this.baseApiParams.headers || {}),
-        ...(params.headers || {}),
-        ...((securityParams && securityParams.headers) || {}),
+        ...(this.baseApiParams.headers ?? {}),
+        ...(params.headers ?? {}),
+        ...((securityParams && securityParams.headers) ?? {}),
       },
     };
   }
@@ -618,13 +618,13 @@ export class HttpClient<SecurityDataType = unknown> {
   ): Promise<HttpResponse<T>> => {
     const requestUrl = `${this.baseUrl}${path}`;
     const secureOptions =
-      (secureByDefault || secure) && this.securityWorker
+      (secureByDefault ?? secure) && this.securityWorker
         ? this.securityWorker(this.securityData)
         : {};
     const requestOptions = {
       ...this.mergeRequestOptions(params, secureOptions),
       method,
-      body: body ? this.bodyFormatters[bodyType || BodyType.Json](body) : null,
+      body: body ? this.bodyFormatters[bodyType ?? BodyType.Json](body) : null,
     };
 
     return fetch(requestUrl, requestOptions as any).then(async (response) => {

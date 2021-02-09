@@ -8,6 +8,8 @@ import { TAction } from "./crawler/vybor";
 import moment from "moment";
 import { TDocument } from "./crawler/documents";
 
+export const BASE_URL = "hp.sqw?k=194";
+
 const REGEXP_DATE = `\\d{1,2}.\\s(${MONTHS.join("|")})\\s\\d{4}`;
 const REGEXP_DATE_INDEXED = `\\d{1,2}.\\s\\d{1,2}\\.\\s\\d{4}`;
 

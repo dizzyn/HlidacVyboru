@@ -16,18 +16,20 @@ const api = new Api({
 
 export const getHlidac = async (id: string) => {
   try {
-    return (await api.apiV2DatasetyDatasetItemGet("vybory-psp", id)) as any;
+    const x = (await api.apiV2DatasetyDatasetItemGet("vybory-psp", id)) as any;
+    console.log("Mame", x);
+    return x;
   } catch (e) {
-    return Promise.resolve({
-      Error: e.error ?? "Zaznam nenalezen.",
+    return {
+      Error: e ?? "Zaznam nenalezen.",
       Detail: null,
-    });
+    };
   }
 };
 
-export const fetchHlidac = async (id: string) =>
-  await (
-    await fetch(createHlidacJsonLink(id), {
-      headers: { Authorization: `Token ${process.env.HLIDAC_API_TOKEN}` },
-    })
-  ).json();
+// export const fetchHlidac = async (id: string) =>
+//   await (
+//     await fetch(createHlidacJsonLink(id), {
+//       headers: { Authorization: `Token ${process.env.HLIDAC_API_TOKEN}` },
+//     })
+//   ).json();

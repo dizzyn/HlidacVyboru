@@ -11,7 +11,7 @@ import {
   removeDate,
   removeNumber,
 } from "../utils";
-import { fetchHlidac, getHlidac, THlidacData } from "../dao";
+import { getHlidac, THlidacData } from "../dao";
 
 export interface THlidacOnlyDoc {
   title: string;
@@ -57,7 +57,7 @@ export default (sourceUrl: string) =>
     const documentsHref = $("a:contains('Dokumenty')").attr("href");
     const number = getNumber(removeDate(title)) ?? getNumber(removeDate(desc));
     const committee = getOnlyNodeText($("#left-column h2")).trim();
-
+    // console.log("a", $("#left-column").html());
     if (!documentsHref) {
       throw `Nepodařilo se získat link na dokumenty (${sourceUrl})`;
     }
@@ -84,7 +84,8 @@ export default (sourceUrl: string) =>
       throw `Nepodařilo se vypočítat ID pro hlídač (${sourceUrl})`;
     }
 
-    const hlidacJson = await fetchHlidac(hlidacId);
+    // const hlidacJson = await fetchHlidac(hlidacId);
+    const hlidacJson = await getHlidac(hlidacId);
 
     if (!hlidacJson ?? typeof hlidacJson !== "object") {
       throw `Nepodařilo se získat data z hlídače (${sourceUrl})`;

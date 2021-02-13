@@ -8,20 +8,21 @@ export type THlidacData = {
   Error?: string;
 };
 
-const api = new Api({
-  baseApiParams: {
-    headers: { Authorization: `Token ${process.env.HLIDAC_API_TOKEN}` },
-  },
-}).api;
+const api = new Api().api;
+const options = {
+  headers: { Authorization: `Token ${process.env.HLIDAC_API_TOKEN}` },
+};
 
 export const getHlidac = async (id: string) => {
   try {
-    const x = (await api.apiV2DatasetyDatasetItemGet("vybory-psp", id)) as any;
-    console.log("Mame", x);
-    return x;
+    return (await api.apiV2DatasetyDatasetItemGet(
+      "vybory-psp",
+      id,
+      options
+    )) as any;
   } catch (e) {
     return {
-      Error: e ?? "Zaznam nenalezen.",
+      Error: "Zaznam nenalezen.",
       Detail: null,
     };
   }

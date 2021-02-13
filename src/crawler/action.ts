@@ -45,7 +45,6 @@ export interface TActionDetail {
   hlidacOnlyRecords: THlidacOnlyRecord[];
   sourceUrl: string;
   hlidacId: string;
-  hlidacError: string | null;
   hlidacJson: THlidacData;
 }
 

@@ -86,7 +86,6 @@ const ActionPage = ({
     documents,
     records,
     sourceUrl,
-    hlidacError,
     hlidacOnlyDocuments,
     hlidacOnlyRecords,
     hlidacJson
@@ -105,9 +104,9 @@ const ActionPage = ({
         {committee} - {title}
       </h1>
       <a href={sourceUrl}>Source</a> | Hlídač:{" "}
-      {hlidacError ? (
+      {hlidacJson.Error ? (
         <span className="error">
-          {hlidacError} ({hlidacId})
+          {hlidacJson.Error} ({hlidacId})
         </span>
       ) : (
           <span>

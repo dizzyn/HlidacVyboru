@@ -5,8 +5,7 @@ import { TDocument } from "../../src/crawler/documents";
 import {
   createHlidacJsonLink,
   createHlidacLink,
-  createHlidacUpdate,
-  createURL,
+  createHlidacUpdate
 } from "../../src/utils";
 
 const HlidacOnlyDocuments = ({

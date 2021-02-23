@@ -11,7 +11,7 @@ import {
   removeDate,
   removeNumber,
 } from "../utils";
-import { getHlidac, THlidacData } from "../dao";
+import { fetchHlidac, THlidacData } from "../dao";
 
 export interface THlidacOnlyDoc {
   title: string;
@@ -83,8 +83,7 @@ export default (sourceUrl: string) =>
       throw `Nepodařilo se vypočítat ID pro hlídač (${sourceUrl})`;
     }
 
-    // const hlidacJson = await fetchHlidac(hlidacId);
-    const hlidacJson = await getHlidac(hlidacId);
+    const hlidacJson = await fetchHlidac(hlidacId);
 
     if (!hlidacJson ?? typeof hlidacJson !== "object") {
       throw `Nepodařilo se získat data z hlídače (${sourceUrl})`;

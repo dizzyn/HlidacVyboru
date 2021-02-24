@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Convert to hlidac data 1`] = `
+Object {
+  "Id": "3200-78-20201209",
+  "audio": Array [],
+  "cisloJednani": 78,
+  "datum": "1981-08-01-T00:00:00",
+  "dokumenty": Array [],
+  "vybor": "Hospodářský výbor",
+  "vyborId": 3500,
+  "vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3500",
+}
+`;

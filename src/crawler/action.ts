@@ -1,6 +1,6 @@
 import crawler from ".";
 import documents, { fetchDocumentFromLink, TDocument } from "./documents";
-import { COMMITTEE_NAMES, TCommitteeName } from "./enums";
+import { COMMITTEE_NAMES, TCommitteeName } from "../enums";
 import {
   createHlidacDocLink,
   createHlidacId,
@@ -12,6 +12,7 @@ import {
   removeNumber,
 } from "../utils";
 import { getHlidac, THlidacData } from "../dao";
+import { createHlidacData, update } from "../updater";
 
 export interface THlidacOnlyDoc {
   title: string;
@@ -38,14 +39,14 @@ export interface TActionDetail {
   title: string;
   date: string;
   committee: TCommitteeName;
-  number: string;
+  number: number;
   documents: TDocument[];
   records: TDocument[];
   hlidacOnlyDocuments: THlidacOnlyDoc[];
   hlidacOnlyRecords: THlidacOnlyRecord[];
   sourceUrl: string;
   hlidacId: string;
-  hlidacJson: THlidacData;
+  hlidacJson: THlidacData | null;
 }
 
 export default (sourceUrl: string) =>
@@ -54,7 +55,10 @@ export default (sourceUrl: string) =>
     const desc = $("#main-content").text();
     const date = getDate(title) ?? getDate(desc);
     const documentsHref = $("a:contains('Dokumenty')").attr("href");
-    const number = getNumber(removeDate(title)) ?? getNumber(removeDate(desc));
+    const number = parseInt(
+      getNumber(removeDate(title)) ?? getNumber(removeDate(desc)) ?? "",
+      10
+    );
     const committee = getOnlyNodeText($("#left-column h2")).trim();
     // console.log("a", $("#left-column").html());
     if (!documentsHref) {
@@ -75,7 +79,7 @@ export default (sourceUrl: string) =>
 
     const hlidacId = createHlidacId(
       date.trim(),
-      number.trim(),
+      number,
       committee as TCommitteeName
     );
 
@@ -83,12 +87,7 @@ export default (sourceUrl: string) =>
       throw `Nepodařilo se vypočítat ID pro hlídač (${sourceUrl})`;
     }
 
-    // const hlidacJson = await fetchHlidac(hlidacId);
     const hlidacJson = await getHlidac(hlidacId);
-
-    if (!hlidacJson ?? typeof hlidacJson !== "object") {
-      throw `Nepodařilo se získat data z hlídače (${sourceUrl})`;
-    }
 
     const docsRaw = await documents(
       createURL(documentsHref),
@@ -101,8 +100,8 @@ export default (sourceUrl: string) =>
     const records = docsRaw.filter(({ type }) => type === "ZAZNAM");
 
     const hlidacOnlyDocuments =
-      hlidacJson.dokumenty?.reduce(
-        (acc: THlidacOnlyDoc[], doc: any, i: number) =>
+      hlidacJson?.dokumenty?.reduce(
+        (acc: THlidacOnlyDoc[], doc, i: number) =>
           docs.find(({ documentUrl }) => doc.DocumentUrl === documentUrl)
             ? acc
             : [
@@ -117,7 +116,7 @@ export default (sourceUrl: string) =>
       ) ?? [];
 
     const hlidacOnlyRecords =
-      hlidacJson.audio?.reduce(
+      hlidacJson?.audio?.reduce(
         (acc: THlidacOnlyRecord[], rec: any, i: number) =>
           records.find(({ documentUrl }) => rec.DocumentUrl === documentUrl)
             ? acc
@@ -142,17 +141,36 @@ export default (sourceUrl: string) =>
       sourceUrl
     );
 
+    // console.log(
+    //   "hop",
+    //   number,
+    //   JSON.stringify(
+    //     createHlidacData({
+    //       title: removeDate(removeNumber(title)),
+    //       date: date.trim(),
+    //       committee: committee as TCommitteeName,
+    //       number,
+    //       sourceUrl,
+    //       documents: removeDuplicities(docs),
+    //       records: removeDuplicities(records),
+    //       hlidacOnlyDocuments,
+    //       hlidacOnlyRecords,
+    //       hlidacId,
+    //       hlidacJson,
+    //     })
+    //   )
+    // );
+
     return {
       title: removeDate(removeNumber(title)),
       date: date.trim(),
       committee: committee as TCommitteeName,
-      number: number.trim(),
+      number: number,
       sourceUrl,
       documents: removeDuplicities(docs),
       records: removeDuplicities(records),
       hlidacOnlyDocuments,
       hlidacOnlyRecords,
-      hlidacError: hlidacJson.Error ?? null,
       hlidacId,
       hlidacJson,
     };

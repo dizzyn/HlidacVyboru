@@ -1,7 +1,9 @@
 import {
+  createDocFileName,
   createHlidacId,
   getDate,
   getNumber,
+  padWithZeroes,
   removeDate,
   removeNumber,
 } from "./utils";
@@ -81,22 +83,33 @@ test("Remove number", () => {
 });
 
 test("Hlidac ID", () => {
-  expect(createHlidacId("10. prosince 2020", "36", "Hospodářský výbor")).toBe(
+  expect(createHlidacId("10. prosince 2020", 36, "Hospodářský výbor")).toBe(
     "3500-36-20201210"
   );
-  expect(createHlidacId("1. ledna 2020", "12", "Petiční výbor")).toBe(
+  expect(createHlidacId("1. ledna 2020", 12, "Petiční výbor")).toBe(
     "3900-12-20200101"
   );
-  expect(createHlidacId("10. února 2020", "1", "Hospodářský výbor")).toBe(
+  expect(createHlidacId("10. února 2020", 1, "Hospodářský výbor")).toBe(
     "3500-1-20200210"
   );
-  expect(createHlidacId("10. března 1200", "1", "Organizační výbor")).toBe(
+  expect(createHlidacId("10. března 1200", 1, "Organizační výbor")).toBe(
     "3800-1-12000310"
   );
 });
 
-// test("Merge actions", () => {
-//   expect(createHlidacId("10. prosince 2020", "36", "Hospodářský výbor")).toBe(
-//     "3500-36-20201210"
-//   );
+test("pad with zeroes", () => {
+  expect(padWithZeroes(1, 3)).toBe("001");
+  expect(padWithZeroes(12, 3)).toBe("012");
+  expect(padWithZeroes(123, 3)).toBe("123");
+  expect(padWithZeroes(9999, 3)).toBe("9999");
+});
+
+// test("Create timestamp from actual date", () => {
+//   expect(nowTimestam()).toBe("001");
 // });
+
+test("Filemanes", () => {
+  expect(createDocFileName("Usnesení č. 208 (4. února 2021)", "doc")).toBe(
+    "Usnesení_č._208_4._února_2021_.doc"
+  );
+});

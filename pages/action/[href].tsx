@@ -1,21 +1,18 @@
 import { GetServerSideProps } from "next";
 import Layout from "../../components/Layout";
-import action, { TActionDetail, THlidacOnlyDoc, THlidacOnlyRecord } from "../../src/crawler/action";
+import action, {
+  TActionDetail,
+  THlidacOnlyDoc,
+  THlidacOnlyRecord,
+} from "../../src/crawler/action";
 import { TDocument } from "../../src/crawler/documents";
-import {
-  createHlidacJsonLink,
-  createHlidacLink,
-  createHlidacUpdate,
-  createURL,
-} from "../../src/utils";
+import { createHlidacJsonLink, createHlidacLink } from "../../src/utils";
 
 const HlidacOnlyDocuments = ({
   hlidacOnlyDocuments,
 }: {
-
   hlidacOnlyDocuments: THlidacOnlyDoc[] | THlidacOnlyRecord[];
 }) => {
-
   const docHlidacOnlyRnds = hlidacOnlyDocuments.map(
     ({ title, documentUrl, hlidacLink }) => (
       <tr key={documentUrl}>
@@ -33,7 +30,11 @@ const HlidacOnlyDocuments = ({
     <>
       {docHlidacOnlyRnds.length ? (
         <>
-          <tr><th className="error" colSpan={10}>Dokumenty nalezené pouze na hlídači:</th></tr>
+          <tr>
+            <th className="error" colSpan={10}>
+              Dokumenty nalezené pouze na hlídači:
+            </th>
+          </tr>
           {docHlidacOnlyRnds}
         </>
       ) : null}
@@ -41,39 +42,36 @@ const HlidacOnlyDocuments = ({
   );
 };
 
-const Documents = ({
-  documents,
-}: {
-  documents: TDocument[];
-}) => {
+const Documents = ({ documents }: { documents: TDocument[] }) => {
   const docRnds = documents.map(
-    ({ title, type, documentUrl, sourceUrl, hlidacLink }) => (
+    ({ desc, filename, type, documentUrl, sourceUrl, hlidacLink }) => (
       <tr key={documentUrl}>
         <td>{type}</td>
         <td>
-          <a href={documentUrl}>{title}</a>
+          <a href={documentUrl}>{desc}</a>
+        </td>
+        <td>
+          <a href={documentUrl}>{filename}</a>
         </td>
         <td colSpan={1}>
           <a href={sourceUrl}>Zdroj dat</a>
         </td>
         <td colSpan={1}>
           {hlidacLink ? (
-            type === "ZAZNAM"
-              ? <span>Na hlídači</span>
-              : <a href={hlidacLink}>Na hlídači</a>
+            type === "ZAZNAM" ? (
+              <span>Na hlídači</span>
+            ) : (
+              <a href={hlidacLink}>Na hlídači</a>
+            )
           ) : (
-              <div className="error">Není na hlídači</div>
-            )}
+            <div className="error">Není na hlídači</div>
+          )}
         </td>
       </tr>
     )
   );
 
-  return (
-    <>
-      {docRnds}
-    </>
-  );
+  return <>{docRnds}</>;
 };
 
 const ActionPage = ({
@@ -88,7 +86,7 @@ const ActionPage = ({
     sourceUrl,
     hlidacOnlyDocuments,
     hlidacOnlyRecords,
-    hlidacJson
+    hlidacJson,
   },
   errorStr,
 }: {
@@ -104,16 +102,14 @@ const ActionPage = ({
         {committee} - {title}
       </h1>
       <a href={sourceUrl}>Source</a> | Hlídač:{" "}
-      {hlidacJson.Error ? (
-        <span className="error">
-          {hlidacJson.Error} ({hlidacId})
-        </span>
+      {!hlidacJson ? (
+        <span className="error">Záznam nenalezen ({hlidacId})</span>
       ) : (
-          <span>
-            <a href={createHlidacLink(hlidacId)}>Web</a> /
-            <a href={createHlidacJsonLink(hlidacId)}>JSON</a>
-          </span>
-        )}
+        <span>
+          <a href={createHlidacLink(hlidacId)}>Web</a> /
+          <a href={createHlidacJsonLink(hlidacId)}>JSON</a>
+        </span>
+      )}
       <hr />
       <table>
         <tbody>
@@ -130,9 +126,7 @@ const ActionPage = ({
             <td>
               <table>
                 <tbody>
-                  <Documents
-                    documents={documents}
-                  />
+                  <Documents documents={documents} />
                   <HlidacOnlyDocuments
                     hlidacOnlyDocuments={hlidacOnlyDocuments}
                   />
@@ -145,9 +139,7 @@ const ActionPage = ({
             <td>
               <table>
                 <tbody>
-                  <Documents
-                    documents={records}
-                  />
+                  <Documents documents={records} />
                   <HlidacOnlyDocuments
                     hlidacOnlyDocuments={hlidacOnlyRecords}
                   />
@@ -157,7 +149,7 @@ const ActionPage = ({
           </tr>
         </tbody>
       </table>
-      <>{createHlidacUpdate(hlidacJson, documents)}</>
+      {/* <>{createHlidacUpdate(hlidacJson, documents)}</> */}
     </Layout>
   );
 };

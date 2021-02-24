@@ -1,7 +1,13 @@
 import crawler from ".";
 import { THlidacData } from "../dao";
 
-import { createHlidacDocLink, createURL, getDate, removeDate } from "../utils";
+import {
+  createDocFileName,
+  createHlidacDocLink,
+  createURL,
+  getDate,
+  removeDate,
+} from "../utils";
 
 export type TDocumentType =
   | "POZVANKA"
@@ -11,7 +17,8 @@ export type TDocumentType =
   | "DOKUMENT";
 
 export interface TDocument {
-  title: string;
+  filename: string;
+  desc: string;
   type: TDocumentType;
   documentUrl: string;
   sourceUrl: string;
@@ -20,9 +27,12 @@ export interface TDocument {
 
 export const getHlidacDocLink = (
   documentUrl: string,
-  hlidacJson: THlidacData,
+  hlidacJson: THlidacData | null,
   type: TDocumentType
 ) => {
+  if (!hlidacJson) {
+    return null;
+  }
   const hlidacDocIndex = hlidacJson[
     type === "ZAZNAM" ? "audio" : "dokumenty"
   ]?.findIndex(({ DocumentUrl }: any) => {
@@ -40,7 +50,7 @@ export const fetchDocumentFromLink = async (
   documents: TDocument[],
   selector: string,
   type: TDocumentType,
-  hlidacJson: THlidacData,
+  hlidacJson: THlidacData | null,
   $: cheerio.CheerioAPI,
   sourceUrl: string
 ) => {
@@ -50,11 +60,23 @@ export const fetchDocumentFromLink = async (
     const docHref = $docElement.attr("href");
     if (docHref) {
       const documentUrl = createURL(docHref);
-      const title = removeDate($docElement.text());
+      const desc = removeDate($docElement.text());
+      const definitiveType = desc.toLowerCase().includes("mp3")
+        ? "ZAZNAM"
+        : type;
+      // console.log("Cicina 1 -", desc, "-");
       if (docHref.includes("orig2.sqw")) {
         documents.push({
-          title,
-          type: title.toLowerCase().includes("mp3") ? "ZAZNAM" : type,
+          desc,
+          filename: createDocFileName(
+            desc,
+            definitiveType === "ZAZNAM"
+              ? "mp3"
+              : docHref.includes("pdf=1")
+              ? "pdf"
+              : "doc"
+          ),
+          type: definitiveType,
           documentUrl,
           sourceUrl,
           hlidacLink: getHlidacDocLink(documentUrl, hlidacJson, type),
@@ -73,7 +95,7 @@ export const loadDocumentArchive = async (
   selector: string,
   date: string,
   type: TDocumentType,
-  hlidacJson: THlidacData,
+  hlidacJson: THlidacData | null,
   $: cheerio.CheerioAPI,
   sourceUrl: string
 ) => {
@@ -96,7 +118,12 @@ export const loadDocumentArchive = async (
       const $docElement = $($docElements[i]);
       const docHref = $docElement.attr("href") ?? "";
       if (docHref) {
-        const doc = await loadDocument(createURL(docHref), type, hlidacJson);
+        const doc = await loadDocument(
+          createURL(docHref),
+          type,
+          hlidacJson,
+          $docElement.parent("td").next("td").text()
+        );
         documents.push(doc);
       }
     }
@@ -118,7 +145,8 @@ export const loadDocumentArchive = async (
 export const loadDocument = async (
   sourceUrl: string,
   type: TDocumentType,
-  hlidacJson: THlidacData
+  hlidacJson: THlidacData | null,
+  desc?: string
 ) =>
   crawler<TDocument>(sourceUrl, async ($) => {
     const title = $(".page-title h1").text();
@@ -135,9 +163,9 @@ export const loadDocument = async (
     }
 
     const documentUrl = createURL("text/" + href);
-
     return {
-      title: removeDate(title),
+      desc: desc ?? removeDate(title),
+      filename: createDocFileName(title, "docx"),
       type,
       documentUrl,
       sourceUrl,
@@ -147,7 +175,7 @@ export const loadDocument = async (
 
 const loadAlternateMetaHref = async (
   sourceUrl: string,
-  number: string
+  number: number
 ): Promise<string | null> =>
   crawler<string | null>(sourceUrl, async ($) => {
     // console.log("Hledám meta", number, sourceUrl);
@@ -166,7 +194,11 @@ const loadAlternateMetaHref = async (
     return null;
   });
 
-const loadMeta = async (sourceUrl: string, number: string, hlidacJson: any) =>
+const loadMeta = async (
+  sourceUrl: string,
+  number: number,
+  hlidacJson: THlidacData | null
+) =>
   crawler<TDocument[]>(sourceUrl, async ($) => {
     const documents: TDocument[] = [];
 
@@ -211,15 +243,14 @@ const loadMeta = async (sourceUrl: string, number: string, hlidacJson: any) =>
     );
 
     // Zaznam
-    const zaznamHref = $(`h4:contains('Zvukový záznam z jednání')+* a`).attr(
-      "href"
-    );
-
+    const $zaznamLink = $(`h4:contains('Zvukový záznam z jednání')+* a`);
+    const zaznamHref = $zaznamLink.attr("href");
     if (zaznamHref) {
       const documentUrl = createURL(zaznamHref);
 
       documents.push({
-        title: `Zvukový záznam z jednání č ${number}.`,
+        desc: `Zvukový záznam z jednání č ${number}.`,
+        filename: $zaznamLink.text(),
         type: "ZAZNAM",
         documentUrl,
         sourceUrl,
@@ -233,8 +264,8 @@ const loadMeta = async (sourceUrl: string, number: string, hlidacJson: any) =>
 export default (
   sourceUrl: string,
   date: string,
-  number: string,
-  hlidacJson: THlidacData
+  number: number,
+  hlidacJson: THlidacData | null
 ) =>
   crawler<TDocument[]>(sourceUrl, async ($) => {
     const metaHref = $(

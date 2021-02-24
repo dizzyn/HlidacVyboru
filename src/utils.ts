@@ -3,7 +3,7 @@ import {
   COMMITTEE_SHORTCUTS,
   MONTHS,
   TCommitteeName,
-} from "./crawler/enums";
+} from "./enums";
 import { TAction } from "./crawler/vybor";
 import moment from "moment";
 import { TDocument } from "./crawler/documents";
@@ -23,9 +23,13 @@ export const getDate = (str: string) => {
   return found && found.length ? found[0] : null;
 };
 
-// @ts-ignore
-export const createHlidacUpdate = (hlidacJson: any, documents: TDocument[]) => {
-  // console.log("AA", hlidacJson);
+export const padWithZeroes = (number: number, length: number) => {
+  let my_string = "" + number;
+  while (my_string.length < length) {
+    my_string = "0" + my_string;
+  }
+
+  return my_string;
 };
 
 export const removeDate = (str: string) => {
@@ -81,9 +85,9 @@ export const createURL = (path: string) => {
   } else if (path.includes("http://")) {
     return path;
   } else if (path && path.includes("sqw/")) {
-    return `https://www.psp.cz/${path ?? ""}`;
+    return `https://www.psp.cz/${path || ""}`;
   }
-  return `https://www.psp.cz/sqw/${path ?? ""}`;
+  return `https://www.psp.cz/sqw/${path || ""}`;
 };
 
 export const getOnlyNodeText = ($item: cheerio.Cheerio) =>
@@ -91,7 +95,7 @@ export const getOnlyNodeText = ($item: cheerio.Cheerio) =>
 
 export const createHlidacId = (
   date: string,
-  number: string,
+  number: number,
   name: TCommitteeName
 ) => {
   MONTHS.map((month, i) => {
@@ -110,3 +114,15 @@ export const mergeActions = (items: TAction[]) =>
       acc.find(({ date }) => date === action.date) ? acc : [...acc, action],
     []
   );
+
+export const nowTimestam = () => {
+  return moment().format("YYYYMMDDHHmmss");
+};
+
+export const createDocFileName = (
+  title: string,
+  type: "doc" | "docx" | "pdf" | "mp3"
+) => {
+  const str = title.replace(/\(|\)|\\|\/|\s/g, "_") + "." + type;
+  return str.replace(/_+/g, "_");
+};

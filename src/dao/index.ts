@@ -1,36 +1,67 @@
-import { createHlidacJsonLink } from "../utils";
 import { Api } from "./hlidacAPI";
+
+require("dotenv").config();
 
 export type THlidacData = {
   Id: string;
-  dokumenty: any[];
-  audio: any[];
-  Error?: string;
+  datum: string;
+  cisloJednani: number;
+  vybor: string;
+  vyborId: number;
+  vyborUrl: string;
+  dokumenty: {
+    DocumentUrl: string;
+    jmeno: string;
+    popis: string;
+    typ:
+      | "Pozvánka"
+      | "Zápis z jednání"
+      | "Usnesení"
+      | "Dokumenty a prezentace"
+      | "Zvukový záznam z jednání";
+  }[];
+  audio: { DocumentUrl: string; jmeno: string }[];
 };
 
-const api = new Api().api;
-const options = {
-  headers: { Authorization: `Token ${process.env.HLIDAC_API_TOKEN}` },
-};
+const api = new Api({
+  baseApiParams: {
+    headers: {
+      Authorization: `Token ${process.env.HLIDAC_API_TOKEN}`,
+      "Content-Type": "application/json",
+    },
+  },
+}).api;
 
-export const getHlidac = async (id: string) => {
+export const getHlidac = async (id: string): Promise<THlidacData | null> => {
   try {
-    return (await api.apiV2DatasetyDatasetItemGet(
+    const res = (await api.apiV2DatasetyDatasetItemGet(
       "vybory-psp",
-      id,
-      options
+      id
     )) as any;
+
+    return res?.data;
   } catch (e) {
-    return {
-      Error: "Zaznam nenalezen.",
-      Detail: null,
-    };
+    console.log(e?.error?.Error === "Zaznam nenalezen.");
+    if (e?.error?.Error === "Zaznam nenalezen.") {
+      return Promise.resolve(null);
+    }
+    console.error(e);
+    throw e;
   }
 };
 
-// export const fetchHlidac = async (id: string) =>
-//   await (
-//     await fetch(createHlidacJsonLink(id), {
-//       headers: { Authorization: `Token ${process.env.HLIDAC_API_TOKEN}` },
-//     })
-//   ).json();
+export const insertHlidac = async (hlidacId: string, data: THlidacData) => {
+  try {
+    const res = await api.apiV2DatasetyDatasetItemUpdate(
+      "vybory-psp",
+      hlidacId,
+      data
+    );
+    console.log("res", res);
+    return res?.data;
+  } catch (e) {
+    console.log(e?.error?.Error === "Zaznam nebylo mozno vlozit.");
+    console.error(e);
+    throw e;
+  }
+};

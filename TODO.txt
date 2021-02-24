@@ -1,5 +1,0 @@
-Todo:
-! Radit podle hlidace
-! Nacist archiv vsech jednani a zmergovat
-
-- Co je to PDF tady? - https://hlidac-vyboru.herokuapp.com/action/hp.sqw%3Fk%3D4612%26z%3D14161

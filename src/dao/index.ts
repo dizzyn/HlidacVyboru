@@ -1,4 +1,5 @@
-import { createHlidacJsonLink } from "../utils";
+import { createHlidacAPIGetLink, createHlidacAPISetLink } from "../utils";
+import fetch from "node-fetch";
 
 require("dotenv").config();
 
@@ -26,31 +27,32 @@ export type THlidacData = {
 const options = {
   headers: {
     Authorization: `Token ${process.env.HLIDAC_API_TOKEN}`,
-    // "Content-Type": "application/json",
+    "Content-Type": "application/json",
   },
 };
 
-export const fetchHlidac = async (id: string) => {
-  const res = await fetch(createHlidacJsonLink(id), {
-    headers: { Authorization: `Token ${process.env.HLIDAC_API_TOKEN}` },
-  });
+export const fetchHlidac = async (id: string): Promise<THlidacData | null> => {
+  const res = await fetch(createHlidacAPIGetLink(id), options);
 
   const json = await res.json();
-
-  console.log("JSON", createHlidacJsonLink(id), json);
-
+  if (json.Error) {
+    console.log("fetchHlidac error:", createHlidacAPIGetLink(id), json);
+    return null;
+  }
+  console.log("fetchHlidac data:", createHlidacAPIGetLink(id), json);
   return json;
 };
 
-export const insertHlidac = async (hlidacId: string, data: THlidacData) => {
+export const insertHlidac = async (data: THlidacData) => {
   try {
-    const res = await api.apiV2DatasetyDatasetItemUpdate(
-      "vybory-psp",
-      hlidacId,
-      data
-    );
+    const res = await fetch(createHlidacAPISetLink(), {
+      ...options,
+      method: "post",
+      body: JSON.stringify(data),
+    });
+
     console.log("res", res);
-    return res?.data;
+    // return res?.data;
   } catch (e) {
     console.log(e?.error?.Error === "Zaznam nebylo mozno vlozit.");
     console.error(e);

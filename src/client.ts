@@ -1,11 +1,10 @@
-import vybory from "./crawler/vybory";
-import vybor from "./crawler/vybor";
 import action from "./crawler/action";
 import { BASE_URL, createURL, nowTimestam } from "./utils";
-import { createHlidacData, update } from "./updater";
+import { update } from "./updater";
 import chalk from "chalk";
 
 console.log(chalk.red("Client"));
+
 const runId = nowTimestam();
 const url = createURL(BASE_URL);
 

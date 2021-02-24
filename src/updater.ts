@@ -64,7 +64,7 @@ export const createHlidacData = (data: TActionDetail): THlidacData => {
 const dry = {
   insert: async (runId: string, index: number, data: TActionDetail) => {
     console.log(chalk.green(data.hlidacId, " - To be inserted"));
-    insertHlidac(data.hlidacId, createHlidacData(data));
+    await insertHlidac(createHlidacData(data));
     await logInsert(runId, index, data.hlidacId, createHlidacData(data), true);
   },
 };

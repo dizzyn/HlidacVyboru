@@ -6,7 +6,7 @@ import action, {
   THlidacOnlyRecord,
 } from "../../src/crawler/action";
 import { TDocument } from "../../src/crawler/documents";
-import { createHlidacJsonLink, createHlidacLink } from "../../src/utils";
+import { createHlidacAPIGetLink, createHlidacLink } from "../../src/utils";
 
 const HlidacOnlyDocuments = ({
   hlidacOnlyDocuments,
@@ -107,7 +107,7 @@ const ActionPage = ({
       ) : (
         <span>
           <a href={createHlidacLink(hlidacId)}>Web</a> /
-          <a href={createHlidacJsonLink(hlidacId)}>JSON</a>
+          <a href={createHlidacAPIGetLink(hlidacId)}>JSON</a>
         </span>
       )}
       <hr />

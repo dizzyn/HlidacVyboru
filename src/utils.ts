@@ -63,8 +63,12 @@ export const filterActions = (items: TAction[]) =>
     return false;
   });
 
-export const createHlidacJsonLink = (hlidacId: string) => {
+export const createHlidacAPIGetLink = (hlidacId: string) => {
   return `https://www.hlidacstatu.cz/api/v2/datasety/vybory-psp/zaznamy/${hlidacId}`;
+};
+
+export const createHlidacAPISetLink = () => {
+  return `https://www.hlidacstatu.cz/api/v2/datasety/vybory-psp/`;
 };
 
 export const createHlidacLink = (hlidacId: string) => {

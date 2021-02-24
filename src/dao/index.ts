@@ -1,4 +1,4 @@
-import { Api } from "./hlidacAPI";
+import { createHlidacJsonLink } from "../utils";
 
 require("dotenv").config();
 
@@ -23,31 +23,23 @@ export type THlidacData = {
   audio: { DocumentUrl: string; jmeno: string }[];
 };
 
-const api = new Api({
-  baseApiParams: {
-    headers: {
-      Authorization: `Token ${process.env.HLIDAC_API_TOKEN}`,
-      "Content-Type": "application/json",
-    },
+const options = {
+  headers: {
+    Authorization: `Token ${process.env.HLIDAC_API_TOKEN}`,
+    // "Content-Type": "application/json",
   },
-}).api;
+};
 
-export const getHlidac = async (id: string): Promise<THlidacData | null> => {
-  try {
-    const res = (await api.apiV2DatasetyDatasetItemGet(
-      "vybory-psp",
-      id
-    )) as any;
+export const fetchHlidac = async (id: string) => {
+  const res = await fetch(createHlidacJsonLink(id), {
+    headers: { Authorization: `Token ${process.env.HLIDAC_API_TOKEN}` },
+  });
 
-    return res?.data;
-  } catch (e) {
-    console.log(e?.error?.Error === "Zaznam nenalezen.");
-    if (e?.error?.Error === "Zaznam nenalezen.") {
-      return Promise.resolve(null);
-    }
-    console.error(e);
-    throw e;
-  }
+  const json = await res.json();
+
+  console.log("JSON", createHlidacJsonLink(id), json);
+
+  return json;
 };
 
 export const insertHlidac = async (hlidacId: string, data: THlidacData) => {

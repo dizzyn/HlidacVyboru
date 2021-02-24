@@ -12,7 +12,6 @@ import {
   removeNumber,
 } from "../utils";
 import { getHlidac, THlidacData } from "../dao";
-import { createHlidacData, update } from "../updater";
 
 export interface THlidacOnlyDoc {
   title: string;

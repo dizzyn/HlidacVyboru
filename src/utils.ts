@@ -6,7 +6,6 @@ import {
 } from "./enums";
 import { TAction } from "./crawler/vybor";
 import moment from "moment";
-import { TDocument } from "./crawler/documents";
 
 export const BASE_URL = "hp.sqw?k=194";
 
@@ -67,8 +66,8 @@ export const createHlidacAPIGetLink = (hlidacId: string) => {
   return `https://www.hlidacstatu.cz/api/v2/datasety/vybory-psp/zaznamy/${hlidacId}`;
 };
 
-export const createHlidacAPISetLink = () => {
-  return `https://www.hlidacstatu.cz/api/v2/datasety/vybory-psp/`;
+export const createHlidacAPISetLink = (hlidacId: string) => {
+  return `https://www.hlidacstatu.cz/api/v1/DatasetItem/vybory-psp/${hlidacId}`;
 };
 
 export const createHlidacLink = (hlidacId: string) => {

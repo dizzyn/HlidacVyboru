@@ -45,14 +45,15 @@ export const fetchHlidac = async (id: string): Promise<THlidacData | null> => {
 
 export const insertHlidac = async (data: THlidacData) => {
   try {
-    const res = await fetch(createHlidacAPISetLink(), {
+    const res = await fetch(createHlidacAPISetLink(data.Id), {
       ...options,
-      method: "post",
+      method: "POST",
       body: JSON.stringify(data),
     });
 
     console.log("res", res);
-    // return res?.data;
+    const json = await res.json();
+    console.log("json", json);
   } catch (e) {
     console.log(e?.error?.Error === "Zaznam nebylo mozno vlozit.");
     console.error(e);

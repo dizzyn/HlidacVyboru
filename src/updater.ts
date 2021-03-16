@@ -5,7 +5,6 @@ import { padWithZeroes as padWithZeroes } from "./utils";
 import { insertHlidac, THlidacData } from "./dao";
 import { COMMITTEES_PER_NAME, HLIDAC_TYPE_PER_TYPE, MONTHS } from "./enums";
 import moment from "moment";
-import { domainToASCII } from "url";
 
 const logPath = __dirname + "/../logs";
 
@@ -17,16 +16,24 @@ const logInsert = async (
   dry: boolean
 ) => {
   const filePath = `${logPath}/${runId}-${padWithZeroes(index, 3)}-INSERT-${
-    dry ? "DRY" : ""
+    dry ? "IDLE" : ""
   }-${hlidacId}.json`;
 
-  console.log("FILE - ", filePath);
+  // console.log("FILE - ", filePath);
 
   try {
     fs.writeFile(filePath, JSON.stringify(newData), () => {});
   } catch (e) {
     console.error("Could not write insert log file");
   }
+};
+
+export const dateToMoment = (date: string) => {
+  MONTHS.map((month, i) => {
+    date = date.replace(month, `${i + 1}.`);
+  });
+
+  return moment(date, "DD. MM. YYYY");
 };
 
 export const createHlidacDate = (date: string) => {
@@ -61,21 +68,40 @@ export const createHlidacData = (data: TActionDetail): THlidacData => {
   };
 };
 
-const dry = {
+const dryEngine = {
+  insert: async (runId: string, index: number, data: TActionDetail) => {
+    console.log(chalk.green(data.hlidacId, " - To be inserted (DRY)"));
+    await logInsert(runId, index, data.hlidacId, createHlidacData(data), true);
+  },
+};
+
+const ENGINE = {
   insert: async (runId: string, index: number, data: TActionDetail) => {
     console.log(chalk.green(data.hlidacId, " - To be inserted"));
     await insertHlidac(createHlidacData(data));
-    await logInsert(runId, index, data.hlidacId, createHlidacData(data), true);
+    await logInsert(runId, index, data.hlidacId, createHlidacData(data), false);
   },
+};
+
+export const isToFresh = (data: TActionDetail) => {
+  const nowIs = moment();
+  const thenIs = dateToMoment(data.date).add(1, "day");
+  return !thenIs.isBefore(nowIs);
 };
 
 export const update = async (
   data: TActionDetail,
   runId: string,
-  index: number
+  index: number,
+  dry: boolean
 ) => {
+  const engine = dry ? dryEngine : ENGINE;
+  if (isToFresh(data)) {
+    console.log(chalk.blue(data.hlidacId), " ---- too fresh, let's wait");
+    return;
+  }
   if (!data.hlidacJson) {
-    await dry.insert(runId, index, data);
+    await engine.insert(runId, index, data);
   } else {
     console.log(chalk.blue(data.hlidacId), " ---- ok");
   }

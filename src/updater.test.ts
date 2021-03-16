@@ -1,5 +1,4 @@
 import { TActionDetail } from "./crawler/action";
-import { THlidacData } from "./dao";
 import { createHlidacData, createHlidacDate } from "./updater";
 
 const data: TActionDetail = {

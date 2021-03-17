@@ -1,15 +1,18 @@
 import action from "./crawler/action";
-import { BASE_URL, createURL, nowTimestam } from "./utils";
+import { BASE_URL, createURL, nowTimestam as nowTimestamp } from "./utils";
 import { update } from "./updater";
 import chalk from "chalk";
+import vybory from "./crawler/vybory";
+import vybor from "./crawler/vybor";
 
 console.log(chalk.red("Client"));
 
-const runId = nowTimestam();
+const runId = nowTimestamp();
 const url = createURL(BASE_URL);
 
-// const limit = 0;
-// let counter = 0;
+const limit = 3;
+let counter = 0;
+const dry = true;
 
 // vybory(url).then(async (vybory) => {
 //   for (let iVybor = 0; iVybor < vybory.length; iVybor++) {
@@ -21,15 +24,16 @@ const url = createURL(BASE_URL);
 //           counter++;
 //           const { href: actionHref } = vyborData.actions[iAction];
 //           const actionData = await action(actionHref);
-//           update(actionData, runId, counter);
+//           console.log(chalk.red("record"), actionHref);
+//           update(actionData, runId, counter, idle);
 //         }
 //       }
 //     }
 //   }
 // });
 
-action("https://www.psp.cz/sqw/hp.sqw?k=3512&z=14486").then(async (data) => {
+action("https://www.psp.cz/sqw/hp.sqw?k=3512&z=14533").then(async (data) => {
   console.log("----------- START ", data.hlidacId);
-  await update(data, nowTimestam(), 0);
+  await update(data, nowTimestamp(), 0, false);
   console.log("----------- DONE");
 });

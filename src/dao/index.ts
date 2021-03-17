@@ -57,7 +57,6 @@ export const insertHlidac = async (data: THlidacData) => {
     const json = await res.json();
     // console.log("json", json);
   } catch (e) {
-    console.log(e?.error?.Error === "Zaznam nebylo mozno vlozit.");
     console.error(e);
     throw e;
   }

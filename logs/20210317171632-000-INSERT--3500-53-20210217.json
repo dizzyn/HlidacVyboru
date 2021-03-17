@@ -1,0 +1,125 @@
+{
+  "Id": "3500-53-20210217",
+  "datum": "2021-02-17T00:00:00Z",
+  "cisloJednani": 53,
+  "vec": null,
+  "vybor": "Hospodářský výbor",
+  "vyborId": 3500,
+  "vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3500",
+  "zapisJednani": null,
+  "dokumenty": [
+    {
+      "HsProcessType": "documentsave",
+      "DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184395",
+      "DocumentPlainText": null,
+      "jmeno": "Pozvánka_na_schůzi_č._53_(17._února_2021).docx",
+      "popis": "Pozvánka na schůzi č. 53 ",
+      "typ": "Pozvánka"
+    },
+    {
+      "HsProcessType": "documentsave",
+      "DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=185998",
+      "DocumentPlainText": null,
+      "jmeno": "Zápis_z_jednání_č._53_(17._února_2021).docx",
+      "popis": "Zápis z jednání č. 53 ",
+      "typ": "Zápis z jednání"
+    },
+    {
+      "HsProcessType": "documentsave",
+      "DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=185999",
+      "DocumentPlainText": null,
+      "jmeno": "HKCRSTKST1046.pdf",
+      "popis": "HKCRSTKST1046.pdf",
+      "typ": "Dokumenty a prezentace"
+    },
+    {
+      "HsProcessType": "documentsave",
+      "DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186000",
+      "DocumentPlainText": null,
+      "jmeno": "HKCRkoroprogramyhodnoceniHV17022021.pdf",
+      "popis": "HKCRkoroprogramyhodnoceniHV17022021.pdf",
+      "typ": "Dokumenty a prezentace"
+    },
+    {
+      "HsProcessType": "documentsave",
+      "DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=185994",
+      "DocumentPlainText": null,
+      "jmeno": "T1046vyporadaniPNMD.docx",
+      "popis": " T1046vyporadaniPNMD.docx",
+      "typ": "Dokumenty a prezentace"
+    },
+    {
+      "HsProcessType": "documentsave",
+      "DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=185997",
+      "DocumentPlainText": null,
+      "jmeno": "T799vyporadaniPNMPO.doc",
+      "popis": " T799vyporadaniPNMPO.doc",
+      "typ": "Dokumenty a prezentace"
+    },
+    {
+      "HsProcessType": "documentsave",
+      "DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=185995",
+      "DocumentPlainText": null,
+      "jmeno": "T799vyporadaniPNMPOdodatecne.doc",
+      "popis": " T799vyporadaniPNMPOdodatecne.doc",
+      "typ": "Dokumenty a prezentace"
+    },
+    {
+      "HsProcessType": "documentsave",
+      "DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=185996",
+      "DocumentPlainText": null,
+      "jmeno": "ZH053hlasovacilistiny.pdf",
+      "popis": "ZH053hlasovacilistiny.pdf",
+      "typ": "Dokumenty a prezentace"
+    },
+    {
+      "HsProcessType": "documentsave",
+      "DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=185680",
+      "DocumentPlainText": null,
+      "jmeno": "Usnesení_č._366_(17._února_2021).docx",
+      "popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 458/2000 Sb., o podmínkách podnikání a o výkonu státní správy v energetických odvětvích a o změně některých zákonů (energetický zákon), ve znění pozdějších předpisů, zákon č. 455/1991 Sb., o živnostenském podnikání (živnostenský zákon), ve znění pozdějších předpisů, a zákon č. 634/2004 Sb., o správních poplatcích, ve znění pozdějších předpisů - sněmovní tisk 799 (17. února 2021) ",
+      "typ": "Usnesení"
+    },
+    {
+      "HsProcessType": "documentsave",
+      "DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184716",
+      "DocumentPlainText": null,
+      "jmeno": "Usnesení_č._367_(17._února_2021).docx",
+      "popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 58/1995 Sb., o pojišťování a financování vývozu se státní podporou a o doplnění zákona č. 166/1993 Sb., o Nejvyšším kontrolním úřadu, ve znění pozdějších předpisů, ve znění pozdějších předpisů, a zákon č. 218/2000 Sb., o rozpočtových pravidlech a o změně některých souvisejících zákonů (rozpočtová pravidla), ve znění pozdějších předpisů - sněmovní tisk 757 (17. února 2021) ",
+      "typ": "Usnesení"
+    },
+    {
+      "HsProcessType": "documentsave",
+      "DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184734",
+      "DocumentPlainText": null,
+      "jmeno": "Usnesení_č._368_(17._února_2021).docx",
+      "popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 56/2001 Sb., o podmínkách provozu vozidel na pozemních komunikacích a o změně zákona č. 168/1999 Sb., o pojištění odpovědnosti za škodu způsobenou provozem vozidla a o změně některých souvisejících zákonů (zákon o pojištění odpovědnosti z provozu vozidla), ve znění zákona č. 307/1999 Sb., ve znění pozdějších předpisů, a zákon č. 634/2004 Sb., o správních poplatcích, ve znění pozdějších předpisů - sněmovní tisk 1046 (17. února 2021) ",
+      "typ": "Usnesení"
+    },
+    {
+      "HsProcessType": "documentsave",
+      "DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184798",
+      "DocumentPlainText": null,
+      "jmeno": "Usnesení_č._369_(17._února_2021).docx",
+      "popis": "k návrhu poslanců Markéty Pekarové Adamové, Petra Fialy, Mariana Jurečky, Jana Farského a dalších na vydání zákona o státní pomoci při mimořádných opatřeních vyhlášených v souvislosti s epidemií koronaviru SARS CoV-2 (odškodňovací zákon) - sněmovní tisk 1039 (17. února 2021) ",
+      "typ": "Usnesení"
+    },
+    {
+      "HsProcessType": "documentsave",
+      "DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184742",
+      "DocumentPlainText": null,
+      "jmeno": "Usnesení_č._370_(17._února_2021).docx",
+      "popis": "k novému kompenzačnímu programu COVID 2021 (17. února 2021) ",
+      "typ": "Usnesení"
+    }
+  ],
+  "audio": [
+    {
+      "HsProcessType": "documentsave",
+      "DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184711",
+      "DocumentPlainText": null,
+      "jmeno": "ZaH053.MP3.mp3",
+      "prepisAudia": null
+    }
+  ]
+}

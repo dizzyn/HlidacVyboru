@@ -1,0 +1,61 @@
+{
+	"Id": "3800-80-20210303",
+	"datum": "2021-03-03T00:00:00Z",
+	"cisloJednani": 80,
+	"vec": null,
+	"vybor": "Organizační výbor",
+	"vyborId": 3800,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3800",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186272",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._374_(3._března_2021).docx",
+			"popis": "k návrhu na zařazení návrhů zákonů a mezinárodních smluv do návrhu pořadu schůze Poslanecké sněmovny (3. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186273",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._375_(3._března_2021).docx",
+			"popis": "k návrhu na přikázání došlých návrhů k projednání výborům Poslanecké sněmovny a na určení zpravodajů pro prvé čtení (3. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186271",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._377_(3._března_2021).docx",
+			"popis": "k informaci předsedy Poslanecké sněmovny a členů organizačního výboru - ke změně návrhu Pravidel hospodaření poslaneckých klubů pro rok 2021 (3. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186270",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._378_(3._března_2021).docx",
+			"popis": "k návrhu termínu a pořadu 81. schůze organizačního výboru Poslanecké sněmovny (3. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=185069",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._80_(3._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 80 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3800-80-20210303"
+}

@@ -13,16 +13,19 @@ const logInsert = async (
   index: number,
   hlidacId: string,
   newData: Partial<THlidacData>,
+  responseJSON: any,
   dry: boolean
 ) => {
   const filePath = `${logPath}/${runId}-${padWithZeroes(index, 3)}-INSERT-${
     dry ? "IDLE" : ""
-  }-${hlidacId}.json`;
-
-  // console.log("FILE - ", filePath);
+  }-${hlidacId}.jsons`;
 
   try {
-    fs.writeFile(filePath, JSON.stringify(newData), () => {});
+    const str =
+      JSON.stringify(newData, null, "\t") +
+      "\n\n\n--------- Result:\n\n\n" +
+      JSON.stringify(responseJSON, null, "\t");
+    fs.writeFile(filePath, str, () => {});
   } catch (e) {
     console.error("Could not write insert log file");
   }
@@ -76,15 +79,29 @@ export const createHlidacData = (data: TActionDetail): THlidacData => {
 const dryEngine = {
   insert: async (runId: string, index: number, data: TActionDetail) => {
     console.log(chalk.green(data.hlidacId, " - To be inserted (DRY)"));
-    await logInsert(runId, index, data.hlidacId, createHlidacData(data), true);
+    await logInsert(
+      runId,
+      index,
+      data.hlidacId,
+      createHlidacData(data),
+      {},
+      true
+    );
   },
 };
 
 const ENGINE = {
   insert: async (runId: string, index: number, data: TActionDetail) => {
     console.log(chalk.green(data.hlidacId, " - To be inserted"));
-    await insertHlidac(createHlidacData(data));
-    await logInsert(runId, index, data.hlidacId, createHlidacData(data), false);
+    const resJSON = await insertHlidac(createHlidacData(data));
+    await logInsert(
+      runId,
+      index,
+      data.hlidacId,
+      createHlidacData(data),
+      resJSON,
+      false
+    );
   },
 };
 
@@ -108,6 +125,6 @@ export const update = async (
   if (!data.hlidacJson) {
     await engine.insert(runId, index, data);
   } else {
-    console.log(chalk.blue(data.hlidacId), " ---- ok");
+    console.log(chalk.blue(data.hlidacId), " ---- ok, no action");
   }
 };

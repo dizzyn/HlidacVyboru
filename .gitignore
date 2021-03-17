@@ -35,4 +35,4 @@ yarn-error.log*
 
 # custom
 .env
-logs/
+logs/*IDLE*.*

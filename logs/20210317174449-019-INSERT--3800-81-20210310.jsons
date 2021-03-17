@@ -1,0 +1,61 @@
+{
+	"Id": "3800-81-20210310",
+	"datum": "2021-03-10T00:00:00Z",
+	"cisloJednani": 81,
+	"vec": null,
+	"vybor": "Organizační výbor",
+	"vyborId": 3800,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3800",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186243",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._81_(10._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 81 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186541",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._379_(10._března_2021).docx",
+			"popis": "k návrhu na zařazení návrhů zákonů a mezinárodních smluv do návrhu pořadu schůze Poslanecké sněmovny (10. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186538",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._380_(10._března_2021).docx",
+			"popis": "k návrhu na přikázání došlých návrhů k projednání výborům Poslanecké sněmovny a na určení zpravodajů pro prvé čtení (10. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186540",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._381_(10._března_2021).docx",
+			"popis": "k návrhu časového harmonogramu pravidelných akcí Poslanecké sněmovny na 2. pololetí 2021 (10. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186539",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._382_(10._března_2021).docx",
+			"popis": "k návrhu termínu a pořadu 82. schůze organizačního výboru Poslanecké sněmovny (10. března 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3800-81-20210310"
+}

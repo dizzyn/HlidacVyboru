@@ -1,0 +1,61 @@
+{
+	"Id": "3600-38-20210204",
+	"datum": "2021-02-04T00:00:00Z",
+	"cisloJednani": 38,
+	"vec": null,
+	"vybor": "Kontrolní výbor",
+	"vyborId": 3600,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3600",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183271",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._38_(4._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 38 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183794",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._207_(4._února_2021).docx",
+			"popis": "ke Stanovisku Nejvyššího kontrolního úřadu ke Zprávě o plnění státního rozpočtu České republiky za 1. pololetí 2020 /sněmovní tisk 1085/2/ (4. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184237",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._208_(4._února_2021).docx",
+			"popis": "k „Vyjádření členů Úřadu pro dohled nad hospodařením politických stran a politických hnutí k zásadnímu omezení nezávislosti dohledové činnosti předsedou ÚDHPSH\" (4. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184236",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._209_(4._února_2021).docx",
+			"popis": "k návrhu termínu a programu příští schůze výboru (4. února 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183828",
+			"DocumentPlainText": null,
+			"jmeno": "zvukovy_zaznam_38KV_4_2_2021.MP3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3600-38-20210204"
+}

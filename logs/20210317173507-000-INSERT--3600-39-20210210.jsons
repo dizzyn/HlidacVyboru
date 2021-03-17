@@ -1,0 +1,45 @@
+{
+	"Id": "3600-39-20210210",
+	"datum": "2021-02-10T00:00:00Z",
+	"cisloJednani": 39,
+	"vec": null,
+	"vybor": "Kontrolní výbor",
+	"vyborId": 3600,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3600",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183798",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._39_(10._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 39 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184359",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._210_(10._února_2021).docx",
+			"popis": "k návrhu termínu a programu příští schůze výboru (10. února 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184396",
+			"DocumentPlainText": null,
+			"jmeno": "zvukovy_zaznam_39KV_10_2_2021.MP3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3600-39-20210210"
+}

@@ -1,0 +1,69 @@
+{
+	"Id": "3600-37-20210107",
+	"datum": "2021-01-07T00:00:00Z",
+	"cisloJednani": 37,
+	"vec": null,
+	"vybor": "Kontrolní výbor",
+	"vyborId": 3600,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3600",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=170669",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._37_(7._ledna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 37 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183768",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._37_(7._ledna_2021).docx",
+			"popis": "Zápis z jednání č. 37 ",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=180245",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._204_(7._ledna_2021).docx",
+			"popis": "ke Zprávě Nejvyššího kontrolního úřadu o finančním řízení prostředků Evropské unie v ČR (říjen 2020) - EU REPORT 2020 (7. ledna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=180243",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._205_(7._ledna_2021).docx",
+			"popis": "ke Kontrolnímu závěru Nejvyššího kontrolního úřadu z kontrolní akce č. 16/26 - Výdaje na provoz a využití nemovitého majetku včetně výdajů na zajištění informační podpory související se správou, provozem a údržbou nemovitého majetku (7. ledna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=180244",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._206_(7._ledna_2021).docx",
+			"popis": "k návrhu termínu a programu příští schůze výboru (7. ledna 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=180853",
+			"DocumentPlainText": null,
+			"jmeno": "zvukovy_zaznam_37KV_7_1_2021.MP3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3600-37-20210107"
+}

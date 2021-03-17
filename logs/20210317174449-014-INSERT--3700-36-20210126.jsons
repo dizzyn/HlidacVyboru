@@ -1,0 +1,29 @@
+{
+	"Id": "3700-36-20210126",
+	"datum": "2021-01-26T00:00:00Z",
+	"cisloJednani": 36,
+	"vec": null,
+	"vybor": "Mandátový a imunitní výbor",
+	"vyborId": 3700,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3700",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183219",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._36_(26.,_27._ledna,_2._a_16._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 36 (26., 27. ledna, 2. a ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3700-36-20210126"
+}

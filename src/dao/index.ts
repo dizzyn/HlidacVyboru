@@ -56,6 +56,7 @@ export const insertHlidac = async (data: THlidacData) => {
     // console.log("res", res);
     const json = await res.json();
     // console.log("json", json);
+    return json;
   } catch (e) {
     console.error(e);
     throw e;

@@ -1,0 +1,29 @@
+{
+	"Id": "3600-40-20210218",
+	"datum": "2021-02-18T00:00:00Z",
+	"cisloJednani": 40,
+	"vec": null,
+	"vybor": "Kontrolní výbor",
+	"vyborId": 3600,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3600",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186487",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._40_(24._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 40 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184498",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._40_(18._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 40 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}

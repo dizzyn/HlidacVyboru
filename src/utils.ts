@@ -67,7 +67,7 @@ export const createHlidacAPIGetLink = (hlidacId: string) => {
 };
 
 export const createHlidacAPISetLink = (hlidacId: string) => {
-  return `https://www.hlidacstatu.cz/api/v1/DatasetItem/vybory-psp/${hlidacId}`;
+  return `https://www.hlidacstatu.cz/api/v1/DatasetItem/vybory-psp/${hlidacId}?mode=rewrite`;
 };
 
 export const createHlidacLink = (hlidacId: string) => {
@@ -124,8 +124,11 @@ export const nowTimestam = () => {
 
 export const createDocFileName = (
   title: string,
-  type: "doc" | "docx" | "pdf" | "mp3"
+  type: "doc" | "docx" | "pdf" | "mp3" | "pptx"
 ) => {
-  const str = title.replace(/\(|\)|\\|\/|\s/g, "_") + "." + type;
+  let str = title.trim().replace(/\\|\/|\s/g, "_");
+  if (!["doc", "docx", "pdf", "mp3", "pptx"].find((ext) => str.includes(ext))) {
+    str = str.trim() + "." + type;
+  }
   return str.replace(/_+/g, "_");
 };

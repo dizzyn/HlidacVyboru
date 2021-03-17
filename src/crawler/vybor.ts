@@ -23,7 +23,7 @@ export interface TVyborDetail {
 export default (sourceUrl: string) =>
   crawler<TVyborDetail>(sourceUrl, ($) => {
     const title = $("h1").text();
-    const desc = $(".news-item.no-date .news-item-title").text();
+    const desc = ($(".news-item.no-date .news-item-title").text() ?? "").trim();
 
     const actions: TAction[] = $(".news-item.no-date")
       .map((_, item) => {
@@ -39,10 +39,9 @@ export default (sourceUrl: string) =>
         }
         return {
           title: removeDate($title.text()),
-          desc: removeDate(getOnlyNodeText($(item))).replace(
-            /(,(\s)?)?viz /,
-            ""
-          ),
+          desc: removeDate(getOnlyNodeText($(item)))
+            .replace(/(,(\s)?)?viz /, "")
+            .trim(),
           href: createURL(url),
           date: dateStr,
         } as TAction;

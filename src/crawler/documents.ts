@@ -60,11 +60,10 @@ export const fetchDocumentFromLink = async (
     const docHref = $docElement.attr("href");
     if (docHref) {
       const documentUrl = createURL(docHref);
-      const desc = removeDate($docElement.text());
+      const desc = (removeDate($docElement.text()) ?? "").trim();
       const definitiveType = desc.toLowerCase().includes("mp3")
         ? "ZAZNAM"
         : type;
-      // console.log("Cicina 1 -", desc, "-");
       if (docHref.includes("orig2.sqw")) {
         documents.push({
           desc,

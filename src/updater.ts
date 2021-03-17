@@ -35,7 +35,7 @@ export const createHlidacDate = (date: string) => {
   });
 
   const m = moment(date, "DD. MM. YYYY");
-  return `${m.format("YYYY-MM-DD")}-T00:00:00`;
+  return `${m.format("YYYY-MM-DD")}T00:00:00Z`;
 };
 
 export const createHlidacData = (data: TActionDetail): THlidacData => {
@@ -43,20 +43,25 @@ export const createHlidacData = (data: TActionDetail): THlidacData => {
     Id: data.hlidacId,
     datum: createHlidacDate(data.date),
     cisloJednani: data.number,
+    vec: null,
     vybor: data.committee,
     vyborId: COMMITTEES_PER_NAME[data.committee].id,
     vyborUrl: COMMITTEES_PER_NAME[data.committee].url,
+    zapisJednani: null,
     dokumenty: data.documents.map((doc) => ({
       HsProcessType: "documentsave",
       DocumentUrl: doc.documentUrl,
+      DocumentPlainText: null,
       jmeno: doc.filename,
-      popis: doc.desc,
+      popis: doc.desc ?? "",
       typ: HLIDAC_TYPE_PER_TYPE[doc.type],
     })),
     audio: data.records.map((rec) => ({
       HsProcessType: "documentsave",
       DocumentUrl: rec.documentUrl,
+      DocumentPlainText: null,
       jmeno: rec.filename,
+      prepisAudia: null,
     })),
   };
 };
@@ -74,9 +79,9 @@ export const update = async (
   runId: string,
   index: number
 ) => {
-  if (!data.hlidacJson) {
-    await dry.insert(runId, index, data);
-  } else {
-    console.log(chalk.blue(data.hlidacId), " ---- ok");
-  }
+  // if (!data.hlidacJson) {
+  await dry.insert(runId, index, data);
+  // } else {
+  //   console.log(chalk.blue(data.hlidacId), " ---- ok");
+  // }
 };

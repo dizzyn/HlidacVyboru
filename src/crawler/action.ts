@@ -51,7 +51,7 @@ export interface TActionDetail {
 export default (sourceUrl: string) =>
   crawler<TActionDetail>(sourceUrl, async ($) => {
     const title = $("#main-content b").text();
-    const desc = $("#main-content").text();
+    const desc = ($("#main-content").text() ?? "").trim();
     const date = getDate(title) ?? getDate(desc);
     const documentsHref = $("a:contains('Dokumenty')").attr("href");
     const number = parseInt(
@@ -139,26 +139,6 @@ export default (sourceUrl: string) =>
       $,
       sourceUrl
     );
-
-    // console.log(
-    //   "hop",
-    //   number,
-    //   JSON.stringify(
-    //     createHlidacData({
-    //       title: removeDate(removeNumber(title)),
-    //       date: date.trim(),
-    //       committee: committee as TCommitteeName,
-    //       number,
-    //       sourceUrl,
-    //       documents: removeDuplicities(docs),
-    //       records: removeDuplicities(records),
-    //       hlidacOnlyDocuments,
-    //       hlidacOnlyRecords,
-    //       hlidacId,
-    //       hlidacJson,
-    //     })
-    //   )
-    // );
 
     return {
       title: removeDate(removeNumber(title)),

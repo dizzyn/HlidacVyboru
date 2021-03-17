@@ -7,9 +7,11 @@ export type THlidacData = {
   Id: string;
   datum: string;
   cisloJednani: number;
+  vec?: string | null;
   vybor: string;
   vyborId: number;
   vyborUrl: string;
+  zapisJednani?: string | null;
   dokumenty: {
     DocumentUrl: string;
     jmeno: string;
@@ -36,10 +38,10 @@ export const fetchHlidac = async (id: string): Promise<THlidacData | null> => {
 
   const json = await res.json();
   if (json.Error) {
-    console.log("fetchHlidac error:", createHlidacAPIGetLink(id), json);
+    // console.log("fetchHlidac error:", createHlidacAPIGetLink(id), json);
     return null;
   }
-  console.log("fetchHlidac data:", createHlidacAPIGetLink(id), json);
+  // console.log("fetchHlidac data:", createHlidacAPIGetLink(id), json);
   return json;
 };
 
@@ -51,9 +53,9 @@ export const insertHlidac = async (data: THlidacData) => {
       body: JSON.stringify(data),
     });
 
-    console.log("res", res);
+    // console.log("res", res);
     const json = await res.json();
-    console.log("json", json);
+    // console.log("json", json);
   } catch (e) {
     console.log(e?.error?.Error === "Zaznam nebylo mozno vlozit.");
     console.error(e);

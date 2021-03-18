@@ -1,0 +1,101 @@
+{
+	"Id": "4400-47-20210204",
+	"datum": "2021-02-04T00:00:00Z",
+	"cisloJednani": 47,
+	"vec": null,
+	"vybor": "Výbor pro veřejnou správu a regionální rozvoj",
+	"vyborId": 4400,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4400",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183580",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._47_(4._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 47 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=185653",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._47_(4._února_2021).docx",
+			"popis": "Zápis z jednání č. 47 ",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=185666",
+			"DocumentPlainText": null,
+			"jmeno": "Prilohac7kST1008KPNposlancu.docx",
+			"popis": " Prilohac7kST1008KPNposlancu.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183824",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._233_(4._února_2021).docx",
+			"popis": "k návrhu na volbu členů a předsedy podvýboru pro regiony v transformaci (4. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183821",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._234_(4._února_2021).docx",
+			"popis": "k informacím, ve znění pozdějších předpisů, a zákon č. 123/1998 Sb., o právu na informace o životním prostředí, ve znění pozdějších předpisů- sněmovní tisk 633 (4. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183820",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._235_(4._února_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 248/2000 Sb., o podpoře regionálního rozvoje, ve znění pozdějších předpisů, a další související zákony - sněmovní tisk 780 (4. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183822",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._236_(4._února_2021).docx",
+			"popis": "k vládnímu návrhu stavebního zákona - sněmovní tisk 1008 (4. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183823",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._237_(4._února_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění některé zákony v souvislosti s přijetím stavebního zákona - sněmovní tisk 1009 (4. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184295",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._238_(4._února_2021).docx",
+			"popis": "k žádosti obce Vratěnín (4. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184290",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._239_(4._února_2021).docx",
+			"popis": "Oponentní zpráva k vládnímu návrhu stavebního zákona sněmovní tisk 1008 (4. února 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4400-47-20210204"
+}

@@ -1,0 +1,69 @@
+{
+	"Id": "4300-68-20210203",
+	"datum": "2021-02-03T00:00:00Z",
+	"cisloJednani": 68,
+	"vec": null,
+	"vybor": "Výbor pro sociální politiku",
+	"vyborId": 4300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183277",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._68_(3._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 68 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184966",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._68_(3._února_2021).docx",
+			"popis": "Zápis z jednání č. 68 ",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183730",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._215_(3._února_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 435/2004 Sb., o zaměstnanosti, ve znění pozdějších předpisů, a další související zákony /ST 1025/ (3. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183729",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._216_(3._února_2021).docx",
+			"popis": "k návrhu poslanců Lukáše Koláříka, Olgy Richterové, Kateřiny Valachové, Jana Hrnčíře a dalších na vydání zákona, kterým se mění zákon č. 120/2001 Sb., o soudních exekutorech a exekuční činnosti (exekuční řád) a o změně dalších zákonů, ve znění pozdějších předpisů /ST 295/ (3. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183728",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._217_(3._února_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 99/1963 Sb., občanský soudní řád, ve znění pozdějších předpisů, zákon č. 120/2001 Sb., o soudních exekutorech a exekuční činnosti (exekuční řád) a o změně dalších zákonů, ve znění pozdějších předpisů, a některé další zákony /ST 545/ (3. února 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183711",
+			"DocumentPlainText": null,
+			"jmeno": "20210203_VSP.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4300-68-20210203"
+}

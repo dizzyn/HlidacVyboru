@@ -1,0 +1,45 @@
+{
+	"Id": "4400-49-20210302",
+	"datum": "2021-03-02T00:00:00Z",
+	"cisloJednani": 49,
+	"vec": null,
+	"vybor": "Výbor pro veřejnou správu a regionální rozvoj",
+	"vyborId": 4400,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4400",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=185700",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._49_(2._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 49 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186697",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._49.docx",
+			"popis": "Zápis z jednání č. 49",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186052",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._243_(2._března_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění některé zákony v souvislosti s další elektronizací postupů orgánů veřejné moci - sněmovní tisk 756 (2. března 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4400-49-20210302"
+}

@@ -1,0 +1,69 @@
+{
+	"Id": "4500-48-20210217",
+	"datum": "2021-02-17T00:00:00Z",
+	"cisloJednani": 48,
+	"vec": null,
+	"vybor": "Výbor pro vědu, vzdělání, kulturu, mládež a tělovýchovu",
+	"vyborId": 4500,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4500",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184494",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._48_(17._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 48 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186050",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._48_(17._února_2021).docx",
+			"popis": "Zápis z jednání č. 48 ",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184743",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._280_(17._února_2021).docx",
+			"popis": "k Vládnímu návrhu zákona, kterým se mění zákon č. 352/2001 Sb.,   o užívání státních symbolů České republiky a o změně některých zákonů, ve znění pozdějších předpisů (sněmovní tisk 702) (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184830",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._281_(17._února_2021).docx",
+			"popis": "k Výroční zprávě České školní inspekce za rok 2019/2020 (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184828",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._282_(17._února_2021).docx",
+			"popis": "k epidemiologickému rozboru opravňujícímu omezení školní docházky (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184829",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._283_(17._února_2021).docx",
+			"popis": "k aktuální informaci zástupců Ministerstva školství, mládeže a tělovýchovy a Ministerstva zdravotnictví k mimořádným opatřením ve vzdělávání a v důsledku COVID-19 (17. února 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4500-48-20210217"
+}

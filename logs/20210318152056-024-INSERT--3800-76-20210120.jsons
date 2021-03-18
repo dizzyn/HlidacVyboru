@@ -1,0 +1,69 @@
+{
+	"Id": "3800-76-20210120",
+	"datum": "2021-01-20T00:00:00Z",
+	"cisloJednani": 76,
+	"vec": null,
+	"vybor": "Organizační výbor",
+	"vyborId": 3800,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3800",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183172",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._358_(20._ledna_2021).docx",
+			"popis": "k návrhu na zařazení návrhů zákonů a mezinárodních smluv do návrhu pořadu schůze Poslanecké sněmovny (20. ledna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183174",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._359_(20._ledna_2021).docx",
+			"popis": "k návrhu na přikázání došlých návrhů k projednání výborům Poslanecké sněmovny a na určení zpravodajů pro prvé čtení (20. ledna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183171",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._360_(20._ledna_2021).docx",
+			"popis": "k návrhu na rozhodnutí o přijetí zahraničních návštěv a vyslání delegací Poslanecké sněmovny, jejích orgánů a poslanců (20. ledna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183170",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._361_(20._ledna_2021).docx",
+			"popis": "k informaci předsedy Poslanecké sněmovny a členů organizačního výboru - k volbě člena podvýboru pro přípravu návrhů na propůjčení nebo udělení státních vyznamenání (20. ledna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183175",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._362_(20._ledna_2021).docx",
+			"popis": "k návrhu termínu a pořadu 77. schůze organizačního výboru Poslanecké sněmovny (20. ledna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=180252",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._76_(20._ledna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 76 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3800-76-20210120"
+}

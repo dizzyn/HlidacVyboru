@@ -1,0 +1,69 @@
+{
+	"Id": "4300-69-20210217",
+	"datum": "2021-02-17T00:00:00Z",
+	"cisloJednani": 69,
+	"vec": null,
+	"vybor": "Výbor pro sociální politiku",
+	"vyborId": 4300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184635",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._69_(17._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 69 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=185692",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._219_(17._února_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 359/1999 Sb., o sociálněprávní ochraně dětí, ve znění pozdějších předpisů, a další související zákony /ST 911/ (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=185035",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._220_(17._února_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 117/1995 Sb., o státní sociální podpoře, ve znění pozdějších předpisů /ST 1116/ (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184680",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._221_(17._února_2021).docx",
+			"popis": "k návrhu poslanců Víta Kaňkovského, Václava Klause, Pavly Golasowské, Mariana Jurečky, Pavla Bělobrádka, Stanislava Juránka, Ondřeje Benešíka, Jana Čižinského, Marka Výborného, Jana Bartoška a Jiřího Miholy na vydání zákona, kterým se mění zákon č. 329/2011 Sb., o poskytování dávek osobám se zdravotním postižením a o změně souvisejících zákonů, ve znění pozdějších předpisů /ST 896/ (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184681",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._222_(17._února_2021).docx",
+			"popis": "k návrhu poslanců Stanislava Grospiče, Hany Aulické Jírovcové, Daniela Pawlase a Pavla Kováčika na vydání zákona, kterým se mění zákon č. 262/2006 Sb., zákoník práce, ve znění pozdějších předpisů /ST 317/ (17. února 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184715",
+			"DocumentPlainText": null,
+			"jmeno": "20210217_VSP_69-schuze.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4300-69-20210217"
+}

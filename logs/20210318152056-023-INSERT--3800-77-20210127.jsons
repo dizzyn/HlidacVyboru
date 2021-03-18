@@ -1,0 +1,69 @@
+{
+	"Id": "3800-77-20210127",
+	"datum": "2021-01-27T00:00:00Z",
+	"cisloJednani": 77,
+	"vec": null,
+	"vybor": "Organizační výbor",
+	"vyborId": 3800,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3800",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183530",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._363_(27._ledna_2021).docx",
+			"popis": "k návrhu na zařazení návrhů zákonů a mezinárodních smluv do návrhu pořadu schůze Poslanecké sněmovny (27. ledna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183532",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._364_(27._ledna_2021).docx",
+			"popis": "k návrhu na přikázání došlých návrhů k projednání výborům Poslanecké sněmovny a na určení zpravodajů pro prvé čtení (27. ledna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183533",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._365_(27._ledna_2021).docx",
+			"popis": "k informaci předsedy Poslanecké sněmovny a členů organizačního výboru - k volbě ověřovatele organizačního výboru (27. ledna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183529",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._366_(27._ledna_2021).docx",
+			"popis": "k informaci předsedy Poslanecké sněmovny a členů organizačního výboru - k volbě člena podvýboru pro přípravu návrhů na propůjčení nebo udělení státních vyznamenání (27. ledna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183531",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._367_(27._ledna_2021).docx",
+			"popis": "k návrhu termínu a pořadu 78. schůze organizačního výboru Poslanecké sněmovny (27. ledna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183176",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._77_(27._ledna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 77 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3800-77-20210127"
+}

@@ -1,0 +1,61 @@
+{
+	"Id": "4300-67-20210119",
+	"datum": "2021-01-19T00:00:00Z",
+	"cisloJednani": 67,
+	"vec": null,
+	"vybor": "Výbor pro sociální politiku",
+	"vyborId": 4300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=179648",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._67_(19._ledna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 67 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183263",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._67_(19._ledna_2021).docx",
+			"popis": "Zápis z jednání č. 67 ",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=185940",
+			"DocumentPlainText": null,
+			"jmeno": "1234001.pdf",
+			"popis": "1234001.pdf",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183007",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._214_(19._ledna_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 437/2020 Sb., o některých úpravách v oblasti dávek státní sociální podpory a příspěvku na péči v souvislosti s nouzovým stavem při epidemii /ST 1122/ (19. ledna 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=182996",
+			"DocumentPlainText": null,
+			"jmeno": "20210119_VSP.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4300-67-20210119"
+}

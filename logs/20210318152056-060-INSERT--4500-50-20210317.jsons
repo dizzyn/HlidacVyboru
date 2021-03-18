@@ -1,0 +1,93 @@
+{
+	"Id": "4500-50-20210317",
+	"datum": "2021-03-17T00:00:00Z",
+	"cisloJednani": 50,
+	"vec": null,
+	"vybor": "Výbor pro vědu, vzdělání, kulturu, mládež a tělovýchovu",
+	"vyborId": 4500,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4500",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186329",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._50_(17._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 50 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186772",
+			"DocumentPlainText": null,
+			"jmeno": "č._50.doc",
+			"popis": "č. 50",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186760",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._284_(17._března_2021).docx",
+			"popis": "k návrhu na udělení znaků a vlajek (17. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186761",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._285_(17._března_2021).docx",
+			"popis": "k volbě posl. Ondřeje Babky členem podvýboru pro sport a podvýboru pro heraldiku a vexilologii (17. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186763",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._286_(17._března_2021).docx",
+			"popis": "k Vládnímu návrhu zákona, kterým se mění zákon č. 352/2001 Sb., o užívání státních symbolů České republiky a o změně některých zákonů, ve znění pozdějších předpisů (sněmovní tisk 702) (17. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186777",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._287_(17._března_2021).docx",
+			"popis": "k Informaci ředitele ÚZIS Ladislava Duška o vývoji epidemie COVID-19 ve školách a školských zařízeních - u dětí, pedagogů a zaměstnanců škol (17. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186843",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._288_(17._března_2021).docx",
+			"popis": "k Aktuální informaci zástupce Ministerstva školství, mládeže a tělovýchovy k mimořádným opatřením ve vzdělávání v důsledku COVID-19 (17. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186845",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._290_(17._března_2021).docx",
+			"popis": "k informaci MŠMT k plánované revizi Rámcových vzdělávacích programů, zejména v předmětech Fyzika a Dějepis (17. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186844",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._291_(17._března_2021).docx",
+			"popis": "ke svolání 51. schůze výboru (17. března 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4500-50-20210317"
+}

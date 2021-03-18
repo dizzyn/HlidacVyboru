@@ -1,0 +1,77 @@
+{
+	"Id": "3400-48-20201125",
+	"datum": "2020-11-25T00:00:00Z",
+	"cisloJednani": 48,
+	"vec": null,
+	"vybor": "Rozpočtový výbor",
+	"vyborId": 3400,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3400",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=131538",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._484_(25._listopadu_2020).docx",
+			"popis": "ke Zprávě o plnění státního rozpočtu České republiky za 1. pololetí 2020 (25. listopadu 2020) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=131512",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._485_(25._listopadu_2020).docx",
+			"popis": "ke Střednědobému výhledu státního rozpočtu České republiky na léta 2022 a 2023 (25. listopadu 2020) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=131513",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._486_(25._listopadu_2020).docx",
+			"popis": "k vládnímu návrhu zákona o státním rozpočtu České republiky na rok 2021 (sněmovní tisk 1067) a k vládnímu návrhu státního rozpočtu České republiky na rok 2021 (2. čtení) (25. listopadu 2020) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=131519",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._487_(25._listopadu_2020).docx",
+			"popis": "k vládnímu návrhu státního rozpočtu České republiky na rok 2021, kapitola 398 - Všeobecná pokladní správa včetně dotací neziskovým a obdobným organizacím (25. listopadu 2020) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=131521",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._488_(25._listopadu_2020).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 353/2003 Sb., o spotřebních daních, ve znění pozdějších předpisů (25. listopadu 2020) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=131448",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._489_(25._listopadu_2020).docx",
+			"popis": "k žádosti Ministerstva práce a sociálních věcí o vyslovení souhlasu se změnou závazných ukazatelů státního rozpočtu České republiky na rok 2020 kapitoly 313 - Ministerstvo práce a sociálních věcí (podle § 24 odst. 3 zákona č. 218/2000 Sb., o rozpočtových pravidlech) (25. listopadu 2020) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=122949",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._48_(25._listopadu_2020).docx",
+			"popis": "Pozvánka na schůzi č. 48 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3400-48-20201125"
+}

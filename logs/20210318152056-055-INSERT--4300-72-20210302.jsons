@@ -1,0 +1,53 @@
+{
+	"Id": "4300-72-20210302",
+	"datum": "2021-03-02T00:00:00Z",
+	"cisloJednani": 72,
+	"vec": null,
+	"vybor": "Výbor pro sociální politiku",
+	"vyborId": 4300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=185978",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._72_(2._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 72 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186848",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._72.docx",
+			"popis": "Zápis z jednání č. 72",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186035",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._223_(2._března_2021).docx",
+			"popis": "k vládnímu návrh zákona o zvýšení náhrady příjmu při nařízené karanténě /ST 1171/ (2. března 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186182",
+			"DocumentPlainText": null,
+			"jmeno": "2.3.021_schuze_VSP_.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4300-72-20210302"
+}

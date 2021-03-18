@@ -20,11 +20,18 @@ vybory(url).then(async (vybory) => {
     if (!limit || counter < limit) {
       const vyborData = await vybor(href);
       for (let iAction = 0; iAction < vyborData.actions.length; iAction++) {
+        const { href: actionHref } = vyborData.actions[iAction];
+        console.log(
+          chalk.blue(
+            `Výbor ${iVybor + 1}/${vybory.length}, Event ${iAction + 1}/${
+              vyborData.actions.length
+            }`
+          ),
+          chalk.gray(actionHref)
+        );
         if (!limit || counter < limit) {
           counter++;
-          const { href: actionHref } = vyborData.actions[iAction];
           const actionData = await action(actionHref);
-          console.log(chalk.red("record"), actionHref);
           update(actionData, runId, counter, dry);
         }
       }

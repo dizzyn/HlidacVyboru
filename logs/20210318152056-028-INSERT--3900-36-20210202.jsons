@@ -1,0 +1,93 @@
+{
+	"Id": "3900-36-20210202",
+	"datum": "2021-02-02T00:00:00Z",
+	"cisloJednani": 36,
+	"vec": null,
+	"vybor": "Petiční výbor",
+	"vyborId": 3900,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3900",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183262",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._36_(2._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 36 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184568",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._36_(2._února_2021).docx",
+			"popis": "Zápis z jednání č. 36 ",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183866",
+			"DocumentPlainText": null,
+			"jmeno": "Hlasovani.pdf",
+			"popis": "Hlasovani.pdf",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183865",
+			"DocumentPlainText": null,
+			"jmeno": "Prezencnilistina.pdf",
+			"popis": "Prezencnilistina.pdf",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183869",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._183_(2._února_2021).docx",
+			"popis": "ke schválení programu 36. schůze petičního výboru (2. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183867",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._184_(2._února_2021).docx",
+			"popis": "ke Zprávě o peticích přijatých Poslaneckou sněmovnou Parlamentu České republiky, jejich obsahu a způsobu vyřízení za období od 1. 7. 2020 do 31. 12. 2020 (2. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183868",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._185_(2._února_2021).docx",
+			"popis": "k informaci zpravodajů o stavu přidělených petic a nově došlým peticím (2. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183870",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._186_(2._února_2021).docx",
+			"popis": "k návrhu termínu a programu příští schůze (2. února 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183692",
+			"DocumentPlainText": null,
+			"jmeno": "1087.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3900-36-20210202"
+}

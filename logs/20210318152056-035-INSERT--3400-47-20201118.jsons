@@ -1,0 +1,141 @@
+{
+	"Id": "3400-47-20201118",
+	"datum": "2020-11-18T00:00:00Z",
+	"cisloJednani": 47,
+	"vec": null,
+	"vybor": "Rozpočtový výbor",
+	"vyborId": 3400,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3400",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=88544",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._470_(18._listopadu_2020).docx",
+			"popis": "k vládnímu návrhu státního rozpočtu České republiky na rok 2021 kapitola 345 - Český statistický úřad (18. listopadu 2020) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=88538",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._471_(18._listopadu_2020).docx",
+			"popis": "k vládnímu návrhu státního rozpočtu České republiky na rok 2021 kapitola 312 - Ministerstvo financí (18. listopadu 2020) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=88578",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._472_(18._listopadu_2020).docx",
+			"popis": "k vládnímu návrhu státního rozpočtu České republiky na rok 2021 kapitola 301 - Kancelář prezidenta republiky (18. listopadu 2020) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=88579",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._473_(18._listopadu_2020).docx",
+			"popis": "ke schválení pořadu 48. schůze rozpočtového výboru (18. listopadu 2020) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=88573",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._474_(18._listopadu_2020).docx",
+			"popis": "k vládnímu návrhu zákona o státním rozpočtu České republiky na rok 2021 kapitola 302 - (18. listopadu 2020) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=88574",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._475_(18._listopadu_2020).docx",
+			"popis": "k vládnímu návrhu státního rozpočtu České republiky na rok 2021 kapitola 303 - Senát (18. listopadu 2020) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=89858",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._476_(18._listopadu_2020).docx",
+			"popis": "k vládnímu návrhu státního rozpočtu České republiky na rok 2021 kapitola 359 - Úřad Národní rozpočtové rady (18. listopadu 2020) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=88548",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._477_(18._listopadu_2020).docx",
+			"popis": "k návrhu poslanců Jana Bauera, Petra Fialy, Zbyňka Stanjury a dalších na vydání zákona, kterým se mění zákon č. 586/1992 Sb., o daních z příjmů, ve znění pozdějších předpisů (18. listopadu 2020) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=88537",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._478_(18._listopadu_2020).docx",
+			"popis": "k návrhu poslanců Ivana Bartoše, Jana Bartoška, Víta Rakušana, Mikuláše Ferjenčíka a dalších na vydání zákona, kterým se mění zákon č. 236/1995 Sb., o platu a dalších náležitostech spojených s výkonem funkce představitelů státní moci a některých státních orgánů a soudců a poslanců Evropského parlamentu, ve znění pozdějších předpisů - sněmovní tisk 978 – 3. čtení (18. listopadu 2020) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=90030",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._479_(18._listopadu_2020).docx",
+			"popis": "k vládnímu návrhu státního rozpočtu České republiky na rok 2021 kapitola 396 - Státní dluh (18. listopadu 2020) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=90029",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._480_(18._listopadu_2020).docx",
+			"popis": "k vládnímu návrhu státního rozpočtu České republiky na rok 2021 kapitola 397 - Operace státních finančních aktiv (18. listopadu 2020) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=90055",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._481_(18._listopadu_2020).docx",
+			"popis": "k Informaci Ministerstva financí o souhrnném výhledu hospodaření veřejných rozpočtů (fondy a samospráva) v roce 2021 (18. listopadu 2020) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=90028",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._482_(18._listopadu_2020).docx",
+			"popis": "k Informaci o pokladním plnění státního rozpočtu České republiky za 1. až 3. čtvrtletí 2020 (18. listopadu 2020) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=90061",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._483_(18._listopadu_2020).docx",
+			"popis": "k žádosti Ministerstva pro místní rozvoj o vyslovení souhlasu se změnou závazných ukazatelů státního rozpočtu České republiky na rok 2020 kapitoly 317 - Ministerstvo pro místní rozvoj (podle § 24 odst. 3 zákona č. 218/2000 Sb., o rozpočtových pravidlech) (18. listopadu 2020) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=78830",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._47_(18._listopadu_2020).docx",
+			"popis": "Pozvánka na schůzi č. 47 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3400-47-20201118"
+}

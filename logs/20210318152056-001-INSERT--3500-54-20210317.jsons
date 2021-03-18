@@ -1,0 +1,69 @@
+{
+	"Id": "3500-54-20210317",
+	"datum": "2021-03-17T00:00:00Z",
+	"cisloJednani": 54,
+	"vec": null,
+	"vybor": "Hospodářský výbor",
+	"vyborId": 3500,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3500",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186382",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._54_(17._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 54 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186727",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._371_(17._března_2021).docx",
+			"popis": "k návrhu poslanců Vojtěcha Munzara, Patrika Nachera, Petra Třešňáka a dalších na vydání zákona, kterým se mění zákon č. 39/2020 Sb., o realitním zprostředkování a o změně souvisejících zákonů (zákon o realitním zprostředkování), ve znění pozdějších předpisů   – sněmovní tisk 1126 (17. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186728",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._372_(17._března_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 452/2001 Sb., o ochraně označení původu a zeměpisných označení a o změně zákona o ochraně spotřebitele, ve znění pozdějších předpisů - sněmovní tisk 989 (17. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186729",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._373_(17._března_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), ve znění pozdějších předpisů, a některé další zákony - sněmovní tisk 1084 (17. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186730",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._374_(17._března_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 165/2012 Sb., o podporovaných zdrojích energie a o změně některých zákonů, ve znění pozdějších předpisů, a zákon č. 458/2000 Sb., o podmínkách podnikání a o výkonu státní správy v energetických odvětvích a o změně některých zákonů (energetický zákon), ve znění pozdějších předpisů - sněmovní tisk 870 (17. března 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186799",
+			"DocumentPlainText": null,
+			"jmeno": "ZaH054.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3500-54-20210317"
+}

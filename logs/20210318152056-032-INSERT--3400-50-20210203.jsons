@@ -1,0 +1,85 @@
+{
+	"Id": "3400-50-20210203",
+	"datum": "2021-02-03T00:00:00Z",
+	"cisloJednani": 50,
+	"vec": null,
+	"vybor": "Rozpočtový výbor",
+	"vyborId": 3400,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3400",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183733",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._493_(3._února_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 6/1993 Sb., o České národní bance, ve znění pozdějších předpisů (3. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183731",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._494_(3._února_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 21/1992 Sb., o bankách, ve znění pozdějších předpisů, a některé další zákony (3. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183732",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._495_(3._února_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 374/2015 Sb., o ozdravných postupech a řešení krize na finančním trhu, ve znění pozdějších předpisů, a další související zákony (3. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183769",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._496_(3._února_2021).docx",
+			"popis": "ke sdělení Komise Evropskému parlamentu, Radě a Evropské centrální bance - Řešení pro úvěry v selhání po pandemii covidu-19 (3. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183745",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._497_(3._února_2021).docx",
+			"popis": "k finančním závazkům státu obsažených v návrhu koncesionářské smlouvy na „Projektování, výstavbu, financování, provozování a údržbu dálnice D4 v úseku Háje - Mirotice a provozování a údržbu existujících přiléhajících úseků Skalka - Háje a Mirotice - Krašovice, projekt PPP\" (3. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183747",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._498_(3._února_2021).docx",
+			"popis": "ke Zprávě České národní banky o inflaci IV (3. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183750",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._499_(3._února_2021).docx",
+			"popis": "ke schválení pořadu 51. schůze rozpočtového výboru (3. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183504",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._50_(3._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 50 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3400-50-20210203"
+}

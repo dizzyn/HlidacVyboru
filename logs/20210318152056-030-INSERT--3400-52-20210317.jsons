@@ -1,0 +1,69 @@
+{
+	"Id": "3400-52-20210317",
+	"datum": "2021-03-17T00:00:00Z",
+	"cisloJednani": 52,
+	"vec": null,
+	"vybor": "Rozpočtový výbor",
+	"vyborId": 3400,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3400",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186548",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._52_(17._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 52 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186735",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._507_(17._března_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 235/2004 Sb., o dani z přidané hodnoty, ve znění pozdějších předpisů, a zákon č. 242/2016 Sb., celní zákon, ve znění pozdějších předpisů (17. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186742",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._508_(17._března_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 58/1995 Sb., o pojišťování a financování vývozu se státní podporou a o doplnění zákona č. 166/1993 Sb., o Nejvyšším kontrolním úřadu, ve znění pozdějších předpisů, ve znění pozdějších předpisů, a zákon č. 218/2000 Sb., o rozpočtových pravidlech a o změně některých souvisejících zákonů (rozpočtová pravidla), ve znění pozdějších předpisů (17. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186739",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._509_(17._března_2021).docx",
+			"popis": "ke schválení pořadu 53. schůze rozpočtového výboru (17. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186738",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._510_(17._března_2021).docx",
+			"popis": "ke Zprávě o měnové politice - zima 2021 (17. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186736",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._511_(17._března_2021).docx",
+			"popis": "k návrhu poslanců Markéty Pekarové Adamové, Petra Fialy, Mariana Jurečky, Jana Farského a dalších na vydání zákona o státní pomoci při mimořádných opatřeních vyhlášených v souvislosti s epidemií koronaviru SARS CoV-2 (odškodňovací zákon) (17. března 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3400-52-20210317"
+}

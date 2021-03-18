@@ -1,0 +1,77 @@
+{
+	"Id": "4000-79-20210203",
+	"datum": "2021-02-03T00:00:00Z",
+	"cisloJednani": 79,
+	"vec": null,
+	"vybor": "Ústavně právní výbor",
+	"vyborId": 4000,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4000",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183527",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._79_(3._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 79 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186500",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._79_(3._února_2021).docx",
+			"popis": "Zápis z jednání č. 79 ",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183827",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._250_(3._února_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění zákon č. 7/2002 Sb., o řízení ve věcech soudců, státních zástupců a soudních exekutorů, ve znění pozdějších předpisů, a další související zákony (3. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183829",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._251_(3._února_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění zákon č. 359/1999 Sb., o sociálně-právní ochraně dětí, ve znění pozdějších předpisů, a další související zákony (tisk 911) (3. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183832",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._252_(3._února_2021).docx",
+			"popis": "Vládní návrh stavebního zákona (tisk 1008) (3. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183831",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._253_(3._února_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění některé zákony v souvislosti s přijetím stavebního zákona (tisk 1009) (3. února 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183792",
+			"DocumentPlainText": null,
+			"jmeno": "79._schuze.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4000-79-20210203"
+}

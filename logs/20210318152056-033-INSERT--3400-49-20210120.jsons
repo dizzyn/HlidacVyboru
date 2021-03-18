@@ -1,0 +1,45 @@
+{
+	"Id": "3400-49-20210120",
+	"datum": "2021-01-20T00:00:00Z",
+	"cisloJednani": 49,
+	"vec": null,
+	"vybor": "Rozpočtový výbor",
+	"vyborId": 3400,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3400",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183049",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._491_(20._ledna_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 461/2020 S., o kompenzačním bonusu v souvislosti se zákazem nebo omezením podnikatelské činnosti v souvislosti s výskytem koronaviru SARS CoV-2, ve znění zákona č. 584/2020 Sb., sněmovní tisk 1134 projednání ve stavu legislativní nouze (20. ledna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183048",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._492_(20._ledna_2021).docx",
+			"popis": "ke schválení pořadu 50. schůze rozpočtového výboru (20. ledna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=182974",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._49_(20._ledna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 49 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3400-49-20210120"
+}

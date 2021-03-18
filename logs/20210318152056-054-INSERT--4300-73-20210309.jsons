@@ -1,0 +1,45 @@
+{
+	"Id": "4300-73-20210309",
+	"datum": "2021-03-09T00:00:00Z",
+	"cisloJednani": 73,
+	"vec": null,
+	"vybor": "Výbor pro sociální politiku",
+	"vyborId": 4300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186178",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._73_(9._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 73 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186457",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._224_(9._března_2021).docx",
+			"popis": "k vládnímu návrhu zákona o některých dalších úpravách v oblasti dávek státní sociální podpory a příspěvku na péči v souvislosti s epidemií COVID-19 /ST 1172/ (9. března 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186481",
+			"DocumentPlainText": null,
+			"jmeno": "VSP.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4300-73-20210309"
+}

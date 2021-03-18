@@ -1,0 +1,93 @@
+{
+	"Id": "4000-81-20210217",
+	"datum": "2021-02-17T00:00:00Z",
+	"cisloJednani": 81,
+	"vec": null,
+	"vybor": "Ústavně právní výbor",
+	"vyborId": 4000,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4000",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184405",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._81_(17._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 81 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=185744",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._255_(17._února_2021).docx",
+			"popis": "Návrh poslanců Moniky Červíčkové, Jaroslava Faltýnka, Heleny Válkové a dalších na vydání zákona, kterým se mění zákon č. 358/1992 Sb., o notářích a jejich činnosti (notářský řád), ve znění pozdějších předpisů, a zákon č. 634/2004 Sb., o správních poplatcích, ve znění pozdějších předpisů (tisk 793) (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=185232",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._256_(17._února_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění zákon č. 359/1999 Sb., o sociálně-právní ochraně dětí, ve znění pozdějších předpisů, a další související zákony (tisk 911) (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184992",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._257_(17._února_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění zákon č. 104/2013 Sb., o mezinárodní justiční spolupráci ve věcech trestních, ve znění pozdějších předpisů, a některé další zákony (tisk 699) (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184993",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._258_(17._února_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění zákon č. 99/1963 Sb., občanský soudní řád, ve znění pozdějších předpisů, zákon č. 120/2001 Sb., o soudních exekutorech a exekuční činnosti (exekuční řád) a o změně dalších zákonů, ve znění pozdějších předpisů, a některé další zákony (tisk 545) (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184997",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._259_(17._února_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění zákon č. 89/2012 Sb., občanský zákoník, ve znění pozdějších předpisů, a zákon č. 99/1963 Sb., občanský soudní řád, ve znění pozdějších předpisů (tisk 984) ­­­­­­­­­­­­­­­­­­ (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184999",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._260_(17._února_2021).docx",
+			"popis": "Vládní návrh zákona o lobbování (tisk 565) (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184998",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._261_(17._února_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění některé zákony v souvislosti s přijetím zákona o lobbování (tisk 566) (17. února 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=185275",
+			"DocumentPlainText": null,
+			"jmeno": "81._schuze.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4000-81-20210217"
+}

@@ -1,0 +1,53 @@
+{
+	"Id": "3900-38-20210316",
+	"datum": "2021-03-16T00:00:00Z",
+	"cisloJednani": 38,
+	"vec": null,
+	"vybor": "Petiční výbor",
+	"vyborId": 3900,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3900",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186482",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._38_(16._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 38 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186741",
+			"DocumentPlainText": null,
+			"jmeno": "Hlasovani.pdf",
+			"popis": "Hlasovani.pdf",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186740",
+			"DocumentPlainText": null,
+			"jmeno": "prezencka.pdf",
+			"popis": "prezencka.pdf",
+			"typ": "Dokumenty a prezentace"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186737",
+			"DocumentPlainText": null,
+			"jmeno": "1091.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3900-38-20210316"
+}

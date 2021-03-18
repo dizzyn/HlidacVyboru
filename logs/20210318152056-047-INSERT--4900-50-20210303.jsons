@@ -1,0 +1,45 @@
+{
+	"Id": "4900-50-20210303",
+	"datum": "2021-03-03T00:00:00Z",
+	"cisloJednani": 50,
+	"vec": null,
+	"vybor": "Výbor pro bezpečnost",
+	"vyborId": 4900,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4900",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186368",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._203_(3._března_2021).docx",
+			"popis": "k návrhu poslanců Pavla Růžičky, Andreje Babiše, Jana Hamáčka a dalších na vydání zákona, kterým se mění zákon č. 133/1985 Sb., o požární ochraně, ve znění pozdějších předpisů, a zákon č. 239/2000 Sb., o integrovaném záchranném systému a o změně některých zákonů, ve znění pozdějších předpisů (sněmovní tisk 1027) (3. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186484",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._204_(3._března_2021).docx",
+			"popis": "k návrhu termínu příští schůze výboru (3. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=185935",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._50_(3._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 50 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4900-50-20210303"
+}

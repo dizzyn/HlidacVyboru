@@ -1,0 +1,85 @@
+{
+	"Id": "3400-51-20210217",
+	"datum": "2021-02-17T00:00:00Z",
+	"cisloJednani": 51,
+	"vec": null,
+	"vybor": "Rozpočtový výbor",
+	"vyborId": 3400,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3400",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184523",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._51_(17._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 51 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184685",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._500_(17._února_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 600/2020 Sb., o státním rozpočtu České republiky na rok 2021 (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184688",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._501_(17._února_2021).docx",
+			"popis": "k vládnímu návrhu zákona o kompenzačním bonusu pro rok 2021 (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184817",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._502_(17._února_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 21/1992 Sb., o bankách, ve znění pozdějších předpisů, a některé další zákony (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184754",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._503_(17._února_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 374/2015 Sb., o ozdravných postupech a řešení krize na finančním trhu, ve znění pozdějších předpisů, a další související zákony (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184818",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._504_(17._února_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 58/1995 Sb., o pojišťování a financování vývozu se státní podporou a o doplnění zákona č. 166/1993 Sb., o Nejvyšším kontrolním úřadu, ve znění pozdějších předpisů, ve znění pozdějších předpisů, a zákon č. 218/2000 Sb., o rozpočtových pravidlech a o změně některých souvisejících zákonů (rozpočtová pravidla), ve znění pozdějších předpisů (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184820",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._505_(17._února_2021).docx",
+			"popis": "k žádosti Ministerstva práce a sociálních věcí o vyslovení souhlasu se změnou závazných ukazatelů státního rozpočtu České republiky na rok 2021 kapitoly 313 - Ministerstvo práce a sociálních věcí (podle § 24 odst. 3 zákona č. 218/2000 Sb., o rozpočtových pravidlech) (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184819",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._506_(17._února_2021).docx",
+			"popis": "ke schválení pořadu 52. schůze rozpočtového výboru (17. února 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3400-51-20210217"
+}

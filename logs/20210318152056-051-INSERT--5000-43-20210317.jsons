@@ -1,0 +1,29 @@
+{
+	"Id": "5000-43-20210317",
+	"datum": "2021-03-17T00:00:00Z",
+	"cisloJednani": 43,
+	"vec": null,
+	"vybor": "Výbor pro obranu",
+	"vyborId": 5000,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=5000",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186670",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._43_(17._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 43 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "5000-43-20210317"
+}

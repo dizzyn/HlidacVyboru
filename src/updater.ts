@@ -78,7 +78,9 @@ export const createHlidacData = (data: TActionDetail): THlidacData => {
 
 const dryEngine = {
   insert: async (runId: string, index: number, data: TActionDetail) => {
-    console.log(chalk.green(data.hlidacId, " - To be inserted (DRY)"));
+    console.log(
+      chalk.green(data.hlidacId, chalk.red(" - To be inserted (DRY)"))
+    );
     await logInsert(
       runId,
       index,
@@ -92,7 +94,7 @@ const dryEngine = {
 
 const ENGINE = {
   insert: async (runId: string, index: number, data: TActionDetail) => {
-    console.log(chalk.green(data.hlidacId, " - To be inserted"));
+    console.log(chalk.green(data.hlidacId, chalk.red(" - To be inserted")));
     const resJSON = await insertHlidac(createHlidacData(data));
     await logInsert(
       runId,
@@ -119,12 +121,15 @@ export const update = async (
 ) => {
   const engine = dry ? dryEngine : ENGINE;
   if (isToFresh(data)) {
-    console.log(chalk.blue(data.hlidacId), " ---- too fresh, let's wait");
+    console.log(
+      chalk.blue(data.hlidacId),
+      chalk.white(" ---- too fresh, let's wait")
+    );
     return;
   }
   if (!data.hlidacJson) {
     await engine.insert(runId, index, data);
   } else {
-    console.log(chalk.blue(data.hlidacId), " ---- ok, no action");
+    console.log(chalk.blue(data.hlidacId), chalk.gray(" ---- ok, no action"));
   }
 };

@@ -1,0 +1,45 @@
+{
+	"Id": "4000-80-20210210",
+	"datum": "2021-02-10T00:00:00Z",
+	"cisloJednani": 80,
+	"vec": null,
+	"vybor": "Ústavně právní výbor",
+	"vyborId": 4000,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4000",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184240",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._80_(10._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 80 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186498",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._80_(10._února_2021).docx",
+			"popis": "Zápis z jednání č. 80 ",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184386",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._254_(10._února_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění zákon č. 240/2000 Sb., o krizovém řízení a o změně některých zákonů (krizový zákon), ve znění pozdějších předpisů, a zákon č. 250/2016 Sb., o odpovědnosti za přestupky a řízení o nich, ve znění pozdějších předpisů (tisk 1152) - projednání ve stavu legislativní nouze (10. února 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4000-80-20210210"
+}

@@ -1,0 +1,37 @@
+{
+	"Id": "3800-79-20210210",
+	"datum": "2021-02-10T00:00:00Z",
+	"cisloJednani": 79,
+	"vec": null,
+	"vybor": "Organizační výbor",
+	"vyborId": 3800,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3800",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184370",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._368_(10._února_2021).docx",
+			"popis": "k vyslovení námitek podjatosti poslance Lubomíra Volného vůči mandátovému a imunitnímu výboru a některým jeho členům (10. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183789",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._79_(10._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 79 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3800-79-20210210"
+}

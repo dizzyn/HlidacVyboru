@@ -1,0 +1,29 @@
+{
+	"Id": "3700-39-20210317",
+	"datum": "2021-03-17T00:00:00Z",
+	"cisloJednani": 39,
+	"vec": null,
+	"vybor": "Mandátový a imunitní výbor",
+	"vyborId": 3700,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3700",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186632",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._39_(17._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 39 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3700-39-20210317"
+}

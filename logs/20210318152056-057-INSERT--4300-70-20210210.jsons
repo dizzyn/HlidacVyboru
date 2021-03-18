@@ -1,0 +1,53 @@
+{
+	"Id": "4300-70-20210210",
+	"datum": "2021-02-10T00:00:00Z",
+	"cisloJednani": 70,
+	"vec": null,
+	"vybor": "Výbor pro sociální politiku",
+	"vyborId": 4300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184235",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._70_(10._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 70 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184970",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._70_(10._února_2021).docx",
+			"popis": "Zápis z jednání č. 70 ",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184291",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._218_(10._února_2021).docx",
+			"popis": "k vládnímu návrhu zákona o mimořádném příspěvku zaměstnanci při nařízené  karanténě /ST 1153/ (10. února 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184302",
+			"DocumentPlainText": null,
+			"jmeno": "10.2.2021_schuze_VSP.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4300-70-20210210"
+}

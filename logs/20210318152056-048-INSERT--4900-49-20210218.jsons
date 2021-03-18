@@ -1,0 +1,29 @@
+{
+	"Id": "4900-49-20210218",
+	"datum": "2021-02-18T00:00:00Z",
+	"cisloJednani": 49,
+	"vec": null,
+	"vybor": "Výbor pro bezpečnost",
+	"vyborId": 4900,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4900",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184472",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._49_(18._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 49 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4900-49-20210218"
+}

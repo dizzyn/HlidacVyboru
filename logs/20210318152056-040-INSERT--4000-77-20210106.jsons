@@ -1,0 +1,85 @@
+{
+	"Id": "4000-77-20210106",
+	"datum": "2021-01-06T00:00:00Z",
+	"cisloJednani": 77,
+	"vec": null,
+	"vybor": "Ústavně právní výbor",
+	"vyborId": 4000,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4000",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=170719",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._77_(6._ledna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 77 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186499",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._77_(6._ledna_2021).docx",
+			"popis": "Zápis z jednání č. 77 ",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=181398",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._244_(6._ledna_2021).docx",
+			"popis": "Návrh poslanců Petra Sadovského, Věry Kovářové, Jana Chvojky, Taťány Malé a dalších na vydání zákona, kterým se mění zákon č. 159/2006 Sb., o střetu zájmů, ve znění pozdějších předpisů (tisk 956) (6. ledna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=181423",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._245_(6._ledna_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění zákon č. 6/2002 Sb., o soudech, soudcích, přísedících a státní správě soudů a o změně některých dalších zákonů (zákon o soudech a soudcích), ve znění pozdějších předpisů, a další související zákony (tisk 630) (6. ledna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=181424",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._246_(6._ledna_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění zákon č. 141/1961 Sb., o trestním řízení soudním (trestní řád), ve znění pozdějších předpisů, zákon č. 40/2009 Sb., trestní zákoník, ve znění pozdějších předpisů, zákon č. 257/2000 Sb., o Probační a mediační službě a o změně zákona č. 2/1969 Sb., o zřízení ministerstev a jiných ústředních orgánů státní správy České republiky, ve znění pozdějších předpisů, zákona č. 65/1965 Sb., zákoník práce, ve znění pozdějších předpisů a zákona č. 359/1999 Sb., o sociálně-právní ochraně dětí (zákon o Probační a mediační službě), ve znění pozdějších předpisů, a některé další zákony (tisk 624) (6. ledna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=181545",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._247_(6._ledna_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění zákon č. 89/2012 Sb., občanský zákoník, ve znění pozdějších předpisů, a zákon č. 99/1963 Sb., občanský soudní řád, ve znění pozdějších předpisů (tisk 984) (6. ledna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=181608",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._248_(6._ledna_2021).docx",
+			"popis": "Projekt e-Legislativa a e-Sbírka (6. ledna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=181546",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._249_(6._ledna_2021).docx",
+			"popis": "Projekt Elektronický monitorovací systém (6. ledna 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4000-77-20210106"
+}

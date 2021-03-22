@@ -10,31 +10,28 @@ console.log(chalk.red("Client"));
 const runId = nowTimestamp();
 const url = createURL(BASE_URL);
 
-const limit = 100;
 let counter = 0;
 const dry = false;
 
 vybory(url).then(async (vybory) => {
   for (let iVybor = 0; iVybor < vybory.length; iVybor++) {
     const { href } = vybory[iVybor];
-    if (!limit || counter < limit) {
-      const vyborData = await vybor(href);
-      for (let iAction = 0; iAction < vyborData.actions.length; iAction++) {
-        const { href: actionHref } = vyborData.actions[iAction];
-        console.log(
-          chalk.blue(
-            `Výbor ${iVybor + 1}/${vybory.length}, Event ${iAction + 1}/${
-              vyborData.actions.length
-            }`
-          ),
-          chalk.gray(actionHref)
-        );
-        if (!limit || counter < limit) {
-          counter++;
-          const actionData = await action(actionHref);
-          update(actionData, runId, counter, dry);
-        }
-      }
+
+    const vyborData = await vybor(href);
+    for (let iAction = 0; iAction < vyborData.actions.length; iAction++) {
+      const { href: actionHref } = vyborData.actions[iAction];
+      console.log(
+        chalk.blue(
+          `Výbor ${iVybor + 1}/${vybory.length}, Event ${iAction + 1}/${
+            vyborData.actions.length
+          }`
+        ),
+        chalk.gray(actionHref)
+      );
+
+      counter++;
+      const actionData = await action(actionHref);
+      update(actionData, runId, counter, dry);
     }
   }
 });

@@ -1,0 +1,85 @@
+{
+	"Id": "4300-71-20210318",
+	"datum": "2021-03-18T00:00:00Z",
+	"cisloJednani": 71,
+	"vec": null,
+	"vybor": "Výbor pro sociální politiku",
+	"vyborId": 4300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186668",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._71_(18._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 71 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186831",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._225_(18._března_2021).docx",
+			"popis": "k návrhu poslanců Jana Birke, Jana Hamáčka, Jana Chvojky a dalších na vydání zákona o veřejně prospěšných společnostech bytových a výstavbě dostupného bydlení a o změně některých zákonů (zákon č. 586/1992 Sb., o daních z příjmů, ve znění pozdějších předpisů, a zákon č. 90/2012 Sb., o obchodních společnostech a družstvech (zákon o obchodních korporacích), ve znění pozdějších právních předpisů) /ST 952/ (18. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186835",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._226_(18._března_2021).docx",
+			"popis": "k návrhu poslanců Aleše Juchelky, Romana Onderky, Olgy Richterové, Markéty Pekarové Adamové, Evy Matyášové, Romana Sklenáka, Petra Gazdíka, Barbory Kořanové a dalších na vydání zákona, kterým se mění zákon č. 372/2011 Sb., o zdravotních službách a podmínkách jejich poskytování, ve znění pozdějších předpisů, a některé další zákony /ST 944/ (18. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186833",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._227_(18._března_2021).docx",
+			"popis": "„Aktuální stav ICT v resortu MPSV, Aktuální provádění evropských projektů Úřadem práce\" (18. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186830",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._228_(18._března_2021).docx",
+			"popis": "„Aktuální situace v naplňování Work-Life Balance (Stav implementace Směrnice EU k slaďování pracovního a soukromého života)\" (18. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186832",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._229_(18._března_2021).docx",
+			"popis": "„Příprava na implementaci Směrnice o transparentních a předvídatelných pracovních podmínkách v Evropské unii\" (18. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186834",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._230_(18._března_2021).docx",
+			"popis": "k Návrhu termínu a pořadu další schůze výboru (18. března 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186826",
+			"DocumentPlainText": null,
+			"jmeno": "20210318_VSP.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4300-71-20210318"
+}

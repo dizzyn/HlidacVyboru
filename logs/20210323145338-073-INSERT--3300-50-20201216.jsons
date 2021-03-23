@@ -1,0 +1,37 @@
+{
+	"Id": "3300-50-20201216",
+	"datum": "2020-12-16T00:00:00Z",
+	"cisloJednani": 50,
+	"vec": null,
+	"vybor": "Zahraniční výbor",
+	"vyborId": 3300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=169247",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._164_(16._prosince_2020).docx",
+			"popis": "k vládnímu návrhu, kterým se předkládá Parlamentu České republiky k vyslovení souhlasu s ratifikací Smlouva mezi vládou České republiky a vládou Senegalské republiky o zamezení dvojímu zdanění v oboru daní z příjmu a o zabránění daňovému úniku a vyhýbání se daňové povinnosti, která byla podepsána v Dakaru dne 22. ledna 2020 /sněmovní tisk 760/ (16. prosince 2020) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=153209",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._50_(16._prosince_2020).docx",
+			"popis": "Pozvánka na schůzi č. 50 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3300-50-20201216"
+}

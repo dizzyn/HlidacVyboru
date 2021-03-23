@@ -1,0 +1,53 @@
+{
+	"Id": "4900-51-20210318",
+	"datum": "2021-03-18T00:00:00Z",
+	"cisloJednani": 51,
+	"vec": null,
+	"vybor": "Výbor pro bezpečnost",
+	"vyborId": 4900,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4900",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186674",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._51_(18._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 51 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186488",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._51_(18._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 51 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186846",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._205_(18._března_2021).docx",
+			"popis": "k senátnímu návrhu ústavního zákona, kterým se mění Listina základních práv a svobod, ve znění ústavního zákona č. 162/1998 Sb. (sněmovní tisk 895) (18. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186847",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._207_(18._března_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 186/2013 Sb., o státním občanství České republiky a o změně některých zákonů (zákon o státním občanství České republiky), ve znění pozdějších předpisů, a zákon č. 634/2004 Sb., o správních poplatcích, ve znění pozdějších předpisů (sněmovní tisk 690). (18. března 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4900-51-20210318"
+}

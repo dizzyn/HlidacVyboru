@@ -1,0 +1,77 @@
+{
+	"Id": "4700-41-20210203",
+	"datum": "2021-02-03T00:00:00Z",
+	"cisloJednani": 41,
+	"vec": null,
+	"vybor": "Zemědělský výbor",
+	"vyborId": 4700,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4700",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183579",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._41_(3._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 41 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184462",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._41_(3._února_2021).docx",
+			"popis": "Zápis z jednání č. 41 ",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183710",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._197_(3._února_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění některé zákony v souvislosti s implementací předpisů Evropské unie v oblasti invazních nepůvodních druhů (sněmovní tisk 731) (3. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183707",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._198_(3._února_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění zákon č. 167/1998 Sb., o návykových látkách a o změně některých dalších zákonů, ve znění pozdějších předpisů, zákon č. 378/2007 Sb., o léčivech a o změnách některých souvisejících zákonů (zákon o léčivech), ve znění pozdějších předpisů, a zákon č. 634/2004 Sb., o správních poplatcích, ve znění pozdější předpisů (sněmovní tisk 864) (3. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183709",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._199_(3._února_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění zákon č. 165/2012 Sb., o podporovaných zdrojích energie a o změně některých zákonů, ve znění pozdějších předpisů, a zákon č. 458/2000 Sb., o podmínkách podnikání a o výkonu státní správy v energetických odvětvích a o změně některých zákonů (energetický zákon), ve znění pozdějších předpisů (sněmovní tisk 870) (3. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183708",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._200_(3._února_2021).docx",
+			"popis": "k volbě člena podvýboru zemědělského výboru pro myslivost, rybářství, včelařství, zahrádkářství a chovatelství (3. února 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183793",
+			"DocumentPlainText": null,
+			"jmeno": "41.schuze_zem._vyboru.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4700-41-20210203"
+}

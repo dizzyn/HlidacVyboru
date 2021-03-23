@@ -1,0 +1,29 @@
+{
+	"Id": "3300-52-20210218",
+	"datum": "2021-02-18T00:00:00Z",
+	"cisloJednani": 52,
+	"vec": null,
+	"vybor": "Zahraniční výbor",
+	"vyborId": 3300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184636",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._52_(18._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 52 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3300-52-20210218"
+}

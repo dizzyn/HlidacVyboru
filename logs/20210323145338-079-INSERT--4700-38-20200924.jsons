@@ -1,0 +1,45 @@
+{
+	"Id": "4700-38-20200924",
+	"datum": "2020-09-24T00:00:00Z",
+	"cisloJednani": 38,
+	"vec": null,
+	"vybor": "Zemědělský výbor",
+	"vyborId": 4700,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4700",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=182087",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._38_(23._a_24._září_2020).docx",
+			"popis": "Pozvánka na schůzi č. 38 (23. a ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=20481",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._38_(23._a_24._září_2020).docx",
+			"popis": "Zápis z jednání č. 38 (23. a ",
+			"typ": "Zápis z jednání"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=182394",
+			"DocumentPlainText": null,
+			"jmeno": "38.ZEV.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4700-38-20200924"
+}

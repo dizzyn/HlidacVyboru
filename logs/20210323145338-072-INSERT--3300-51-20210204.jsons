@@ -1,0 +1,61 @@
+{
+	"Id": "3300-51-20210204",
+	"datum": "2021-02-04T00:00:00Z",
+	"cisloJednani": 51,
+	"vec": null,
+	"vybor": "Zahraniční výbor",
+	"vyborId": 3300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183804",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._165_(4._února_2021).docx",
+			"popis": "k informaci o aktuální situaci v Sýrii (4. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183802",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._166_(4._února_2021).docx",
+			"popis": "k informaci o aktuální situaci v Arménii po uzavření příměří ohledně Náhorního Karabachu (4. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183803",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._167_(4._února_2021).docx",
+			"popis": "k informaci o aktuální situaci v Ruské federaci v souvislosti s případem zadržení opozičního politika Alexeje Navalného (4. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183801",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._168_(4._února_2021).docx",
+			"popis": "k třicátému výročíslavnostního zahájení spolupráce Visegrádské skupiny Dne 15. února 2021 uplyne třicet let od slavnostního zahájení spolupráce Visegrádské skupiny. Prezidenti Československa a Polska, Václav Havel a Lech Wałęsa, společně s předsedou maďarské vlády Józsefem Antallem uspořádali ve Visegrádu historické setkání, které vedlo k regionální spolupráci mezi středoevropskými zeměmi v oblasti evropské a euroatlantické integrace a k celkovému rozvoji. Zahraniční výbor Poslanecké sněmovny Parlamentu ČR při této příležitosti přijímá následující usnesení: (4. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183535",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._51_(4._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 51 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3300-51-20210204"
+}

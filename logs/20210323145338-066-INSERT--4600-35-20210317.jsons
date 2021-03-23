@@ -1,0 +1,127 @@
+{
+	"Id": "4600-35-20210317",
+	"datum": "2021-03-17T00:00:00Z",
+	"cisloJednani": 35,
+	"vec": null,
+	"vybor": "Výbor pro životní prostředí",
+	"vyborId": 4600,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4600",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186573",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._35_(17._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 35 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186751",
+			"DocumentPlainText": null,
+			"jmeno": "PREZENTACE_Zprava_o_zivotnim_prostredi_2019.pdf",
+			"popis": "PREZENTACE_Zprava_o_zivotnim_prostredi_2019.pdf",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186933",
+			"DocumentPlainText": null,
+			"jmeno": "PREZENTACE_Zprava_udr._rozvoj.pdf",
+			"popis": "PREZENTACE_Zprava_udr. rozvoj.pdf",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186744",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._172_(17._března_2021).docx",
+			"popis": "ke Zprávě o životním prostředí České republiky 2019 /ST 1173/ (17. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186752",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._173_(17._března_2021).docx",
+			"popis": "k informaci Ministerstva životního prostředí o Státní politice životního prostředí (17. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186758",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._174_(17._března_2021).docx",
+			"popis": "ke Zprávě o naplňování Agendy 2030 a Zprávě o kvalitě života a její udržitelnosti (17. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186762",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._175_(17._března_2021).docx",
+			"popis": "ke Zprávě Komise Evropskému parlamentu, Radě, Evropskému hospodářskému a sociálnímu výboru a Výboru regionů - Druhý výhled pro čisté ovzduší, COM(2021) 3 final (17. března 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186767",
+			"DocumentPlainText": null,
+			"jmeno": "01_Zahajeni.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186765",
+			"DocumentPlainText": null,
+			"jmeno": "02_Informace_ministra_ZP_k_priprave_nove_legislativy-kauza_Becva.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186769",
+			"DocumentPlainText": null,
+			"jmeno": "03_Zprava_o_zivotnim_prostredi_CR_2019_ST_1173.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186766",
+			"DocumentPlainText": null,
+			"jmeno": "04_Informace_MZP_o_Statni_politice_zivotniho_prostredi.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186771",
+			"DocumentPlainText": null,
+			"jmeno": "05_Zprava_o_naplnovani_Agendy_2030_a_Zprava_o_kvalite_zivota_a_jeji_udrzitelnosti.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186770",
+			"DocumentPlainText": null,
+			"jmeno": "06_EU_Dokument_Druhy_vyhled_pro_ciste_ovzdusi_.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186768",
+			"DocumentPlainText": null,
+			"jmeno": "07_Ruzne.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4600-35-20210317"
+}

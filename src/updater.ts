@@ -130,6 +130,6 @@ export const update = async (
   if (!data.hlidacJson) {
     await engine.insert(runId, index, data);
   } else {
-    console.log(chalk.blue(data.hlidacId), chalk.gray(" ---- ok, no action"));
+    console.log(chalk.blue(data.hlidacId), chalk.white(" ---- ok, no action"));
   }
 };

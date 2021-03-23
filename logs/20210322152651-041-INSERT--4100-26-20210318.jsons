@@ -1,0 +1,53 @@
+{
+	"Id": "4100-26-20210318",
+	"datum": "2021-03-18T00:00:00Z",
+	"cisloJednani": 26,
+	"vec": null,
+	"vybor": "Volební výbor",
+	"vyborId": 4100,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4100",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186628",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._26_(18._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 26 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186828",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._103_(18._března_2021).docx",
+			"popis": "Ke schválení programu 26. schůze volebního výboru Poslanecké sněmovny (18. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186827",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._104_(18._března_2021).docx",
+			"popis": "Návrh postupu volebního výboru pro sestavení kandidátky pro tajnou volbu   4 členů Rady České televize Poslaneckou sněmovnou (18. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186829",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._105_(18._března_2021).docx",
+			"popis": "Kandidátka na volbu 4 členů Rady České televize (18. března 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4100-26-20210318"
+}

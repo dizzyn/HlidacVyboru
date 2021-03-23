@@ -1,0 +1,157 @@
+{
+	"Id": "4700-42-20210217",
+	"datum": "2021-02-17T00:00:00Z",
+	"cisloJednani": 42,
+	"vec": null,
+	"vybor": "Zemědělský výbor",
+	"vyborId": 4700,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4700",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184497",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._42_(17._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 42 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=185665",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._42_(17._února_2021).docx",
+			"popis": "Zápis z jednání č. 42 ",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184836",
+			"DocumentPlainText": null,
+			"jmeno": "731stanoviskoMZE.doc",
+			"popis": " 731stanoviskoMZE.doc",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184837",
+			"DocumentPlainText": null,
+			"jmeno": "731stanoviskoMZP.docx",
+			"popis": " 731stanoviskoMZP.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184851",
+			"DocumentPlainText": null,
+			"jmeno": "864stanoviskoMZE.doc",
+			"popis": " 864stanoviskoMZE.doc",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184848",
+			"DocumentPlainText": null,
+			"jmeno": "864stanoviskoMZdr.docx",
+			"popis": " 864stanoviskoMZdr.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184838",
+			"DocumentPlainText": null,
+			"jmeno": "ST731PNbalastikova.docx",
+			"popis": " ST731PNbalastikova.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184842",
+			"DocumentPlainText": null,
+			"jmeno": "ST731PNbendl.docx",
+			"popis": " ST731PNbendl.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184835",
+			"DocumentPlainText": null,
+			"jmeno": "ST731PNkott1.docx",
+			"popis": " ST731PNkott1.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184840",
+			"DocumentPlainText": null,
+			"jmeno": "ST731PNkott2.docx",
+			"popis": " ST731PNkott2.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184841",
+			"DocumentPlainText": null,
+			"jmeno": "ST864PNvymazalholomcik1.docx",
+			"popis": " ST864PNvymazalholomcik1.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184839",
+			"DocumentPlainText": null,
+			"jmeno": "ST864PNvymazalholomcik2.docx",
+			"popis": " ST864PNvymazalholomcik2.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184850",
+			"DocumentPlainText": null,
+			"jmeno": "ST864PNvymazalholomcik3.docx",
+			"popis": " ST864PNvymazalholomcik3.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184686",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._201_(17._února_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění některé zákony v souvislosti s implementací předpisů Evropské unie v oblasti invazních nepůvodních druhů (sněmovní tisk 731) (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184687",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._202_(17._února_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění zákon č. 167/1998 Sb., o návykových látkách a o změně některých dalších zákonů, ve znění pozdějších předpisů, zákon č. 378/2007 Sb., o léčivech a o změnách některých souvisejících zákonů (zákon o léčivech), ve znění pozdějších předpisů, a zákon č. 634/2004 Sb., o správních poplatcích, ve znění pozdější předpisů (sněmovní tisk 864) (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184689",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._203_(17._února_2021).docx",
+			"popis": "k zahraniční cestě delegace zemědělského výboru do Uzbekistánu (17. února 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184669",
+			"DocumentPlainText": null,
+			"jmeno": "42.ZEV.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4700-42-20210217"
+}

@@ -1,0 +1,157 @@
+{
+	"Id": "4600-33-20210203",
+	"datum": "2021-02-03T00:00:00Z",
+	"cisloJednani": 33,
+	"vec": null,
+	"vybor": "Výbor pro životní prostředí",
+	"vyborId": 4600,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4600",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183581",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._33_(3._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 33 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184847",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._33_(3._února_2021).docx",
+			"popis": "Zápis z jednání č. 33 ",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183751",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._158_(3._února_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění některé zákony v souvislosti s implementací předpisů Evropské unie v oblasti invazních nepůvodních druhů /ST 731/ (3. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183744",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._159_(3._února_2021).docx",
+			"popis": "„Dovolba členů podvýborů\" (3. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183748",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._160_(3._února_2021).docx",
+			"popis": "k dokumentu EU: Pracovní dokument útvarů Komise - Zhodnocení konečné verze vnitrostátního plánu České republiky v oblasti energetiky a klimatu, SWD(2020) 902 final (3. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183749",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._161_(3._února_2021).docx",
+			"popis": "k dokumentu EU: Sdělení Komise Evropskému parlamentu, Radě, Evropskému hospodářskému a sociálnímu výboru a Výboru regionů o strategii EU ke snížení emisí methanu, COM(2020) 663 final (3. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183752",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._162_(3._února_2021).docx",
+			"popis": "k dokumentu EU: Sdělení Komise Evropskému parlamentu, Radě, Evropskému hospodářskému a sociálnímu výboru a Výboru regionů - Strategie pro udržitelnost v oblasti chemických látek - K životnímu prostředí bez toxických látek, COM(2020) 667 final (3. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183746",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._163_(3._února_2021).docx",
+			"popis": "k dokumentu EU: Zpráva Komise Evropskému parlamentu, Radě a Evropskému hospodářskému a sociálnímu výboru - Stav přírody v Evropské unii - Zpráva o stavu a trendech u druhů a typů stanovišť chráněných podle směrnice o ochraně ptáků a směrnice o ochraně přírodních stanovišť za období 2013-2018, COM(2020) 635 final (3. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183754",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._164_(3._února_2021).docx",
+			"popis": "k dokumentu EU: Zpráva Komise Evropskému parlamentu a Radě - Zpráva o fungování evropského trhu s uhlíkem, COM(2020) 740 final (3. února 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183758",
+			"DocumentPlainText": null,
+			"jmeno": "01_Zahajeni.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183765",
+			"DocumentPlainText": null,
+			"jmeno": "02_Vladni_navrh_zakona_o_invaznich_nepuvodnich_druzich_ST_731.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183763",
+			"DocumentPlainText": null,
+			"jmeno": "03_Dovolba_clenu_podvyboru.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183760",
+			"DocumentPlainText": null,
+			"jmeno": "04_Informace_ministra_zivotniho_prostredi_k_postupu_pri_setreni_havarii_na_vodach.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183759",
+			"DocumentPlainText": null,
+			"jmeno": "06_EU_dokument_Sdeleni_o_strategii_EU_ke_snizeni_emisi_methanu.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183762",
+			"DocumentPlainText": null,
+			"jmeno": "07_EU_dokument_Strategie_pro_udrzitelnost_v_oblasti_chemickych_latek.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183764",
+			"DocumentPlainText": null,
+			"jmeno": "08_EU_dokument_Stav_prirody_v_Evropske_unii_.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183761",
+			"DocumentPlainText": null,
+			"jmeno": "09_EU_dokument_Zprava_o_fungovani_evropskeho_trhu_s_uhlikem.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=183766",
+			"DocumentPlainText": null,
+			"jmeno": "10_Ruzne.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4600-33-20210203"
+}

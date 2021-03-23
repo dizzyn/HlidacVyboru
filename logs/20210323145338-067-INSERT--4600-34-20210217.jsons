@@ -1,0 +1,263 @@
+{
+	"Id": "4600-34-20210217",
+	"datum": "2021-02-17T00:00:00Z",
+	"cisloJednani": 34,
+	"vec": null,
+	"vybor": "Výbor pro životní prostředí",
+	"vyborId": 4600,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4600",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184241",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._34_(17._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 34 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186330",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._34_(17._února_2021).docx",
+			"popis": "Zápis z jednání č. 34 ",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184694",
+			"DocumentPlainText": null,
+			"jmeno": "st731-VZP_PN_tisk_731_invazni_nepuvodni_druhy_MZP.docx",
+			"popis": "st731-VZP_PN_tisk_731_invazni_nepuvodni_druhy_MZP.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=184694&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184698",
+			"DocumentPlainText": null,
+			"jmeno": "st731_PN01_EFialova1_ST731_straz_prirody_a_ohnostroje.docx",
+			"popis": "st731_PN01_EFialova1_ST731_straz_prirody_a_ohnostroje.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=184698&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184699",
+			"DocumentPlainText": null,
+			"jmeno": "st731_PN02_EFialova2_ST731_legislativne_technicke.docx",
+			"popis": "st731_PN02_EFialova2_ST731_legislativne_technicke.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=184699&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184700",
+			"DocumentPlainText": null,
+			"jmeno": "st731_PN03_JCizinsky1_ST731_douglaska_tisolista.docx",
+			"popis": "st731_PN03_JCizinsky1_ST731_douglaska_tisolista.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=184700&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184697",
+			"DocumentPlainText": null,
+			"jmeno": "st731_PN04_JCizinsky2_ST731_ochrana_pred_krizenim_se_zavlecenymi_druhy.docx",
+			"popis": "st731_PN04_JCizinsky2_ST731_ochrana_pred_krizenim_se_zavlecenymi_druhy.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=184697&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184701",
+			"DocumentPlainText": null,
+			"jmeno": "st731_PN05_JZahradnik1_ST731.docx",
+			"popis": "st731_PN05_JZahradnik1_ST731.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=184701&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184695",
+			"DocumentPlainText": null,
+			"jmeno": "st731_PN06_DBalcarova1_ST731.pdf",
+			"popis": "st731_PN06_DBalcarova1_ST731.pdf",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184696",
+			"DocumentPlainText": null,
+			"jmeno": "st731_PN07_EFialova3_ST731_komercni_vyuziti.docx",
+			"popis": "st731_PN07_EFialova3_ST731_komercni_vyuziti.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=184696&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184920",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._165_(17._února_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění některé zákony v souvislosti s implementací předpisů Evropské unie v oblasti invazních nepůvodních druhů /ST 731/ (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184915",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._166_(17._února_2021).docx",
+			"popis": "k informaci Ministerstva životního prostředí o legislativním plánu na rok 2021 včetně protierozní vyhlášky (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184912",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._167_(17._února_2021).docx",
+			"popis": "k informaci Ministerstva zahraničních věcí a Ministerstva životního prostředí o dalším vývoji po podání podnětu Evropské komisi ve věci porušení unijního práva při povolování rozšíření těžby v hnědouhelném dole Turów (v návaznosti na 132. usnesení VŽP) (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184910",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._168_(17._února_2021).docx",
+			"popis": "k volbě předsedy podvýboru VŽP pro technickou ochranu životního prostředí (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184914",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._169_(17._února_2021).docx",
+			"popis": "k Petici za klima (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184919",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._170_(17._února_2021).docx",
+			"popis": "k dokumentu EU: Sdělení Komise Evropskému parlamentu, Radě, Evropskému hospodářskému a sociálnímu výboru a Výboru regionů - Evropský klimatický pakt, COM(2020) 788 final (17. února 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184968",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._171_(17._února_2021).docx",
+			"popis": "k dokumentu EU: Zpráva Komise Evropskému parlamentu, Radě, Evropskému hospodářskému a sociálnímu výboru a Výboru regionů - Nastartování cesty ke klimaticky neutrální Evropě do roku 2050 - Zpráva o pokroku EU při provádění opatření v oblasti klimatu za rok 2020, COM(2020) 777 final (17. února 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184825",
+			"DocumentPlainText": null,
+			"jmeno": "01_Zahajeni.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184824",
+			"DocumentPlainText": null,
+			"jmeno": "02_Vladni_navrh_zakona_o_invaznich_nepuvodnich_druzich_ST_731.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184814",
+			"DocumentPlainText": null,
+			"jmeno": "03_Informace_MZP_o_legislativnim_planu_na_rok_2021_vcetne_protierozni_vyhlasky.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184816",
+			"DocumentPlainText": null,
+			"jmeno": "05_Ruzne.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184813",
+			"DocumentPlainText": null,
+			"jmeno": "06_Petice_za_klima.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184815",
+			"DocumentPlainText": null,
+			"jmeno": "07_EU_dokument_Evropsky_klimaticky_pakt.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184812",
+			"DocumentPlainText": null,
+			"jmeno": "08_EU_dokument_Zprava_o_pokroku_EU_pri_provadeni_opatreni_v_oblasti_klimatu_za_rok_2020.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4600-34-20210217"
+}

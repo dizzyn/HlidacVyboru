@@ -1,0 +1,69 @@
+{
+	"Id": "3300-53-20210318",
+	"datum": "2021-03-18T00:00:00Z",
+	"cisloJednani": 53,
+	"vec": null,
+	"vybor": "Zahraniční výbor",
+	"vyborId": 3300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186549",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._53_(18._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 53 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186857",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._169_(18._března_2021).docx",
+			"popis": "k informaci o aktuální situaci v Myanmaru (18. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186858",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._170_(18._března_2021).docx",
+			"popis": "k informaci o postavení ujgurského etnika v Čínské lidové republice (18. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186859",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._171_(18._března_2021).docx",
+			"popis": "k informaci o aktuálním stavu příprav Národního plánu obnovy (18. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186851",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._172_(18._března_2021).docx",
+			"popis": "k vládnímu návrhu, kterým se předkládá Parlamentu České republiky k vyslovení souhlasu návrh na přístup České republiky k Ženevskému aktu Lisabonské dohody o označeních původu a zeměpisných označeních/sněmovní tisk 973/ (18. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186850",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._173_(18._března_2021).docx",
+			"popis": "k informaci o rozsahu omezování výdajů Ministerstva zahraničních věcí (18. března 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3300-53-20210318"
+}

@@ -1,0 +1,69 @@
+{
+	"Id": "4000-85-20210331",
+	"datum": "2021-03-31T00:00:00Z",
+	"cisloJednani": 85,
+	"vec": null,
+	"vybor": "Ústavně právní výbor",
+	"vyborId": 4000,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4000",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187296",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._85_(31._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 85 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188079",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._268_(31._března_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění zákon č. 247/1995 Sb., o volbách do Parlamentu České republiky a o změně a doplnění některých dalších zákonů, ve znění pozdějších předpisů (tisk 1170) (31. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188077",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._269_(31._března_2021).docx",
+			"popis": "k informacím, ve znění pozdějších předpisů, a zákon č. 123/1998 Sb., o právu na informace o životním prostředí, ve znění pozdějších předpisů (tisk 633) (31. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188076",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._270_(31._března_2021).docx",
+			"popis": "Návrh poslanců Jana Birke, Jana Hamáčka, Jana Chvojky a dalších na vydání zákona o veřejně prospěšných společnostech bytových a výstavbě dostupného bydlení a o změně některých zákonů (zákon č. 586/1992 Sb., o daních z příjmů, ve znění pozdějších předpisů, a zákon č. 90/2012 Sb., o obchodních společnostech a družstvech (zákon o obchodních korporacích), ve znění pozdějších právních předpisů) (tisk 952) (31. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188078",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._271_(31._března_2021).docx",
+			"popis": "Řešení problematiky chybějících specialistů v resortu justice (oblast informatiky, programování a výpočetní techniky) (31. března 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187941",
+			"DocumentPlainText": null,
+			"jmeno": "85._schĹŻze.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4000-85-20210331"
+}

@@ -1,0 +1,93 @@
+{
+	"Id": "3900-39-20210330",
+	"datum": "2021-03-30T00:00:00Z",
+	"cisloJednani": 39,
+	"vec": null,
+	"vybor": "Petiční výbor",
+	"vyborId": 3900,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3900",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186698",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._39_(30._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 39 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187832",
+			"DocumentPlainText": null,
+			"jmeno": "Hlasovani.pdf",
+			"popis": "Hlasovani.pdf",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187831",
+			"DocumentPlainText": null,
+			"jmeno": "Prezencky.pdf",
+			"popis": "Prezencky.pdf",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187796",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._195_(30._března_2021).docx",
+			"popis": "k návrhu poslanců Heleny Válkové, Jany Pastuchové, Lenky Dražilové, Pavly Golasowské, Markéty Pekarové Adamové, Karla Schwarzenberga, Marka Nováka, Aleny Gajdůškové a Evy Matyášové na vydání zákona o poskytnutí jednorázové peněžní částky osobám sterilizovaným v rozporu s právem (tisk č. 603) (30. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187958",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._196_(30._března_2021).docx",
+			"popis": "k projednání petice č. 21/P/2020 „Proti nesystematickým restriktivním opatřením, omezujícím a zakazujícím svobodný výkon práce občanů ČR\" (30. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187962",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._197_(30._března_2021).docx",
+			"popis": "k projednání petice č. 4/P/2021 „Za naléhavé řešení situace ve školství zasaženém opatřeními v boji proti koronaviru\" (30. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187959",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._198_(30._března_2021).docx",
+			"popis": "k informaci zpravodajů o stavu přidělených petic a jejich projednání (30. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187953",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._199_(30._března_2021).docx",
+			"popis": "k návrhu termínu a programu příští schůze (30. března 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187783",
+			"DocumentPlainText": null,
+			"jmeno": "1092.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3900-39-20210330"
+}

@@ -1,0 +1,61 @@
+{
+	"Id": "4700-43-20210331",
+	"datum": "2021-03-31T00:00:00Z",
+	"cisloJednani": 43,
+	"vec": null,
+	"vybor": "Zemědělský výbor",
+	"vyborId": 4700,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4700",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187324",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._43_(31._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 43 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187804",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._204_(31._března_2021).docx",
+			"popis": "ke Sdělení Komise Evropskému parlamentu, Radě, Evropskému hospodářskému a sociálnímu výboru a Výboru regionů - Doporučení členským státům ohledně jejich strategického plánu pro Společnou zemědělskou politiku (31. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187806",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._205_(31._března_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění zákon č. 165/2012 Sb., o podporovaných zdrojích energie a o změně některých zákonů, ve znění pozdějších předpisů, a zákon č. 458/2000 Sb., o podmínkách podnikání a o výkonu státní správy v energetických odvětvích a o změně některých zákonů (energetický zákon), ve znění pozdějších předpisů (sněmovní tisk 870) (31. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187805",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._206_(31._března_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění zákon č. 449/2001 Sb., o myslivosti, ve znění pozdějších předpisů (sněmovní tisk 954) (31. března 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187837",
+			"DocumentPlainText": null,
+			"jmeno": "43.ZEV.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4700-43-20210331"
+}

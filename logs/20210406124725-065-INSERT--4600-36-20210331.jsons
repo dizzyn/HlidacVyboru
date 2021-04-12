@@ -1,0 +1,59 @@
+{
+	"Id": "4600-36-20210331",
+	"datum": "2021-03-31T00:00:00Z",
+	"cisloJednani": 36,
+	"vec": null,
+	"vybor": "Výbor pro životní prostředí",
+	"vyborId": 4600,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4600",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187507",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._36_(31._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 36 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187803",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._176_(31._března_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 449/2001 Sb., o myslivosti, ve znění pozdějších předpisů /ST 954/ (31. března 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187818",
+			"DocumentPlainText": null,
+			"jmeno": "01_Zahajeni.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187823",
+			"DocumentPlainText": null,
+			"jmeno": "02_Vladni_navrh_zakona_o_myslivosti_ST_954.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187824",
+			"DocumentPlainText": null,
+			"jmeno": "03_Ruzne.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4600-36-20210331"
+}

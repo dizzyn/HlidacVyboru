@@ -1,0 +1,69 @@
+{
+	"Id": "3500-55-20210331",
+	"datum": "2021-03-31T00:00:00Z",
+	"cisloJednani": 55,
+	"vec": null,
+	"vybor": "Hospodářský výbor",
+	"vyborId": 3500,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3500",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187273",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._55_(31._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 55 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187951",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._375_(31._března_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 58/1995 Sb., o pojišťování a financování vývozu se státní podporou a o doplnění zákona č. 166/1993 Sb., o Nejvyšším kontrolním úřadu, ve znění pozdějších předpisů, ve znění pozdějších předpisů, a zákon č. 218/2000 Sb., o rozpočtových pravidlech a o změně některých souvisejících zákonů (rozpočtová pravidla), ve znění pozdějších předpisů - sněmovní tisk 757 (31. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187950",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._377_(31._března_2021).docx",
+			"popis": "k návrhu poslanců Markéty Pekarové Adamové, Petra Fialy, Mariana Jurečky, Jana Farského a dalších na vydání zákona o státní pomoci při mimořádných opatřeních vyhlášených v souvislosti s epidemií koronaviru SARS CoV-2 (odškodňovací zákon) - sněmovní tisk 1039 (31. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187952",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._378_(31._března_2021).docx",
+			"popis": "k vládnímu návrhu zákona o bezpečnosti práce v souvislosti s provozem vyhrazených technických zařízení a o změně souvisejících zákonů - sněmovní tisk 535 (31. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187954",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._379_(31._března_2021).docx",
+			"popis": "k vládnímu návrhu zákona o bezpečnosti práce v souvislosti s provozem vyhrazených technických zařízení a o změně souvisejících zákonů - sněmovní tisk 535 (31. března 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187967",
+			"DocumentPlainText": null,
+			"jmeno": "ZaH055.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3500-55-20210331"
+}

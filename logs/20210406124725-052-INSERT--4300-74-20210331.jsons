@@ -1,0 +1,61 @@
+{
+	"Id": "4300-74-20210331",
+	"datum": "2021-03-31T00:00:00Z",
+	"cisloJednani": 74,
+	"vec": null,
+	"vybor": "Výbor pro sociální politiku",
+	"vyborId": 4300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187461",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._74_(31._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 74 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187963",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._231_(31._března_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 247/2014 Sb., o poskytování služby péče o dítě v dětské skupině a o změně souvisejících zákonů, ve znění pozdějších předpisů, a některé další zákony /ST 961/ (31. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187955",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._232_(31._března_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 359/1999 Sb., o sociálněprávní ochraně dětí, ve znění pozdějších předpisů, a další související zákony /ST 911/ (31. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187956",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._234_(31._března_2021).docx",
+			"popis": "Návrh poslanců Jana Birke, Jana Hamáčka, Jana Chvojky a dalších na vydání zákona o veřejně prospěšných společnostech bytových a výstavbě dostupného bydlení a o změně některých zákonů (zákon č. 586/1992 Sb., o daních z příjmů, ve znění pozdějších předpisů, a zákon č. 90/2012 Sb., o obchodních společnostech a družstvech (zákon o obchodních korporacích), ve znění pozdějších právních předpisů) /ST 952/ (31. března 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189759",
+			"DocumentPlainText": null,
+			"jmeno": "20210331_VSP_74-schuze.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4300-74-20210331"
+}

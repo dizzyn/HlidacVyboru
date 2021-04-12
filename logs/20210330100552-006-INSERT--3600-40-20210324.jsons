@@ -1,0 +1,69 @@
+{
+	"Id": "3600-40-20210324",
+	"datum": "2021-03-24T00:00:00Z",
+	"cisloJednani": 40,
+	"vec": null,
+	"vybor": "Kontrolní výbor",
+	"vyborId": 3600,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3600",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=186487",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._40_(24._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 40 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=184498",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._40_(18._února_2021).docx",
+			"popis": "Pozvánka na schůzi č. 40 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187293",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._211_(24._března_2021).docx",
+			"popis": "ke Kontrolnímu závěru Nejvyššího kontrolního úřadu z kontrolní akce č. 18/34 - Implementace inteligentních dopravních systémů (ITS) v silniční infrastruktuře České republiky (24. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187295",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._212_(24._března_2021).docx",
+			"popis": "ke Kontrolnímu závěru Nejvyššího kontrolního úřadu z kontrolní akce č. 18/06 - Podpora rozvoje výzkumu a vývoje pro inovace poskytovaná z operačního programu Podnikání a inovace pro konkurenceschopnost (24. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187294",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._213_(24._března_2021).docx",
+			"popis": "k návrhu termínu a programu příští schůze výboru (24. března 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187505",
+			"DocumentPlainText": null,
+			"jmeno": "zvukovy_zaznam_40KV_24_3_2021.MP3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3600-40-20210324"
+}

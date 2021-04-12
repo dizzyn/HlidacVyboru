@@ -1,0 +1,85 @@
+{
+	"Id": "4500-51-20210331",
+	"datum": "2021-03-31T00:00:00Z",
+	"cisloJednani": 51,
+	"vec": null,
+	"vybor": "Výbor pro vědu, vzdělání, kulturu, mládež a tělovýchovu",
+	"vyborId": 4500,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4500",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187302",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._51_(31._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 51 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189762",
+			"DocumentPlainText": null,
+			"jmeno": "č._51.doc",
+			"popis": "č. 51",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189760",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._292_(31._března_2021).docx",
+			"popis": "k Vládnímu návrhu zákona, kterým se mění zákon č. 352/2001 Sb., o užívání státních symbolů České republiky a o změně některých zákonů, ve znění pozdějších předpisů (sněmovní tisk 702) (31. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189761",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._293_(31._března_2021).docx",
+			"popis": "k Informaci ředitele ÚZIS Ladislava Duška o vývoji epidemie COVID-19 ve školách a školských zařízeních - u dětí, pedagogů a zaměstnanců škol (31. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189763",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._294_(31._března_2021).docx",
+			"popis": "k Aktuální informaci zástupce Ministerstva školství, mládeže a tělovýchovy k mimořádným opatřením ve vzdělávání v důsledku COVID-19 (31. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187957",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._295_(31._března_2021).docx",
+			"popis": "ke stanovisku Vlády ČR k průběhu ukončování školního roku 2020/2021 maturitní a závěrečnou zkouškou (31. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187965",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._296_(31._března_2021).docx",
+			"popis": "k Národnímu plánu na dorovnání výpadků vzdělávání v důsledku Covid-19 (31. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187966",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._297_(31._března_2021).docx",
+			"popis": "ke svolání 52. schůze výboru (31. března 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4500-51-20210331"
+}

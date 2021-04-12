@@ -1,0 +1,29 @@
+{
+	"Id": "3200-85-20210326",
+	"datum": "2021-03-26T00:00:00Z",
+	"cisloJednani": 85,
+	"vec": null,
+	"vybor": "Výbor pro zdravotnictví",
+	"vyborId": 3200,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3202",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187572",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._85_(31._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 85 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3200-85-20210326"
+}

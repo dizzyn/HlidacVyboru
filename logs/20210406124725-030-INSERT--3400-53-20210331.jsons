@@ -1,0 +1,61 @@
+{
+	"Id": "3400-53-20210331",
+	"datum": "2021-03-31T00:00:00Z",
+	"cisloJednani": 53,
+	"vec": null,
+	"vybor": "Rozpočtový výbor",
+	"vyborId": 3400,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3400",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187561",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._53_(31._března_2021).docx",
+			"popis": "Pozvánka na schůzi č. 53 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188052",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._512_(31._března_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 235/2004 Sb., o dani z přidané hodnoty, ve znění pozdějších předpisů, a zákon č. 242/2016 Sb., celní zákon, ve znění pozdějších předpisů (31. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187995",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._513_(31._března_2021).docx",
+			"popis": "k návrhu poslanců Markéty Pekarové Adamové, Petra Fialy, Mariana Jurečky, Jana Farského a dalších na vydání zákona o státní pomoci při mimořádných opatřeních vyhlášených v souvislosti s epidemií koronaviru SARS CoV-2 (odškodňovací zákon) (31. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187996",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._514_(31._března_2021).docx",
+			"popis": "k návrhu časového harmonogramu projednávání vládního návrhu státního závěrečného účtu České republiky za rok 2020 v Poslanecké sněmovně a jejích orgánech a k návrhu na jeho přikázání výborům včetně přikázání jeho kapitol a jejich vztahů k státním fondům (31. března 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188017",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._515_(31._března_2021).docx",
+			"popis": "ke schválení pořadu 54. schůze rozpočtového výboru (31. března 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3400-53-20210331"
+}

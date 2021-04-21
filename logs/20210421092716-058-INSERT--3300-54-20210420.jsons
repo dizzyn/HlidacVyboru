@@ -1,0 +1,37 @@
+{
+	"Id": "3300-54-20210420",
+	"datum": "2021-04-20T00:00:00Z",
+	"cisloJednani": 54,
+	"vec": null,
+	"vybor": "Zahraniční výbor",
+	"vyborId": 3300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188761",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._54_(20._dubna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 54 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188784",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._175_(20._dubna_2021).docx",
+			"popis": "k informaci k útoku tajných služeb Ruské federace na území České republiky a reakci na něj (20. dubna 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3300-54-20210420"
+}

@@ -1,0 +1,45 @@
+{
+	"Id": "4300-77-20210420",
+	"datum": "2021-04-20T00:00:00Z",
+	"cisloJednani": 77,
+	"vec": null,
+	"vybor": "Výbor pro sociální politiku",
+	"vyborId": 4300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188525",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._77_(20._dubna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 77 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188782",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._238_(20._dubna_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 121/2021 Sb., o mimořádném příspěvku zaměstnanci při nařízené karanténě /ST 1205/ (20. dubna 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188776",
+			"DocumentPlainText": null,
+			"jmeno": "VSP_20.4.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4300-77-20210420"
+}

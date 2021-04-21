@@ -1,0 +1,61 @@
+{
+	"Id": "3600-41-20210414",
+	"datum": "2021-04-14T00:00:00Z",
+	"cisloJednani": 41,
+	"vec": null,
+	"vybor": "Kontrolní výbor",
+	"vyborId": 3600,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3600",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=187498",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._41_(14._dubna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 41 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188586",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._214_(14._dubna_2021).docx",
+			"popis": "ke Kontrolnímu závěru Nejvyššího kontrolního úřadu z kontrolní akce č. 18/19 - Peněžní prostředky vynaložené na kulturní aktivity z rozpočtové kapitoly Ministerstva kultury (14. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188585",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._215_(14._dubna_2021).docx",
+			"popis": "ke Kontrolnímu závěru Nejvyššího kontrolního úřadu z kontrolní akce č. 19/04 -Podpora protipovodňových opatření (14. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188584",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._216_(14._dubna_2021).docx",
+			"popis": "k návrhu termínu a programu příští schůze výboru (14. dubna 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188587",
+			"DocumentPlainText": null,
+			"jmeno": "zvukovy_zaznam_41KV_14_4_2021.MP3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3600-41-20210414"
+}

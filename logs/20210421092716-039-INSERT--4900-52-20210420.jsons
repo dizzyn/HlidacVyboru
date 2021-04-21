@@ -1,0 +1,37 @@
+{
+	"Id": "4900-52-20210420",
+	"datum": "2021-04-20T00:00:00Z",
+	"cisloJednani": 52,
+	"vec": null,
+	"vybor": "Výbor pro bezpečnost",
+	"vyborId": 4900,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4900",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188517",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._52_(20._dubna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 52 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188764",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._211_(20._dubna_2021).docx",
+			"popis": "k informaci bezpečnostních složek státu o možné účasti ruských rozvědných služeb na výbuších ve Vrběticích (20. dubna 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4900-52-20210420"
+}

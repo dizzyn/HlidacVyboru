@@ -1,0 +1,53 @@
+{
+	"Id": "3200-86-20210415",
+	"datum": "2021-04-15T00:00:00Z",
+	"cisloJednani": 86,
+	"vec": null,
+	"vybor": "Výbor pro zdravotnictví",
+	"vyborId": 3200,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3202",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188580",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._86_(14._dubna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 86 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188638",
+			"DocumentPlainText": null,
+			"jmeno": "prof._Arenberger_dostupna_data_COVID.pptx",
+			"popis": "prof. Arenberger_dostupna data COVID.pptx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188637",
+			"DocumentPlainText": null,
+			"jmeno": "prof._Dusek_COVID_dostupna_data_k_14.4.2021.pptx",
+			"popis": "prof. Dusek_COVID_dostupna data k 14.4.2021.pptx",
+			"typ": "Dokumenty a prezentace"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188564",
+			"DocumentPlainText": null,
+			"jmeno": "86.VZ.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3200-86-20210415"
+}

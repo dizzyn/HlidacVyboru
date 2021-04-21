@@ -1,0 +1,20 @@
+{
+	"Id": "3500-56-20210415",
+	"datum": "2021-04-15T00:00:00Z",
+	"cisloJednani": 56,
+	"vec": null,
+	"vybor": "Hospodářský výbor",
+	"vyborId": 3500,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3500",
+	"zapisJednani": null,
+	"dokumenty": [],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3500-56-20210415"
+}

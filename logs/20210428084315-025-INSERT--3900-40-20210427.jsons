@@ -1,0 +1,29 @@
+{
+	"Id": "3900-40-20210427",
+	"datum": "2021-04-27T00:00:00Z",
+	"cisloJednani": 40,
+	"vec": null,
+	"vybor": "Petiční výbor",
+	"vyborId": 3900,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3900",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188812",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._40_(27._dubna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 40 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3900-40-20210427"
+}

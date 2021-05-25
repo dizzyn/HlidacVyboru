@@ -1,0 +1,29 @@
+{
+	"Id": "4400-53-20210513",
+	"datum": "2021-05-13T00:00:00Z",
+	"cisloJednani": 53,
+	"vec": null,
+	"vybor": "Výbor pro veřejnou správu a regionální rozvoj",
+	"vyborId": 4400,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4400",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189575",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._53_(13._května_2021).docx",
+			"popis": "Pozvánka na schůzi č. 53 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4400-53-20210513"
+}

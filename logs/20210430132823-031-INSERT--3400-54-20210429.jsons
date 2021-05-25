@@ -1,0 +1,45 @@
+{
+	"Id": "3400-54-20210429",
+	"datum": "2021-04-29T00:00:00Z",
+	"cisloJednani": 54,
+	"vec": null,
+	"vybor": "Rozpočtový výbor",
+	"vyborId": 3400,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3400",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188904",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._54_(29._dubna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 54 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189323",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._516_(29._dubna_2021).docx",
+			"popis": "ke Konvergenčnímu programu České republiky (29. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189324",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._517_(29._dubna_2021).docx",
+			"popis": "ke schválení pořadu 55. schůze rozpočtového výboru (29. dubna 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3400-54-20210429"
+}

@@ -1,0 +1,61 @@
+{
+	"Id": "3800-84-20210421",
+	"datum": "2021-04-21T00:00:00Z",
+	"cisloJednani": 84,
+	"vec": null,
+	"vybor": "Organizační výbor",
+	"vyborId": 3800,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3800",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188626",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._84_(21._dubna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 84 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188903",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._392_(21._dubna_2021).docx",
+			"popis": "k návrhu na zařazení návrhů zákonů a mezinárodních smluv do návrhu pořadu schůze Poslanecké sněmovny (21. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188902",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._393_(21._dubna_2021).docx",
+			"popis": "k návrhu na přikázání došlých návrhů k projednání výborům Poslanecké sněmovny a na určení zpravodajů pro prvé čtení (21. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188900",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._394_(21._dubna_2021).docx",
+			"popis": "k návrhu na rozhodnutí o přijetí zahraničních návštěv a vyslání delegací Poslanecké sněmovny, jejích orgánů a poslanců (21. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188901",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._395_(21._dubna_2021).docx",
+			"popis": "k návrhu termínu a pořadu 85. schůze organizačního výboru Poslanecké sněmovny (21. dubna 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3800-84-20210421"
+}

@@ -1,0 +1,29 @@
+{
+	"Id": "500-71-20210505",
+	"datum": "2021-05-05T00:00:00Z",
+	"cisloJednani": 71,
+	"vec": null,
+	"vybor": "Výbor pro evropské záležitosti",
+	"vyborId": 500,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=5000",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189537",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._71_(12._května_2021).docx",
+			"popis": "Pozvánka na schůzi č. 71 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "500-71-20210505"
+}

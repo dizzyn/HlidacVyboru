@@ -1,0 +1,37 @@
+{
+	"Id": "4400-52-20210430",
+	"datum": "2021-04-30T00:00:00Z",
+	"cisloJednani": 52,
+	"vec": null,
+	"vybor": "Výbor pro veřejnou správu a regionální rozvoj",
+	"vyborId": 4400,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4400",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188983",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._52_(30._dubna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 52 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189471",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._253_(30._dubna_2021).docx",
+			"popis": "k informacím generálního ředitele České pošty, s.p. (30. dubna 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4400-52-20210430"
+}

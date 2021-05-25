@@ -1,0 +1,77 @@
+{
+	"Id": "4700-45-20210511",
+	"datum": "2021-05-11T00:00:00Z",
+	"cisloJednani": 45,
+	"vec": null,
+	"vybor": "Zemědělský výbor",
+	"vyborId": 4700,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4700",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189724",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._45_(11._května_2021).docx",
+			"popis": "Pozvánka na schůzi č. 45 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189830",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._209_(11._května_2021).docx",
+			"popis": "k vládnímu návrhu Státního závěrečného účtu za rok 2020, kapitola 346 - Český úřad zeměměřický a katastrální (11. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189833",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._210_(11._května_2021).docx",
+			"popis": "k vládnímu návrhu Státního závěrečného účtu za rok 2020, kapitola 329 - Ministerstvo zemědělství - Finanční vztahy SR k Státnímu zemědělskému intervenčnímu fondu (sešit F) + výdaje na Společnou zemědělskou a společnou rybářskou politiku EU s dopady na státní rozpočet (přímé platby, Program rozvoje venkova, národní zdroje k provádění tržních opatření v rámci Společné organizace trhu) (11. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189832",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._211_(11._května_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění zákon č. 156/1998 Sb., o hnojivech, pomocných půdních látkách, pomocných rostlinných přípravcích a substrátech a o agrochemickém zkoušení zemědělských půd (zákon o hnojivech), ve znění pozdějších předpisů, a zákon č. 90/2016 Sb., o posuzování shody stanovených výrobků při jejich dodávání na trh, ve znění pozdějších předpisů (sněmovní tisk 755) - jednání garančního výboru (11. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189831",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._212_(11._května_2021).docx",
+			"popis": "ke Sdělení Komise Evropskému parlamentu, Radě, Evropskému hospodářskému a sociálnímu výboru a Výboru regionů o Akčním plánu pro podporu ekologické produkce (11. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189834",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._213_(11._května_2021).docx",
+			"popis": "k podpoře Ministerstva zemědělství a jeho komponent u Národního plánu obnovy (NPO) (11. května 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189824",
+			"DocumentPlainText": null,
+			"jmeno": "45._schuze_zem._vyboru.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4700-45-20210511"
+}

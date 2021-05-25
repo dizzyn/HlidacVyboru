@@ -1,0 +1,37 @@
+{
+	"Id": "500-70-20210430",
+	"datum": "2021-04-30T00:00:00Z",
+	"cisloJednani": 70,
+	"vec": null,
+	"vybor": "Výbor pro evropské záležitosti",
+	"vyborId": 500,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=5000",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189470",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._70_(6._května_na_2021).docx",
+			"popis": "Pozvánka na schůzi č. 70 (6. května na 2021)",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189388",
+			"DocumentPlainText": null,
+			"jmeno": "Sněmovní_dokument.docx",
+			"popis": "Sněmovní dokument ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "500-70-20210430"
+}

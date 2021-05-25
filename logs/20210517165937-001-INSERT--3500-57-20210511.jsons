@@ -1,0 +1,101 @@
+{
+	"Id": "3500-57-20210511",
+	"datum": "2021-05-11T00:00:00Z",
+	"cisloJednani": 57,
+	"vec": null,
+	"vybor": "Hospodářský výbor",
+	"vyborId": 3500,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3500",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189582",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._57_(11._května_2021).docx",
+			"popis": "Pozvánka na schůzi č. 57 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189829",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._383_(11._května_2021).docx",
+			"popis": "ke Státnímu závěrečnému účtu za rok 2020 - kapitola 328 - Český telekomunikační úřad (11. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189828",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._384_(11._května_2021).docx",
+			"popis": "ke Státnímu závěrečnému účtu za rok 2020 - kapitola 349 - Energetický regulační úřad (11. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189837",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._385_(11._května_2021).docx",
+			"popis": "ke Státnímu závěrečnému účtu za rok 2020 - kapitola 375 - Státní úřad pro jadernou bezpečnost (11. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189836",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._386_(11._května_2021).docx",
+			"popis": "ke Státnímu závěrečnému účtu za rok 2020 - kapitola 374 - Správa státních hmotných rezerv (11. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189839",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._387_(11._května_2021).docx",
+			"popis": "ke Státnímu závěrečnému účtu za rok 2020 - kapitola 353 - Úřad pro ochranu hospodářské soutěže (11. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189838",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._388_(11._května_2021).docx",
+			"popis": "ke Státnímu závěrečnému účtu za rok 2020 - kapitola 344 - Úřad průmyslového vlastnictví (11. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189840",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._389_(11._května_2021).docx",
+			"popis": "ke Státnímu závěrečnému účtu za rok 2020  - kapitola 373 – Úřad pro přístup k dopravní infrastruktuře (11. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189835",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._390_(11._května_2021).docx",
+			"popis": "Zpráva o činnosti a hospodaření Úřadu pro přístup k dopravní infrastruktuře za rok 2020  – sněmovní tisk 1209 (11. května 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189823",
+			"DocumentPlainText": null,
+			"jmeno": "ZaH057.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3500-57-20210511"
+}

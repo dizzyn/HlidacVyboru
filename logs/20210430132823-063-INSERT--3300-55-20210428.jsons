@@ -1,0 +1,77 @@
+{
+	"Id": "3300-55-20210428",
+	"datum": "2021-04-28T00:00:00Z",
+	"cisloJednani": 55,
+	"vec": null,
+	"vybor": "Zahraniční výbor",
+	"vyborId": 3300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188886",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._55_(28._dubna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 55 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189274",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._176_(28._dubna_2021).docx",
+			"popis": "k volbě nového ověřovatele zahraničního výboru (28. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189276",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._177_(28._dubna_2021).docx",
+			"popis": "k návrhu závěrečného účtu kapitoly 306 - Ministerstvo zahraničních věcí České republiky za rok 2020 (28. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189277",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._178_(28._dubna_2021).docx",
+			"popis": "k informaci o aktuálních ukrajinsko-ruských vztazích (28. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189275",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._179_(28._dubna_2021).docx",
+			"popis": "k informaci o aktuálních polsko-běloruských vztazích (28. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189273",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._180_(28._dubna_2021).docx",
+			"popis": "ke Společnému sdělení Evropskému parlamentu a Radě o posílení příspěvku EU k multilateralismu založenému na pravidlech - 6312/21, JOIN(2021) 3 final (28. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189422",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._181_(28._dubna_2021).docx",
+			"popis": "k pevnému zařazení bloku mezinárodních smluv na schůzi Poslanecké sněmovny (28. dubna 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3300-55-20210428"
+}

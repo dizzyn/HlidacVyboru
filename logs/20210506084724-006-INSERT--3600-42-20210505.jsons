@@ -1,0 +1,53 @@
+{
+	"Id": "3600-42-20210505",
+	"datum": "2021-05-05T00:00:00Z",
+	"cisloJednani": 42,
+	"vec": null,
+	"vybor": "Kontrolní výbor",
+	"vyborId": 3600,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3600",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188990",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._42_(5._května_2021).docx",
+			"popis": "Pozvánka na schůzi č. 42 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189604",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._217_(5._května_2021).docx",
+			"popis": "ke Kontrolnímu závěru Nejvyššího kontrolního úřadu z kontrolní akce č. 16/14 - Peněžní prostředky Evropské unie a státního rozpočtu určené na podporu místního rozvoje v rámci iniciativy LEADER prostřednictvím Programu rozvoje venkova (5. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189605",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._218_(5._května_2021).docx",
+			"popis": "ke Kontrolnímu závěru Nejvyššího kontrolního úřadu z kontrolní akce č. 19/24 - Hospodaření Ústředního kontrolního a zkušebního ústavu zemědělského s majetkem státu a s prostředky státního rozpočtu po jeho transformaci (5. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189603",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._219_(5._května_2021).docx",
+			"popis": "k návrhu termínu a programu příští schůze výboru (5. května 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3600-42-20210505"
+}

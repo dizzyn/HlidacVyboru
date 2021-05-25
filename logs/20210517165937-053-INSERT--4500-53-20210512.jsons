@@ -1,0 +1,29 @@
+{
+	"Id": "4500-53-20210512",
+	"datum": "2021-05-12T00:00:00Z",
+	"cisloJednani": 53,
+	"vec": null,
+	"vybor": "Výbor pro vědu, vzdělání, kulturu, mládež a tělovýchovu",
+	"vyborId": 4500,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4500",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189731",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._53_(12._května_2021).docx",
+			"popis": "Pozvánka na schůzi č. 53 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4500-53-20210512"
+}

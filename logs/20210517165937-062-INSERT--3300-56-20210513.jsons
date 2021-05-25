@@ -1,0 +1,61 @@
+{
+	"Id": "3300-56-20210513",
+	"datum": "2021-05-13T00:00:00Z",
+	"cisloJednani": 56,
+	"vec": null,
+	"vybor": "Zahraniční výbor",
+	"vyborId": 3300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189668",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._56_(13._května_2021).docx",
+			"popis": "Pozvánka na schůzi č. 56 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190060",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._182_(13._května_2021).docx",
+			"popis": "k vládnímu návrhu, kterým se předkládá Parlamentu České republiky k vyslovení souhlasu s ratifikací Dohoda o ukončení platnosti dvoustranných dohod o investicích mezi členskými státy Evropské unie, podepsaná dne 5. května 2020 v Bruselu /sněmovní tisk 1019/ (13. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190061",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._183_(13._května_2021).docx",
+			"popis": "k akceptaci certifikátů o vakcinaci pro zaměstnance Ministerstva zahraničních věcí České republiky v zahraničí (13. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190058",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._184_(13._května_2021).docx",
+			"popis": "Společná zpráva Evropskému parlamentu a Radě - Zvláštní administrativní oblast Hongkong: výroční zpráva za rok 2020 /7033/21, JOIN(2021) 6 final/ (13. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190059",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._185_(13._května_2021).docx",
+			"popis": "Společné sdělení Evropské radě - Aktuální stav politických, hospodářských a obchodních vztahů mezi EU a Tureckem /7416/21, JOIN(2021) 8 final/ (13. května 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3300-56-20210513"
+}

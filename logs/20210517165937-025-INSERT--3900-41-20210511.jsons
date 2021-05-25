@@ -1,0 +1,93 @@
+{
+	"Id": "3900-41-20210511",
+	"datum": "2021-05-11T00:00:00Z",
+	"cisloJednani": 41,
+	"vec": null,
+	"vybor": "Petiční výbor",
+	"vyborId": 3900,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3900",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189115",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._41_(11._května_2021).docx",
+			"popis": "Pozvánka na schůzi č. 41 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189883",
+			"DocumentPlainText": null,
+			"jmeno": "Hlasovani.pdf",
+			"popis": "Hlasovani.pdf",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189866",
+			"DocumentPlainText": null,
+			"jmeno": "Prezencnilistiny.pdf",
+			"popis": "Prezencnilistiny.pdf",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189867",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._209_(11._května_2021).docx",
+			"popis": "k návrhu poslanců Heleny Válkové, Jany Pastuchové, Lenky Dražilové, Pavly Golasowské, Markéty Pekarové Adamové, Karla Schwarzenberga, Marka Nováka, Aleny Gajdůškové a Evy Matyášové na vydání zákona o poskytnutí jednorázové peněžní částky osobám sterilizovaným v rozporu s právem (tisk č. 603 - po druhém čtení) (11. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190017",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._210_(11._května_2021).docx",
+			"popis": "k návrhu SZÚ za rok 2020 Kanceláře VOP - kapitola 309 (11. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190018",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._211_(11._května_2021).docx",
+			"popis": "k návrhu SZÚ za rok 2020 Úřadu pro ochranu osobních údajů - kapitola 343 (11. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190015",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._213_(11._května_2021).docx",
+			"popis": "k informaci zpravodajů o stavu přidělených petic a nově došlým peticím (11. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190014",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._214_(11._května_2021).docx",
+			"popis": "k návrhu termínu a programu příští schůze (11. května 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189868",
+			"DocumentPlainText": null,
+			"jmeno": "1094.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3900-41-20210511"
+}

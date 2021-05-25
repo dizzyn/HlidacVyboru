@@ -1,0 +1,29 @@
+{
+	"Id": "3200-88-20210506",
+	"datum": "2021-05-06T00:00:00Z",
+	"cisloJednani": 88,
+	"vec": null,
+	"vybor": "Výbor pro zdravotnictví",
+	"vyborId": 3200,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3202",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189680",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._88_(13._května_2021).docx",
+			"popis": "Pozvánka na schůzi č. 88 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3200-88-20210506"
+}

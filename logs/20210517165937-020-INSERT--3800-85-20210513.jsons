@@ -1,0 +1,77 @@
+{
+	"Id": "3800-85-20210513",
+	"datum": "2021-05-13T00:00:00Z",
+	"cisloJednani": 85,
+	"vec": null,
+	"vybor": "Organizační výbor",
+	"vyborId": 3800,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3800",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188891",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._85_(13._května_2021).docx",
+			"popis": "Pozvánka na schůzi č. 85 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190121",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._396_(13._května_2021).docx",
+			"popis": "k návrhu na zařazení návrhů zákonů a mezinárodních smluv do návrhu pořadu schůze Poslanecké sněmovny (13. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190123",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._397_(13._května_2021).docx",
+			"popis": "k návrhu na přikázání došlých návrhů k projednání výborům Poslanecké sněmovny a na určení zpravodajů pro prvé čtení (13. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190125",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._398_(13._května_2021).docx",
+			"popis": "k návrhu termínu a pořadu 104. schůze Poslanecké sněmovny (13. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190122",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._399_(13._května_2021).docx",
+			"popis": "k návrhu na rozhodnutí o přijetí zahraničních návštěv a vyslání delegací Poslanecké sněmovny, jejích orgánů a poslanců (13. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190126",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._400_(13._května_2021).docx",
+			"popis": "k návrhu podvýboru organizačního výboru pro přípravu návrhů na propůjčení nebo udělení státních vyznamenání (13. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190124",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._401_(13._května_2021).docx",
+			"popis": "k návrhu termínu a pořadu 86. schůze organizačního výboru Poslanecké sněmovny (13. května 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3800-85-20210513"
+}

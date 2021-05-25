@@ -1,0 +1,53 @@
+{
+	"Id": "3500-56-20210428",
+	"datum": "2021-04-28T00:00:00Z",
+	"cisloJednani": 56,
+	"vec": null,
+	"vybor": "Hospodářský výbor",
+	"vyborId": 3500,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3500",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188806",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._56_(28._dubna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 56 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189270",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._381_(28._dubna_2021).docx",
+			"popis": "k vládnímu návrhu stavebního zákona - sněmovní tisk 1008 (28. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189271",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._382_(28._dubna_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění některé zákony v souvislosti s přijetím stavebního zákona - sněmovní tisk 1009 (28. dubna 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189217",
+			"DocumentPlainText": null,
+			"jmeno": "ZaH056.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3500-56-20210428"
+}

@@ -1,0 +1,77 @@
+{
+	"Id": "4500-52-20210428",
+	"datum": "2021-04-28T00:00:00Z",
+	"cisloJednani": 52,
+	"vec": null,
+	"vybor": "Výbor pro vědu, vzdělání, kulturu, mládež a tělovýchovu",
+	"vyborId": 4500,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4500",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188381",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._52_(28._dubna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 52 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189116",
+			"DocumentPlainText": null,
+			"jmeno": "č._52.doc",
+			"popis": "č. 52",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189246",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._298_(28._dubna_2021).docx",
+			"popis": "k Informaci ředitele ÚZIS Ladislava Duška o vývoji epidemie COVID-19 ve školách a školských zařízeních - u dětí, pedagogů a zaměstnanců škol (28. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189242",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._299_(28._dubna_2021).docx",
+			"popis": "k Aktuální informaci zástupce Ministerstva školství, mládeže a tělovýchovy a Ministerstva zdravotnictví k mimořádným opatřením ve vzdělávání v důsledku COVID-19 (28. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189243",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._300_(28._dubna_2021).docx",
+			"popis": "k Národnímu plánu na dorovnání výpadků vzdělávání v důsledku Covid-19 (28. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189244",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._301_(28._dubna_2021).docx",
+			"popis": "k dotacím Ministerstva školství, mládeže a tělovýchovy pro Školy Sion (28. dubna 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189331",
+			"DocumentPlainText": null,
+			"jmeno": "zvuk_52_schuze_vvvkmt_28_04_21.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4500-52-20210428"
+}

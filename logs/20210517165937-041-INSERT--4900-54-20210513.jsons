@@ -1,0 +1,53 @@
+{
+	"Id": "4900-54-20210513",
+	"datum": "2021-05-13T00:00:00Z",
+	"cisloJednani": 54,
+	"vec": null,
+	"vybor": "Výbor pro bezpečnost",
+	"vyborId": 4900,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4900",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189669",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._54_(13._května_2021).docx",
+			"popis": "Pozvánka na schůzi č. 54 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190149",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._214_(13._května_2021).docx",
+			"popis": "k návrhu státního závěrečného účtu za rok 2020 - kapitola 376 - Generální inspekce bezpečnostních sborů (13. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190147",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._215_(13._května_2021).docx",
+			"popis": "k návrhu státního závěrečného účtu za rok 2020 - kapitola 378 - Národní úřad pro kybernetickou a informační bezpečnost (13. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190148",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._219_(13._května_2021).docx",
+			"popis": "k návrhu státního závěrečného účtu za rok 2020 - kapitola 305 - Bezpečnostní informační služba (13. května 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4900-54-20210513"
+}

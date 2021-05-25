@@ -1,0 +1,61 @@
+{
+	"Id": "4100-27-20210427",
+	"datum": "2021-04-27T00:00:00Z",
+	"cisloJednani": 27,
+	"vec": null,
+	"vybor": "Volební výbor",
+	"vyborId": 4100,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4100",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188694",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._27_(27._dubna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 27 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189111",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._106_(27._dubna_2021).docx",
+			"popis": "Ke schválení programu 27. schůze volebního výboru Poslanecké sněmovny (27. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189110",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._107_(27._dubna_2021).docx",
+			"popis": "Ke Státnímu závěrečnému účtu za rok 2020 kapitola 372 - Rada pro rozhlasové a televizní vysílání (27. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189112",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._108_(27._dubna_2021).docx",
+			"popis": "Ke Zprávě o činnosti Rady pro rozhlasové a televizní vysílání a o stavu v oblasti rozhlasového a televizního vysílání a v oblasti poskytování audiovizuálních mediálních služeb na vyžádání za rok 2020 /ST 1203/ (27. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189113",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._109_(27._dubna_2021).docx",
+			"popis": "K legitimitě volby výběru kandidátů do Rady ČT volebním výborem (27. dubna 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4100-27-20210427"
+}

@@ -1,0 +1,53 @@
+{
+	"Id": "4100-28-20210511",
+	"datum": "2021-05-11T00:00:00Z",
+	"cisloJednani": 28,
+	"vec": null,
+	"vybor": "Volební výbor",
+	"vyborId": 4100,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4100",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189683",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._28_(11._května_2021).docx",
+			"popis": "Pozvánka na schůzi č. 28 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189827",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._110_(11._května_2021).docx",
+			"popis": "Ke schválení programu 28. schůze volebního výboru Poslanecké sněmovny (11. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189826",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._111_(11._května_2021).docx",
+			"popis": "k provedení volby Poslaneckou sněmovnou, (11. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189825",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._112_(11._května_2021).docx",
+			"popis": "k následné volbě 4 členů Rady České televize Poslaneckou sněmovnou, viz usnesení č. 105, (11. května 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4100-28-20210511"
+}

@@ -1,0 +1,69 @@
+{
+	"Id": "4300-76-20210428",
+	"datum": "2021-04-28T00:00:00Z",
+	"cisloJednani": 76,
+	"vec": null,
+	"vybor": "Výbor pro sociální politiku",
+	"vyborId": 4300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188231",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._76_(28._dubna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 76 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189194",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._239_(28._dubna_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 359/1999 Sb., o sociálněprávní ochraně dětí, ve znění pozdějších předpisů, a další související zákony /ST 911/ (28. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189195",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._240_(28._dubna_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 435/2004 Sb., o zaměstnanosti, ve znění pozdějších předpisů, a další související zákony /ST 1025/ (28. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189193",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._241_(28._dubna_2021).docx",
+			"popis": "k návrhu poslanců Jana Bauera, Petra Fialy, Zbyňka Stanjury, Jany Černochové a dalších na vydání zákona, kterým se mění zákon č. 111/2006 Sb., o pomoci v hmotné nouzi, ve znění pozdějších předpisů, a některé další zákony /ST 290/ (28. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189196",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._242_(28._dubna_2021).docx",
+			"popis": "k návrhu poslanců Víta Rakušana, Jana Farského, Petra Gazdíka, Věry Kovářové, Jany Krutákové a Petra Pávka na vydání zákona o jednorázovém mimořádném rodičovském příspěvku /ST 1006/ (28. dubna 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189179",
+			"DocumentPlainText": null,
+			"jmeno": "20210428_VSP-76_schuze.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4300-76-20210428"
+}

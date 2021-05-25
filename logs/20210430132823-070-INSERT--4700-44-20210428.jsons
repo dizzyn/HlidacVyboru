@@ -1,0 +1,53 @@
+{
+	"Id": "4700-44-20210428",
+	"datum": "2021-04-28T00:00:00Z",
+	"cisloJednani": 44,
+	"vec": null,
+	"vybor": "Zemědělský výbor",
+	"vyborId": 4700,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4700",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188873",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._44_(28._dubna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 44 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189187",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._207_(28._dubna_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění zákon č. 449/2001 Sb., o myslivosti, ve znění pozdějších předpisů (sněmovní tisk 954) (28. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189188",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._208_(28._dubna_2021).docx",
+			"popis": "k nominaci zástupců zemědělského výboru do Monitorovacího výboru Strategického plánu Společné zemědělské politiky (28. dubna 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189330",
+			"DocumentPlainText": null,
+			"jmeno": "44.schuze_zem._vyboru_o.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4700-44-20210428"
+}

@@ -1,0 +1,125 @@
+{
+	"Id": "3600-46-20210624",
+	"datum": "2021-06-24T00:00:00Z",
+	"cisloJednani": 46,
+	"vec": null,
+	"vybor": "Kontrolní výbor",
+	"vyborId": 3600,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3600",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191840",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._46_(24._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 46 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192097",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._245_(24._června_2021).docx",
+			"popis": "ke Kontrolnímu závěru Nejvyššího kontrolního úřadu z kontrolní akce č. 19/33 - Vybraný majetek státu, s nímž má právo hospodařit státní podnik Lesy České republiky (24. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192096",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._246_(24._června_2021).docx",
+			"popis": "ke Kontrolnímu závěru Nejvyššího kontrolního úřadu z kontrolní akce č. 19/12 - Prostředky vybírané na základě zákona na zákonné pojištění odpovědnosti zaměstnavatele za škodu při pracovním úrazu nebo nemoci z povolání (24. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192109",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._247_(24._června_2021).docx",
+			"popis": "ke Kontrolnímu závěru Nejvyššího kontrolního úřadu z kontrolní akce č. 18/10 - Majetek státu, s nímž má právo hospodařit státní podnik Vojenské lesy a statky ČR (24. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192100",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._248_(24._června_2021).docx",
+			"popis": "ke Kontrolnímu závěru Nejvyššího kontrolního úřadu z kontrolní akce č. 17/11 - Výdaje na pořízení majetku a výdaje na provoz České národní banky (24. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192101",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._249_(24._června_2021).docx",
+			"popis": "ke Kontrolnímu závěru Nejvyššího kontrolního úřadu z kontrolní akce č. 17/14 - Majetek a peněžní prostředky státu, se kterými je příslušná hospodařit příspěvková organizace Národní ústav duševního zdraví (24. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192106",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._250_(24._června_2021).docx",
+			"popis": "ke Kontrolnímu závěru Nejvyššího kontrolního úřadu z kontrolní akce č. 18/12 - Majetek a peněžní prostředky státu, se kterými jsou příslušné hospodařit vybrané veřejné archivy v resortu Ministerstva vnitra (24. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192108",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._251_(24._června_2021).docx",
+			"popis": "ke Kontrolnímu závěru Nejvyššího kontrolního úřadu z kontrolní akce č. 16/19 - Peněžní prostředky státu určené na účelovou podporu výzkumu a vývoje prostřednictvím rozpočtové kapitoly Grantová agentura České republiky (24. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192099",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._252_(24._června_2021).docx",
+			"popis": "ke Kontrolnímu závěru Nejvyššího kontrolního úřadu z kontrolní akce č. 17/13 - Majetek a peněžní prostředky státu, se kterými je příslušná hospodařit příspěvková organizace Státní zdravotní ústav (24. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192103",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._253_(24._června_2021).docx",
+			"popis": "ke Kontrolnímu závěru Nejvyššího kontrolního úřadu z kontrolní akce č. 18/14 - Prostředky vybírané na základě zákona ve prospěch Vojenské zdravotní pojišťovny České republiky (24. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192102",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._254_(24._června_2021).docx",
+			"popis": "k výsledku kontroly hospodaření příspěvkové organizace Ministerstva zahraničních věcí Zámek Štiřín (24. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192107",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._255_(24._června_2021).docx",
+			"popis": "k návrhu termínu a programu příští schůze výboru (24. června 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192148",
+			"DocumentPlainText": null,
+			"jmeno": "zvukovy_zaznam_46KV_24_6_2021.MP3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3600-46-20210624"
+}

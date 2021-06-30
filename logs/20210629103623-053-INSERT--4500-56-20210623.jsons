@@ -1,0 +1,77 @@
+{
+	"Id": "4500-56-20210623",
+	"datum": "2021-06-23T00:00:00Z",
+	"cisloJednani": 56,
+	"vec": null,
+	"vybor": "Výbor pro vědu, vzdělání, kulturu, mládež a tělovýchovu",
+	"vyborId": 4500,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4500",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191831",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._56_(23._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 56 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191958",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._318_(23._června_2021).docx",
+			"popis": "k dotacím Ministerstva školství, mládeže a tělovýchovy pro Školy Sion (23. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191959",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._319_(23._června_2021).docx",
+			"popis": "k Petici postoupené petičním výborem usnesením č. 203 - Petice za odvolání ministra školství Roberta Plagy (23. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191961",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._320_(23._června_2021).docx",
+			"popis": "k Petici postoupené petičním výborem usnesením č. 204 - Petice za udělení administrativní maturity ve školním roce 2020/2021 (23. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192035",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._321_(23._června_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 352/2001 Sb., o užívání státních symbolů České republiky a o změně některých zákonů, ve znění pozdějších předpisů   (sněmovní tisk 702) (23. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191960",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._322_(23._června_2021).docx",
+			"popis": "ke svolání 57. schůze výboru (23. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191993",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._323_(23._června_2021).docx",
+			"popis": "k informaci zástupce Ministerstva kultury ČR o možných dopadech na osoby s postižením v souvislosti s přijetím Vládního návrhu zákona o službách platforem pro sdílení videonahrávek a o změně některých souvisejících zákonů (zákon o službách platforem pro sdílení videonahrávek) (sněmovní tisk 981) (23. června 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4500-56-20210623"
+}

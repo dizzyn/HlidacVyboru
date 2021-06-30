@@ -1,0 +1,37 @@
+{
+	"Id": "4300-79-20210608",
+	"datum": "2021-06-08T00:00:00Z",
+	"cisloJednani": 79,
+	"vec": null,
+	"vybor": "Výbor pro sociální politiku",
+	"vyborId": 4300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190890",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._79_(8._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 79 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190940",
+			"DocumentPlainText": null,
+			"jmeno": "20210608_VSP_79.schuze.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4300-79-20210608"
+}

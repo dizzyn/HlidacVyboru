@@ -1,0 +1,37 @@
+{
+	"Id": "4000-94-20210623",
+	"datum": "2021-06-23T00:00:00Z",
+	"cisloJednani": 94,
+	"vec": null,
+	"vybor": "Ústavně právní výbor",
+	"vyborId": 4000,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4000",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191842",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._94_(23._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 94 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192094",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._292_(23._června_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění zákon č. 250/2016 Sb., o odpovědnosti za přestupky a řízení o nich, ve znění pozdějších předpisů, a některé další zákony (tisk 670) (23. června 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4000-94-20210623"
+}

@@ -1,0 +1,37 @@
+{
+	"Id": "4000-93-20210616",
+	"datum": "2021-06-16T00:00:00Z",
+	"cisloJednani": 93,
+	"vec": null,
+	"vybor": "Ústavně právní výbor",
+	"vyborId": 4000,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4000",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191733",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._93_(16._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 93 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191768",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._291_(16._června_2021).docx",
+			"popis": "Vládní návrh zákona o zvláštních způsobech hlasování ve volbách do Poslanecké sněmovny Parlamentu České republiky v roce 2021 a o změně některých zákonů (tisk 1242) - projednání ve stavu legislativní nouze (16. června 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4000-93-20210616"
+}

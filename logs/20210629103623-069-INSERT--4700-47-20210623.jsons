@@ -1,0 +1,45 @@
+{
+	"Id": "4700-47-20210623",
+	"datum": "2021-06-23T00:00:00Z",
+	"cisloJednani": 47,
+	"vec": null,
+	"vybor": "Zemědělský výbor",
+	"vyborId": 4700,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4700",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191751",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._47_(23._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 47 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191937",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._219_(23._června_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění zákon č. 166/1999 Sb., o veterinární péči a o změně některých souvisejících zákonů (veterinární zákon), ve znění pozdějších předpisů, a další související zákony (sněmovní tisk 1148) (23. června 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191946",
+			"DocumentPlainText": null,
+			"jmeno": "47._schuze_zem._vyboru.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4700-47-20210623"
+}

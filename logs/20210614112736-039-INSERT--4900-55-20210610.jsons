@@ -1,0 +1,37 @@
+{
+	"Id": "4900-55-20210610",
+	"datum": "2021-06-10T00:00:00Z",
+	"cisloJednani": 55,
+	"vec": null,
+	"vybor": "Výbor pro bezpečnost",
+	"vyborId": 4900,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4900",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190867",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._55_(10._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 55 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191578",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._222_(10._června_2021).docx",
+			"popis": "k návrhu poslanců Pavla Růžičky, Andreje Babiše, Jana Hamáčka a dalších na vydání zákona, kterým se mění zákon č. 133/1985 Sb., o požární ochraně, ve znění pozdějších předpisů, a zákon č. 239/2000 Sb., o integrovaném záchranném systému a o změně některých zákonů, ve znění pozdějších předpisů. (10. června 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4900-55-20210610"
+}

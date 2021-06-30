@@ -1,0 +1,29 @@
+{
+	"Id": "500-73-20210621",
+	"datum": "2021-06-21T00:00:00Z",
+	"cisloJednani": 73,
+	"vec": null,
+	"vybor": "Výbor pro evropské záležitosti",
+	"vyborId": 500,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=5000",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191759",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._73_(23._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 73 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "500-73-20210621"
+}

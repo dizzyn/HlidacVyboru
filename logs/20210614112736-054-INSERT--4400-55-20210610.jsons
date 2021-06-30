@@ -1,0 +1,61 @@
+{
+	"Id": "4400-55-20210610",
+	"datum": "2021-06-10T00:00:00Z",
+	"cisloJednani": 55,
+	"vec": null,
+	"vybor": "Výbor pro veřejnou správu a regionální rozvoj",
+	"vyborId": 4400,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4400",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190861",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._55_(10._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 55 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191111",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._264_(10._června_2021).docx",
+			"popis": "k vládnímu návrhu zákona o ochraně oznamovatelů - sněmovní tisk 1150 (10. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191113",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._265_(10._června_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění některé zákony v souvislosti s přijetím zákona o ochraně oznamovatelů - sněmovní tisk 1151 (10. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191115",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._266_(10._června_2021).docx",
+			"popis": "k účasti členů výboru na konferenci ISSS 2021 (10. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191114",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._267_(10._června_2021).docx",
+			"popis": "k informacím Ministerstva pro místní rozvoj a Ministerstva zdravotnictví k investičnímu nástroji REACT-EU (10. června 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4400-55-20210610"
+}

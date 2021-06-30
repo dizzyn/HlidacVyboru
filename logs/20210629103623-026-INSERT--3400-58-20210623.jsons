@@ -1,0 +1,61 @@
+{
+	"Id": "3400-58-20210623",
+	"datum": "2021-06-23T00:00:00Z",
+	"cisloJednani": 58,
+	"vec": null,
+	"vybor": "Rozpočtový výbor",
+	"vyborId": 3400,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3400",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191817",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._58_(23._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 58 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191992",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._557_(23._června_2021).docx",
+			"popis": "k Informaci Generálního finančního ředitelství o stavu uplatňování zajišťovacích příkazů (23. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191991",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._558_(23._června_2021).docx",
+			"popis": "k projednání kapitol Státního závěrečného účtu České republiky za rok 2020 (23. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191995",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._559_(23._června_2021).docx",
+			"popis": "k žádosti kapitoly 301 - Kancelář prezidenta republiky o schválení rozpočtového opatření, kterým dochází k přesunu prostředků státního rozpočtu ve výši 200 000 000 Kč z kapitoly 398 - Všeobecná pokladní správa do kapitoly 301 - Kancelář prezidenta republiky a o změnu závazných ukazatelů kapitoly 301 - Kancelář prezidenta republiky (podle § 24 odst. 8 zákona č. 218/2000 Sb., rozpočtová pravidla, ve znění pozdějších předpisů) (23. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191997",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._560_(23._června_2021).docx",
+			"popis": "ke schválení pořadu 59. schůze rozpočtového výboru (23. června 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3400-58-20210623"
+}

@@ -1,0 +1,37 @@
+{
+	"Id": "3400-56-20210526",
+	"datum": "2021-05-26T00:00:00Z",
+	"cisloJednani": 56,
+	"vec": null,
+	"vybor": "Rozpočtový výbor",
+	"vyborId": 3400,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3400",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190275",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._56_(26._května_2021).docx",
+			"popis": "Pozvánka na schůzi č. 56 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190510",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._538_(26._května_2021).docx",
+			"popis": "ke schválení pořadu 57. schůze rozpočtového výboru (26. května 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3400-56-20210526"
+}

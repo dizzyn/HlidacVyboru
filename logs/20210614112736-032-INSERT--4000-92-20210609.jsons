@@ -1,0 +1,45 @@
+{
+	"Id": "4000-92-20210609",
+	"datum": "2021-06-09T00:00:00Z",
+	"cisloJednani": 92,
+	"vec": null,
+	"vybor": "Ústavně právní výbor",
+	"vyborId": 4000,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4000",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190875",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._92_(9._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 92 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190986",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._289_(9._června_2021).docx",
+			"popis": "Senátní návrh ústavního zákona, kterým se mění Listina základních práv a svobod, ve znění ústavního zákona č. 162/1998 Sb. (tisk 895) (9. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191041",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._290_(9._června_2021).docx",
+			"popis": "Převzetí záštity nad konáním semináře na téma Problematika právní úpravy trestných činů proti lidské důstojnosti v sexuální oblasti (9. června 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4000-92-20210609"
+}

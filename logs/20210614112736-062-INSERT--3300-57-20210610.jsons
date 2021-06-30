@@ -1,0 +1,61 @@
+{
+	"Id": "3300-57-20210610",
+	"datum": "2021-06-10T00:00:00Z",
+	"cisloJednani": 57,
+	"vec": null,
+	"vybor": "Zahraniční výbor",
+	"vyborId": 3300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190800",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._57_(10._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 57 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191123",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._186_(10._června_2021).docx",
+			"popis": "k informaci k rozšiřování dolu Turów a prodloužení těžby ke květnu 2021 (10. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191122",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._187_(10._června_2021).docx",
+			"popis": "k informaci Ministerstva zahraničních věcí České republiky o stavu zavádění do praxe digitálních zelených certifikátů s cílem usnadnit cestování během pandemie (tzv. \"covid pas\") (10. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191126",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._188_(10._června_2021).docx",
+			"popis": "k informaci k situaci v Náhorním Karabachu po válce: zajatci a vysídlenci (10. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191124",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._189_(10._června_2021).docx",
+			"popis": "k informaci k plánované výměně některých vedoucích zastupitelských úřadů České republiky v zahraničí (10. června 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3300-57-20210610"
+}

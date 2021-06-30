@@ -1,0 +1,29 @@
+{
+	"Id": "3700-43-20210622",
+	"datum": "2021-06-22T00:00:00Z",
+	"cisloJednani": 43,
+	"vec": null,
+	"vybor": "Mandátový a imunitní výbor",
+	"vyborId": 3700,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3700",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191714",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._43_(22._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 43 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3700-43-20210622"
+}

@@ -1,0 +1,77 @@
+{
+	"Id": "3600-44-20210602",
+	"datum": "2021-06-02T00:00:00Z",
+	"cisloJednani": 44,
+	"vec": null,
+	"vybor": "Kontrolní výbor",
+	"vyborId": 3600,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3600",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190459",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._44_(2._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 44 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190805",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._234_(2._června_2021).docx",
+			"popis": "k přehledu o činnosti cenových kontrolních orgánů za rok 2020 pro Poslaneckou sněmovnu Parlamentu České republiky /sněmovní tisk 1204/ (2. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190856",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._235_(2._června_2021).docx",
+			"popis": "ke Kontrolnímu závěru Nejvyššího kontrolního úřadu z kontrolní akce č. 16/12 - Příprava jednotného metodického prostředí pro čerpání podpory EU v programovém období 2014+ (2. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190857",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._236_(2._června_2021).docx",
+			"popis": "ke Kontrolnímu závěru Nejvyššího kontrolního úřadu z kontrolní akce č. 16/32 - Peněžní prostředky Evropské unie a státního rozpočtu určené na podporu rozvoje vzájemné spolupráce obcí a rozvoje místních partnerství (2. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190854",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._237_(2._června_2021).docx",
+			"popis": "ke Kontrolnímu závěru Nejvyššího kontrolního úřadu z kontrolní akce č. 16/30 - Peněžní prostředky státní pokladny a řízení likvidity státní pokladny (2. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190855",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._238_(2._června_2021).docx",
+			"popis": "k návrhu termínu a programu příští schůze výboru (2. června 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190860",
+			"DocumentPlainText": null,
+			"jmeno": "zvukovy_zaznam_44KV_2_6_2021.MP3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3600-44-20210602"
+}

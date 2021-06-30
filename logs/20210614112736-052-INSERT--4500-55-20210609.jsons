@@ -1,0 +1,37 @@
+{
+	"Id": "4500-55-20210609",
+	"datum": "2021-06-09T00:00:00Z",
+	"cisloJednani": 55,
+	"vec": null,
+	"vybor": "Výbor pro vědu, vzdělání, kulturu, mládež a tělovýchovu",
+	"vyborId": 4500,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4500",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190668",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._55_(9._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 55 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191595",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._317_(9._června_2021).docx",
+			"popis": "„COVID-19 a školská zařízení - dopad na vzdělávání a děti\" (9. června 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4500-55-20210609"
+}

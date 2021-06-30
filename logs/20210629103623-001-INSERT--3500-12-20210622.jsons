@@ -1,0 +1,76 @@
+{
+	"Id": "3500-12-20210622",
+	"datum": "2021-06-22T00:00:00Z",
+	"cisloJednani": 12,
+	"vec": null,
+	"vybor": "Hospodářský výbor",
+	"vyborId": 3500,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3500",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=145973",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._12_(5._června_2018).docx",
+			"popis": "Pozvánka na schůzi č. 12 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=149413",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._12_(5._června_2018).docx",
+			"popis": "Zápis z jednání č. 12 ",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=149414",
+			"DocumentPlainText": null,
+			"jmeno": "T76vyporadaniMDk56.pdf",
+			"popis": "T76vyporadaniMDk56.pdf",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=149415",
+			"DocumentPlainText": null,
+			"jmeno": "ZH012hlasovacilistiny.pdf",
+			"popis": "ZH012hlasovacilistiny.pdf",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191909",
+			"DocumentPlainText": null,
+			"jmeno": "Podvýbor_pro_vědu,_výzkum_a_inovacePozvánka_na_schůzi_č._12_(22._června_2021).docx",
+			"popis": "Podvýbor pro vědu, výzkum a inovacePozvánka na schůzi č. 12 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=146032",
+			"DocumentPlainText": null,
+			"jmeno": "ZaH012dopo.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=146033",
+			"DocumentPlainText": null,
+			"jmeno": "ZaH012odpo.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3500-12-20210622"
+}

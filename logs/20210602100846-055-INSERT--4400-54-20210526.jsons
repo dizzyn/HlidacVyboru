@@ -1,0 +1,45 @@
+{
+	"Id": "4400-54-20210526",
+	"datum": "2021-05-26T00:00:00Z",
+	"cisloJednani": 54,
+	"vec": null,
+	"vybor": "Výbor pro veřejnou správu a regionální rozvoj",
+	"vyborId": 4400,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4400",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190082",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._54_(26._května_2021).docx",
+			"popis": "Pozvánka na schůzi č. 54 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190598",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._262_(26._května_2021).docx",
+			"popis": "k vládnímu návrhu zákonao občanských průkazech, sněmovní tisk 1043 (26. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190597",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._263_(26._května_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění některé zákony v souvislosti s přijetím zákona o občanských průkazech, sněmovní tisk 1044 (26. května 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4400-54-20210526"
+}

@@ -1,0 +1,45 @@
+{
+	"Id": "3200-90-20210601",
+	"datum": "2021-06-01T00:00:00Z",
+	"cisloJednani": 90,
+	"vec": null,
+	"vybor": "Výbor pro zdravotnictví",
+	"vyborId": 3200,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3202",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190709",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._90_(1._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 90 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190759",
+			"DocumentPlainText": null,
+			"jmeno": "Hlasovaciprotokoly.pdf",
+			"popis": "Hlasovaciprotokoly.pdf",
+			"typ": "Dokumenty a prezentace"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190733",
+			"DocumentPlainText": null,
+			"jmeno": "90.VZ.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3200-90-20210601"
+}

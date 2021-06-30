@@ -1,0 +1,92 @@
+{
+	"Id": "3900-43-20210622",
+	"datum": "2021-06-22T00:00:00Z",
+	"cisloJednani": 43,
+	"vec": null,
+	"vybor": "Petiční výbor",
+	"vyborId": 3900,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3900",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191088",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._43_(22._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 43 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192153",
+			"DocumentPlainText": null,
+			"jmeno": "Hlasovani.pdf",
+			"popis": "Hlasovani.pdf",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191926",
+			"DocumentPlainText": null,
+			"jmeno": "Prezencky.pdf",
+			"popis": "Prezencky.pdf",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192003",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._221_(22._června_2021).docx",
+			"popis": "ke schválení programu 43. schůze petičního výboru (22. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192002",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._222_(22._června_2021).docx",
+			"popis": "k informaci zpravodajů o stavu přidělených petic a nově došlým peticím (22. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192004",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._223_(22._června_2021).docx",
+			"popis": "k návrhu termínu a programu příští schůze (22. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192006",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._224_(22._června_2021).docx",
+			"popis": "k veřejnému slyšení k petici „Za normální svět - Otevřeme Česko\" (č. 14/P/2021) (22. června 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191927",
+			"DocumentPlainText": null,
+			"jmeno": "2021062243schuzePVIIcast.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191928",
+			"DocumentPlainText": null,
+			"jmeno": "2021062243schuzePVVerejneslysenikpeticiZanormalnisvet.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3900-43-20210622"
+}

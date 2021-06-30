@@ -1,0 +1,29 @@
+{
+	"Id": "3400-57-20210608",
+	"datum": "2021-06-08T00:00:00Z",
+	"cisloJednani": 57,
+	"vec": null,
+	"vybor": "Rozpočtový výbor",
+	"vyborId": 3400,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3400",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190811",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._57_(8._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 57 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3400-57-20210608"
+}

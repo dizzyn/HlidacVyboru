@@ -1,0 +1,133 @@
+{
+	"Id": "4600-38-20210608",
+	"datum": "2021-06-08T00:00:00Z",
+	"cisloJednani": 38,
+	"vec": null,
+	"vybor": "Výbor pro životní prostředí",
+	"vyborId": 4600,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4600",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190842",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._38_(8._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 38 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190956",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._182_(8._června_2021).docx",
+			"popis": "k návrhu státního závěrečného účtu kapitoly č. 348 - Český báňský úřad za rok 2020 (8. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190960",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._183_(8._června_2021).docx",
+			"popis": "k návrhu státního závěrečného účtu kapitoly č. 315 - Ministerstvo životního prostředí za rok 2020 (8. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190954",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._184_(8._června_2021).docx",
+			"popis": "ke Zprávě o hospodaření Státního fondu životního prostředí České republiky za rok 2020 (8. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190957",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._185_(8._června_2021).docx",
+			"popis": "k informaci ministra životního prostředí o práci Uhelné komise (8. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190958",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._186_(8._června_2021).docx",
+			"popis": "k informaci Ministerstva zahraničních věcí a Ministerstva životního prostředí o dalším vývoji po podání podnětu Evropské komisi ve věci porušení unijního práva při povolování rozšíření těžby v hnědouhelném dole Turów (v návaznosti na 167. usnesení VŽP) (8. června 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190942",
+			"DocumentPlainText": null,
+			"jmeno": "01_Zahajeni.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190945",
+			"DocumentPlainText": null,
+			"jmeno": "02_Navrh_zaverecneho_uctu_kapitoly_348_CBU_2020.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190944",
+			"DocumentPlainText": null,
+			"jmeno": "03_Navrh_zaverecneho_uctu_kapitoly_315_MZP_2020.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190947",
+			"DocumentPlainText": null,
+			"jmeno": "04_Zprava_o_hospodareni_SFZP_CR_2020.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190948",
+			"DocumentPlainText": null,
+			"jmeno": "05_Informace_ministra_ZP_o_praci_Uhelne_komise.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190941",
+			"DocumentPlainText": null,
+			"jmeno": "06_Informace_Turow.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190943",
+			"DocumentPlainText": null,
+			"jmeno": "07_Zprava_o_plneni_programu_prevence_pred_povodnemi_ST1218.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190949",
+			"DocumentPlainText": null,
+			"jmeno": "08_Zpravy_o_zivotnim_prostredi_v_krajich_2019.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190946",
+			"DocumentPlainText": null,
+			"jmeno": "09_Ruzne.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4600-38-20210608"
+}

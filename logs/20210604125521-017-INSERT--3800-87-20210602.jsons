@@ -1,0 +1,61 @@
+{
+	"Id": "3800-87-20210602",
+	"datum": "2021-06-02T00:00:00Z",
+	"cisloJednani": 87,
+	"vec": null,
+	"vybor": "Organizační výbor",
+	"vyborId": 3800,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3800",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190593",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._87_(2._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 87 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190828",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._406_(2._června_2021).docx",
+			"popis": "k návrhu na zařazení návrhů zákonů a mezinárodních smluv do návrhu pořadu schůze Poslanecké sněmovny (2. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190827",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._407_(2._června_2021).docx",
+			"popis": "k návrhu na přikázání došlých návrhů k projednání výborům Poslanecké sněmovny a na určení zpravodajů pro prvé čtení (2. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190826",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._408_(2._června_2021).docx",
+			"popis": "k návrhu na rozhodnutí o přijetí zahraničních návštěv a vyslání delegací Poslanecké sněmovny, jejích orgánů a poslanců (2. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190829",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._409_(2._června_2021).docx",
+			"popis": "k návrhu termínu a pořadu 88. schůze organizačního výboru Poslanecké sněmovny (2. června 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3800-87-20210602"
+}

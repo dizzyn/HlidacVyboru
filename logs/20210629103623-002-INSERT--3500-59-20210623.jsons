@@ -1,0 +1,68 @@
+{
+	"Id": "3500-59-20210623",
+	"datum": "2021-06-23T00:00:00Z",
+	"cisloJednani": 59,
+	"vec": null,
+	"vybor": "Hospodářský výbor",
+	"vyborId": 3500,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3500",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191798",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._59_(23._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 59 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191994",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._400_(23._června_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 480/2004 Sb., o některých službách informační společnosti a o změně některých zákonů (zákon o některých službách informační společnosti), ve znění pozdějších předpisů - sněmovní tisk 1047 (23. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192032",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._401_(23._června_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 56/2001 Sb., o podmínkách provozu vozidel na pozemních komunikacích a o změně zákona č. 168/1999 Sb., o pojištění odpovědnosti za škodu způsobenou provozem vozidla a o změně některých souvisejících zákonů (zákon o pojištění odpovědnosti z provozu vozidla), ve znění zákona č. 307/1999 Sb., ve znění pozdějších předpisů, a zákon č. 634/2004 Sb., o správních poplatcích, ve znění pozdějších předpisů - sněmovní tisk 1046 (23. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192031",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._402_(23._června_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 266/1994 Sb., o drahách, ve znění pozdějších předpisů, a zákon č. 634/2004 Sb., o správních poplatcích, ve znění pozdějších předpisů - sněmovní tisk 912 (23. června 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191986",
+			"DocumentPlainText": null,
+			"jmeno": "ZaH059.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191985",
+			"DocumentPlainText": null,
+			"jmeno": "ZaH059zaver.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3500-59-20210623"
+}

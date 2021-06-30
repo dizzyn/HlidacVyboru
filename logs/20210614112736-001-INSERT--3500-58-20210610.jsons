@@ -1,0 +1,101 @@
+{
+	"Id": "3500-58-20210610",
+	"datum": "2021-06-10T00:00:00Z",
+	"cisloJednani": 58,
+	"vec": null,
+	"vybor": "Hospodářský výbor",
+	"vyborId": 3500,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3500",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190821",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._58_(10._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 58 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191097",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._391_(10._června_2021).docx",
+			"popis": "ke Státnímu závěrečnému účtu za rok 2020 - kapitola 327 - Ministerstvo dopravy (10. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191098",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._392_(10._června_2021).docx",
+			"popis": "ke Státnímu závěrečnému účtu za rok 2020 - kapitola 322 - Ministerstvo průmyslu a obchodu (10. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191094",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._393_(10._června_2021).docx",
+			"popis": "k Výroční zprávě Českého telekomunikačního úřadu za rok 2020 - sněmovní tisk 1223 (10. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191096",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._394_(10._června_2021).docx",
+			"popis": "k pokrytí železničních koridorů mobilním signálem (10. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191095",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._395_(10._června_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), ve znění pozdějších předpisů, a některé další zákony - sněmovní tisk 1084 (10. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191099",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._396_(10._června_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 480/2004 Sb., o některých službách informační společnosti a o změně některých zákonů (zákon o některých službách informační společnosti), ve znění pozdějších předpisů - sněmovní tisk 1047 (10. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191596",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._397_(10._června_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 458/2000 Sb., o podmínkách podnikání a o výkonu státní správy v energetických odvětvích a o změně některých zákonů (energetický zákon), ve znění pozdějších předpisů, zákon č. 455/1991 Sb., o živnostenském podnikání (živnostenský zákon), ve znění pozdějších předpisů, a zákon č. 634/2004 Sb., o správních poplatcích, ve znění pozdějších předpisů - sněmovní tisk 799 (10. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191368",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._399_(10._června_2021).docx",
+			"popis": "k neplatnosti pojistných smluv životního pojištění uzavřených po roce 2005 (10. června 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191127",
+			"DocumentPlainText": null,
+			"jmeno": "ZaH058.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3500-58-20210610"
+}

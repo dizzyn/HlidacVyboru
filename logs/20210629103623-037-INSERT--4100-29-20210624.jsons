@@ -1,0 +1,53 @@
+{
+	"Id": "4100-29-20210624",
+	"datum": "2021-06-24T00:00:00Z",
+	"cisloJednani": 29,
+	"vec": null,
+	"vybor": "Volební výbor",
+	"vyborId": 4100,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4100",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191758",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._29_(24._června_2021).docx",
+			"popis": "Pozvánka na schůzi č. 29 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192087",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._114_(24._června_2021).docx",
+			"popis": "Ke schválení programu 29. schůze volebního výboru Poslanecké sněmovny (24. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192086",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._115_(24._června_2021).docx",
+			"popis": "Návrh postupu volebního výboru pro sestavení kandidátky pro tajnou volbu   1 člena Rady Českého rozhlasu Poslaneckou sněmovnou (24. června 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192088",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._116_(24._června_2021).docx",
+			"popis": "Kandidátka na volbu 1 člena Rady Českého rozhlasu (24. června 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4100-29-20210624"
+}

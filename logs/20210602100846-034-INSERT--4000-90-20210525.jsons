@@ -1,0 +1,45 @@
+{
+	"Id": "4000-90-20210525",
+	"datum": "2021-05-25T00:00:00Z",
+	"cisloJednani": 90,
+	"vec": null,
+	"vybor": "Ústavně právní výbor",
+	"vyborId": 4000,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4000",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190217",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._90_(25._května_2021).docx",
+			"popis": "Pozvánka na schůzi č. 90 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190659",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._287_(25._května_2021).docx",
+			"popis": "Vládní návrh zákona o lobbování   (tisk 565) (25. května 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190660",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._288_(25._května_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění některé zákony v souvislosti s přijetím zákona o lobbování (tisk 566) (25. května 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4000-90-20210525"
+}

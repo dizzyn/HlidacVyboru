@@ -1,0 +1,29 @@
+{
+	"Id": "500-75-20210707",
+	"datum": "2021-07-07T00:00:00Z",
+	"cisloJednani": 75,
+	"vec": null,
+	"vybor": "Výbor pro evropské záležitosti",
+	"vyborId": 500,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=5000",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192572",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._75_(15._července_2021).docx",
+			"popis": "Pozvánka na schůzi č. 75 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "500-75-20210707"
+}

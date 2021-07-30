@@ -36,7 +36,14 @@ const options = {
 export const fetchHlidac = async (id: string): Promise<THlidacData | null> => {
   const res = await fetch(createHlidacAPIGetLink(id), options);
 
-  const json = await res.json();
+  let json;
+  try {
+    json = await res.json();
+  } catch (e) {
+    console.log("fetchHlidac error:", e);
+    return null;
+  }
+
   if (json.Error) {
     // console.log("fetchHlidac error:", createHlidacAPIGetLink(id), json);
     return null;

@@ -1,0 +1,53 @@
+{
+	"Id": "4300-82-20210714",
+	"datum": "2021-07-14T00:00:00Z",
+	"cisloJednani": 82,
+	"vec": null,
+	"vybor": "Výbor pro sociální politiku",
+	"vyborId": 4300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192014",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._82_(14._července_2021).docx",
+			"popis": "Pozvánka na schůzi č. 82 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192849",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._82.docx",
+			"popis": "Zápis z jednání č. 82",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192662",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._260_(14._července_2021).docx",
+			"popis": "k návrhu poslanců Aleny Gajdůškové, Jana Chvojky, Kateřiny Valachové, Romana Sklenáka, Romana Onderky a dalších na vydání zákona, kterým se mění zákon č. 187/2006 Sb., o nemocenském pojištění, ve znění pozdějších předpisů, a některé další zákony /ST 695/ (14. července 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192688",
+			"DocumentPlainText": null,
+			"jmeno": "VSP_14.7.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4300-82-20210714"
+}

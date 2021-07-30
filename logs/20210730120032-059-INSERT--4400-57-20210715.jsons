@@ -1,0 +1,61 @@
+{
+	"Id": "4400-57-20210715",
+	"datum": "2021-07-15T00:00:00Z",
+	"cisloJednani": 57,
+	"vec": null,
+	"vybor": "Výbor pro veřejnou správu a regionální rozvoj",
+	"vyborId": 4400,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4400",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192583",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._57_(15._července_2021).docx",
+			"popis": "Pozvánka na schůzi č. 57 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192798",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._57.docx",
+			"popis": "Zápis z jednání č. 57",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192722",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._269_(15._července_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 499/2004 Sb., o archivnictví a spisové službě a o změně některých zákonů, ve znění pozdějších předpisů sněmovní tisk 534 (15. července 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192724",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._270_(15._července_2021).docx",
+			"popis": "k vládnímu návrhu zákona o ochraně oznamovatelů - sněmovní tisk 1150 (15. července 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192723",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._271_(15._července_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění některé zákony v souvislosti s přijetím zákona o ochraně oznamovatelů - sněmovní tisk 1151 (15. července 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4400-57-20210715"
+}

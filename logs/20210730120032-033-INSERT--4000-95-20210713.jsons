@@ -1,0 +1,69 @@
+{
+	"Id": "4000-95-20210713",
+	"datum": "2021-07-13T00:00:00Z",
+	"cisloJednani": 95,
+	"vec": null,
+	"vybor": "Ústavně právní výbor",
+	"vyborId": 4000,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4000",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192462",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._95_(13._července_2021).docx",
+			"popis": "Pozvánka na schůzi č. 95 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192737",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._293_(13._července_2021).docx",
+			"popis": "Vládní návrh zákona o lobbování (tisk 565) ­­­­­­­­­­­­­­­­­­ (13. července 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192739",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._294_(13._července_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění některé zákony v souvislosti s přijetím zákona o lobbování (tisk 566) ­­­­­­­­­­­­­­­­­­ (13. července 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192738",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._295_(13._července_2021).docx",
+			"popis": "Vládní návrh ústavního zákona, kterým se mění ústavní zákon č. 1/1993 Sb., Ústava České republiky, ve znění pozdějších ústavních zákonů (tisk 527) (13. července 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192749",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._296_(13._července_2021).docx",
+			"popis": "Vládní návrh ústavního zákona o volebních obvodech pro volby do Senátu Parlamentu České republiky (tisk 528) (13. července 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192750",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._297_(13._července_2021).docx",
+			"popis": "Vládní návrh zákona, kterým se mění některé volební zákony (tisk 529) (13. července 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4000-95-20210713"
+}

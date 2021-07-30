@@ -1,0 +1,29 @@
+{
+	"Id": "3200-95-20210709",
+	"datum": "2021-07-09T00:00:00Z",
+	"cisloJednani": 95,
+	"vec": null,
+	"vybor": "Výbor pro zdravotnictví",
+	"vyborId": 3200,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3202",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192561",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._95_(14._července_2021).docx",
+			"popis": "Pozvánka na schůzi č. 95 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3200-95-20210709"
+}

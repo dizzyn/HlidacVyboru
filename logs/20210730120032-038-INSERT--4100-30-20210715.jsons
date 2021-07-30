@@ -1,0 +1,29 @@
+{
+	"Id": "4100-30-20210715",
+	"datum": "2021-07-15T00:00:00Z",
+	"cisloJednani": 30,
+	"vec": null,
+	"vybor": "Volební výbor",
+	"vyborId": 4100,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4100",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192602",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._30_(15._července_2021).docx",
+			"popis": "Pozvánka na schůzi č. 30 ",
+			"typ": "Pozvánka"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4100-30-20210715"
+}

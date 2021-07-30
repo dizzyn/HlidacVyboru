@@ -1,0 +1,53 @@
+{
+	"Id": "4300-81-20210709",
+	"datum": "2021-07-09T00:00:00Z",
+	"cisloJednani": 81,
+	"vec": null,
+	"vybor": "Výbor pro sociální politiku",
+	"vyborId": 4300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=191963",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._81_(9._července_2021).docx",
+			"popis": "Pozvánka na schůzi č. 81 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192517",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._258_(9._července_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 359/1999 Sb., o sociálněprávní ochraně dětí, ve znění pozdějších předpisů, a další související zákony /ST 911/ (9. července 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192516",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._259_(9._července_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 247/2014 Sb., o poskytování služby péče o dítě v dětské skupině a o změně souvisejících zákonů, ve znění pozdějších předpisů, a některé další zákony /ST 961/ (9. července 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192564",
+			"DocumentPlainText": null,
+			"jmeno": "20210706_VSP_81.schuze.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4300-81-20210709"
+}

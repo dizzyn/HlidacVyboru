@@ -1,0 +1,53 @@
+{
+	"Id": "4500-57-20210714",
+	"datum": "2021-07-14T00:00:00Z",
+	"cisloJednani": 57,
+	"vec": null,
+	"vybor": "Výbor pro vědu, vzdělání, kulturu, mládež a tělovýchovu",
+	"vyborId": 4500,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4500",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192558",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._57_(14._července_2021).docx",
+			"popis": "Pozvánka na schůzi č. 57 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192725",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._57_(14._července_2021).docx",
+			"popis": "Zápis z jednání č. 57 ",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192711",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._324_(14._července_2021).docx",
+			"popis": "k informaci ministra školství, mládeže a tělovýchovy Roberta Plagy a ministra zdravotnictví Adama Vojtěcha o stavu příprav na zahájení školního roku 2021/2022 v souvislosti s epidemií COVID-19 (14. července 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192710",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._325_(14._července_2021).docx",
+			"popis": "ke svolání 58. schůze výboru (14. července 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4500-57-20210714"
+}

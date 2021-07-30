@@ -1,0 +1,446 @@
+{
+	"Id": "4600-37-20210428",
+	"datum": "2021-04-28T00:00:00Z",
+	"cisloJednani": 37,
+	"vec": null,
+	"vybor": "Výbor pro životní prostředí",
+	"vyborId": 4600,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4600",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=188892",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._37_(28._dubna_2021).docx",
+			"popis": "Pozvánka na schůzi č. 37 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=190096",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._37_(28._dubna_2021).docx",
+			"popis": "Zápis z jednání č. 37 ",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189218",
+			"DocumentPlainText": null,
+			"jmeno": "Krajske_zpravy_o_ZP_2019_CENIA_SU.pdf",
+			"popis": "Krajske zpravy_o_ZP_2019_CENIA_SU.pdf",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189227",
+			"DocumentPlainText": null,
+			"jmeno": "st731-Stanoviska_MZE_po2cteni.doc",
+			"popis": "st731-Stanoviska_MZE_po2cteni.doc",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=189227&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189220",
+			"DocumentPlainText": null,
+			"jmeno": "st731-Stanoviska_MZP_po2cteni.docx",
+			"popis": "st731-Stanoviska_MZP_po2cteni.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=189220&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189224",
+			"DocumentPlainText": null,
+			"jmeno": "st731_PN01_EFialova1_ST731_straz_prirody_a_ohnostroje.docx",
+			"popis": "st731_PN01_EFialova1_ST731_straz_prirody_a_ohnostroje.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=189224&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189225",
+			"DocumentPlainText": null,
+			"jmeno": "st731_PN02_EFialova2_ST731_legislativne_technicke.docx",
+			"popis": "st731_PN02_EFialova2_ST731_legislativne_technicke.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=189225&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189228",
+			"DocumentPlainText": null,
+			"jmeno": "st731_PN03_JCizinsky1_ST731_douglaska_tisolista.docx",
+			"popis": "st731_PN03_JCizinsky1_ST731_douglaska_tisolista.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=189228&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189226",
+			"DocumentPlainText": null,
+			"jmeno": "st731_PN04_JCizinsky2_ST731_ochrana_pred_krizenim_se_zavlecenymi_druhy-PRVNI.docx",
+			"popis": "st731_PN04_JCizinsky2_ST731_ochrana_pred_krizenim_se_zavlecenymi_druhy-PRVNI.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=189226&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189223",
+			"DocumentPlainText": null,
+			"jmeno": "st731_PN04_JCizinsky2_ST731_ochrana_pred_krizenim_se_zavlecenymi_druhy.docx",
+			"popis": "st731_PN04_JCizinsky2_ST731_ochrana_pred_krizenim_se_zavlecenymi_druhy.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=189223&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189229",
+			"DocumentPlainText": null,
+			"jmeno": "st731_PN05_JZahradnik1_ST731.docx",
+			"popis": "st731_PN05_JZahradnik1_ST731.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=189229&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189219",
+			"DocumentPlainText": null,
+			"jmeno": "st731_PN06_DBalcarova1_ST731.pdf",
+			"popis": "st731_PN06_DBalcarova1_ST731.pdf",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189221",
+			"DocumentPlainText": null,
+			"jmeno": "st731_PN07_EFialova3_ST731_komercni_vyuziti.docx",
+			"popis": "st731_PN07_EFialova3_ST731_komercni_vyuziti.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=189221&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189237",
+			"DocumentPlainText": null,
+			"jmeno": "st954_PN01_PPavek01_lukostrelba.doc",
+			"popis": "st954_PN01_PPavek01_lukostrelba.doc",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=189237&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189234",
+			"DocumentPlainText": null,
+			"jmeno": "st954_PN02_DBalcarova_a_dalsi01_Drzeni_lisek_v_zajeti_za_ucelem_vycviku_psu.pdf",
+			"popis": "st954_PN02_DBalcarova_a_dalsi01_Drzeni_lisek_v_zajeti_za_ucelem_vycviku_psu.pdf",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189240",
+			"DocumentPlainText": null,
+			"jmeno": "st954_PN03_DBalcarova02_Norovani.pdf",
+			"popis": "st954_PN03_DBalcarova02_Norovani.pdf",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189232",
+			"DocumentPlainText": null,
+			"jmeno": "st954_PN04_DBalcarova_a_dalsi03_Lov_poranene_zvere_upraveno_v3.pdf",
+			"popis": "st954_PN04_DBalcarova_a_dalsi03_Lov_poranene_zvere_upraveno_v3.pdf",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189233",
+			"DocumentPlainText": null,
+			"jmeno": "st954_PN05_RHolomcik01_Hrazeni_skod_zpusobenych_zveri.docx",
+			"popis": "st954_PN05_RHolomcik01_Hrazeni_skod_zpusobenych_zveri.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=189233&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189238",
+			"DocumentPlainText": null,
+			"jmeno": "st954_PN08_RHolomcik04_Velikost_honitby-nova_verze.docx",
+			"popis": "st954_PN08_RHolomcik04_Velikost_honitby-nova_verze.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=189238&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189236",
+			"DocumentPlainText": null,
+			"jmeno": "st954_PN09_RHolomcik05_Vykon_prava_lovu_vlastniku_honebnich_pozemku.docx",
+			"popis": "st954_PN09_RHolomcik05_Vykon_prava_lovu_vlastniku_honebnich_pozemku.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=189236&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189235",
+			"DocumentPlainText": null,
+			"jmeno": "st954_PN10_RHolomcik06_Zakaz_pronajmu_statnich_honiteb.docx",
+			"popis": "st954_PN10_RHolomcik06_Zakaz_pronajmu_statnich_honiteb.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=189235&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189239",
+			"DocumentPlainText": null,
+			"jmeno": "st954_PN11_JZahradnik01_zubr.docx",
+			"popis": "st954_PN11_JZahradnik01_zubr.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=189239&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189230",
+			"DocumentPlainText": null,
+			"jmeno": "st954_Stanoviska_MZE_po2cteni.docx",
+			"popis": "st954_Stanoviska_MZE_po2cteni.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=189230&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189231",
+			"DocumentPlainText": null,
+			"jmeno": "st954_Stanoviska_MZP_po2cteni.docx",
+			"popis": "st954_Stanoviska_MZP_po2cteni.docx",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "http://www.psp.cz/sqw/text/orig2.sqw?idd=189231&pdf=1",
+			"DocumentPlainText": null,
+			"jmeno": "PDF.pdf",
+			"popis": "PDF",
+			"typ": "Dokumenty a prezentace"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189338",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._177_(28._dubna_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 449/2001 Sb., o myslivosti, ve znění pozdějších předpisů /ST 954/ (28. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189339",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._178_(28._dubna_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění některé zákony v souvislosti s implementací předpisů Evropské unie v oblasti invazních nepůvodních druhů /ST 731/ (28. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189245",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._179_(28._dubna_2021).docx",
+			"popis": "k prioritám vlády v oblasti životního prostředí v rámci předsednictví ČR EU v roce 2022 (28. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189248",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._180_(28._dubna_2021).docx",
+			"popis": "k nominaci do Platformy pro monitoring plnění SPŽP 2030 Výbor pro životní prostředí Poslanecké sněmovny Parlamentu ČR nominuje do Platformy pro monitoring plnění SPŽP 2030 poslankyni Danu Balcarovou. (28. dubna 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189260",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._181_(28._dubna_2021).docx",
+			"popis": "ke Sdělení Komise Evropskému parlamentu, Radě, Evropskému hospodářskému a sociálnímu výboru a Výboru regionů - Vytvoření Unie odolné vůči změně klimatu - Nová strategie EU pro přizpůsobení se změně klimatu, COM (2021) 82 final (28. dubna 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189263",
+			"DocumentPlainText": null,
+			"jmeno": "01_Zahajeni.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189262",
+			"DocumentPlainText": null,
+			"jmeno": "02_Vladni_navrh_zakona_o_myslivosti_ST_954.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189268",
+			"DocumentPlainText": null,
+			"jmeno": "03_Vladni_navrh_zakona_o_invaznich_nepuvodnich_druzich_ST_731.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189261",
+			"DocumentPlainText": null,
+			"jmeno": "04_Priority_vlady_v_oblasti_zivotniho_prostredi_v_ramci_predsednictvi_CR_EU_v_roce_2022.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189267",
+			"DocumentPlainText": null,
+			"jmeno": "05_Nominace_do_Platformy_pro_monitoring_plneni_SPZP_2030.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189265",
+			"DocumentPlainText": null,
+			"jmeno": "06_Zpravy_o_zivotnim_prostredi_v_krajich_2019.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189264",
+			"DocumentPlainText": null,
+			"jmeno": "07_Sdeleni_Komise-Nova_strategie_EU_pro_prizpusobeni_se_zmene_klimatu.MP3.mp3",
+			"prepisAudia": null
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=189266",
+			"DocumentPlainText": null,
+			"jmeno": "08_Ruzne.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4600-37-20210428"
+}

@@ -1,0 +1,61 @@
+{
+	"Id": "3800-90-20210707",
+	"datum": "2021-07-07T00:00:00Z",
+	"cisloJednani": 90,
+	"vec": null,
+	"vybor": "Organizační výbor",
+	"vyborId": 3800,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=3800",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192132",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._90_(7._července_2021).docx",
+			"popis": "Pozvánka na schůzi č. 90 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192417",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._417_(7._července_2021).docx",
+			"popis": "k návrhu na zařazení návrhů zákonů a mezinárodních smluv do návrhu pořadu schůze Poslanecké sněmovny (7. července 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192419",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._418_(7._července_2021).docx",
+			"popis": "k návrhu na přikázání došlých návrhů k projednání výborům Poslanecké sněmovny a na určení zpravodajů pro prvé čtení (7. července 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192418",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._419_(7._července_2021).docx",
+			"popis": "k návrhu na rozhodnutí o přijetí zahraničních návštěv a vyslání delegací Poslanecké sněmovny, jejích orgánů a poslanců (7. července 2021) ",
+			"typ": "Usnesení"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192421",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._420_(7._července_2021).docx",
+			"popis": "k návrhu termínu a pořadu 91. schůze organizačního výboru Poslanecké sněmovny (7. července 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": []
+}
+
+
+--------- Result:
+
+
+{
+	"id": "3800-90-20210707"
+}

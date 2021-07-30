@@ -1,0 +1,53 @@
+{
+	"Id": "4300-83-20210720",
+	"datum": "2021-07-20T00:00:00Z",
+	"cisloJednani": 83,
+	"vec": null,
+	"vybor": "Výbor pro sociální politiku",
+	"vyborId": 4300,
+	"vyborUrl": "https://www.psp.cz/sqw/hp.sqw?k=4300",
+	"zapisJednani": null,
+	"dokumenty": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192734",
+			"DocumentPlainText": null,
+			"jmeno": "Pozvánka_na_schůzi_č._83_(20._července_2021).docx",
+			"popis": "Pozvánka na schůzi č. 83 ",
+			"typ": "Pozvánka"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192848",
+			"DocumentPlainText": null,
+			"jmeno": "Zápis_z_jednání_č._83.docx",
+			"popis": "Zápis z jednání č. 83",
+			"typ": "Zápis z jednání"
+		},
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192829",
+			"DocumentPlainText": null,
+			"jmeno": "Usnesení_č._261_(20._července_2021).docx",
+			"popis": "k vládnímu návrhu zákona, kterým se mění zákon č. 155/1995 Sb., o důchodovém pojištění, ve znění pozdějších předpisů /ST 1230/ (20. července 2021) ",
+			"typ": "Usnesení"
+		}
+	],
+	"audio": [
+		{
+			"HsProcessType": "documentsave",
+			"DocumentUrl": "https://www.psp.cz/sqw/text/orig2.sqw?idd=192840",
+			"DocumentPlainText": null,
+			"jmeno": "20210720_VSP-83.schuze.MP3.mp3",
+			"prepisAudia": null
+		}
+	]
+}
+
+
+--------- Result:
+
+
+{
+	"id": "4300-83-20210720"
+}
